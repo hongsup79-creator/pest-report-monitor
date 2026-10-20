@@ -35,17 +35,17 @@
   "Mycobiology (2092-9323)": 55
  },
  "errors": [],
- "updated": "2026-10-20T01:44:25+00:00",
+ "updated": "2026-10-20T01:45:46+00:00",
  "period": [
   "2025-10-20",
   "2026-10-20"
  ],
  "raw": 2594,
- "relevant": 118,
- "added": 114,
- "total": 114,
+ "relevant": 117,
+ "added": 113,
+ "total": 113,
  "review_counts": {
-  "missing_crop": 900,
+  "missing_crop": 898,
   "missing_report_type": 120
  }
 }

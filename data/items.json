@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T01:44:25+00:00",
- "count": 114,
+ "updated": "2026-10-20T01:45:46+00:00",
+ "count": 113,
  "items": [
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
@@ -2688,36 +2688,6 @@
    ],
    "first_report": true,
    "seed_borne": false,
-   "korea": false,
-   "neighbor": false,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.3389/fpls.2026.1785158",
-   "doi": "10.3389/fpls.2026.1785158",
-   "pmid": "41877976",
-   "title": "Plant architecture genes affect seed composition and seed weight in soybeans grown in the Midsouth USA.",
-   "title_html": "Plant architecture genes affect seed composition and seed weight in soybeans grown in the Midsouth USA.",
-   "title_alt": null,
-   "journal": "Frontiers in plant science",
-   "date": "2026-03-09",
-   "authors": "Bellaloui et al.",
-   "url": "https://doi.org/10.3389/fpls.2026.1785158",
-   "sources": [
-    "pubmed"
-   ],
-   "watch": false,
-   "crops": [
-    "콩"
-   ],
-   "pathogens": [],
-   "countries": [
-    "USA"
-   ],
-   "first_report": false,
-   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_source": false,
