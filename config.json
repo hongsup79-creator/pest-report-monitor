@@ -1,0 +1,117 @@
+{
+  "_note": "모니터링 범위 설정 파일. 작물·저널·키워드를 여기서 추가/수정하면 수집 범위가 바뀝니다.",
+
+  "crops": {
+    "벼":   ["rice", "oryza sativa", "oryza", "paddy"],
+    "밀":   ["wheat", "triticum aestivum", "triticum", "durum"],
+    "보리": ["barley", "hordeum vulgare", "hordeum"]
+  },
+
+  "crossref_journals": {
+    "Plant Disease":                   ["0191-2917", "1943-7692"],
+    "New Disease Reports":             ["2044-0588"],
+    "Plant Pathology":                 ["0032-0862", "1365-3059"],
+    "Journal of Plant Pathology":      ["1125-4718", "2239-7264"],
+    "European Journal of Plant Pathology": ["0929-1873", "1573-8469"],
+    "Journal of Phytopathology":       ["0931-1785", "1439-0434"],
+    "Australasian Plant Disease Notes": ["1833-928X"],
+    "The Plant Pathology Journal":     ["1598-2254", "2093-9280"],
+    "Plant Health Progress":           ["1535-1025"]
+  },
+
+  "pubmed_query": "(rice[tiab] OR Oryza[tiab] OR wheat[tiab] OR Triticum[tiab] OR barley[tiab] OR Hordeum[tiab]) AND (\"first report\"[tiab] OR \"new disease\"[tiab] OR \"seed-borne\"[tiab] OR seedborne[tiab] OR \"seed transmission\"[tiab] OR \"seed-transmitted\"[tiab])",
+
+  "first_report_patterns": [
+    "\\bfirst reports?\\b",
+    "\\bfirst (?:record|detection|occurrence|identification)\\b",
+    "\\bnew (?:disease|pathogen|record|host)\\b",
+    "\\bnewly (?:reported|recorded|emerging|identified)\\b",
+    "\\bemerging (?:disease|pathogen)\\b"
+  ],
+
+  "seed_patterns": [
+    "\\bseed[- ]?borne\\b",
+    "\\bseed[- ]?transmi",
+    "\\bseed[- ]?transmitted\\b",
+    "\\bseed lots?\\b",
+    "\\bseed health\\b",
+    "\\bseed (?:infection|contamination)\\b"
+  ],
+
+  "pathogen_genera": [
+    "Fusarium", "Gibberella", "Pantoea", "Xanthomonas", "Pseudomonas", "Burkholderia",
+    "Acidovorax", "Enterobacter", "Klebsiella", "Sphingomonas", "Clavibacter", "Erwinia",
+    "Dickeya", "Pectobacterium", "Magnaporthe", "Pyricularia", "Bipolaris", "Cochliobolus",
+    "Curvularia", "Alternaria", "Ustilaginoidea", "Villosiclava", "Sarocladium", "Rhizoctonia",
+    "Waitea", "Microdochium", "Monographella", "Tilletia", "Ustilago", "Pyrenophora",
+    "Drechslera", "Exserohilum", "Zymoseptoria", "Septoria", "Parastagonospora", "Puccinia",
+    "Blumeria", "Gaeumannomyces", "Epicoccum", "Nigrospora", "Phoma", "Didymella",
+    "Colletotrichum", "Cladosporium", "Penicillium", "Aspergillus", "Pythium", "Globisporangium",
+    "Phytophthora", "Sclerotium", "Athelia", "Pestalotiopsis", "Neopestalotiopsis", "Diaporthe",
+    "Lasiodiplodia", "Aphelenchoides", "Meloidogyne", "Ditylenchus", "Heterodera", "Pratylenchus",
+    "Claviceps", "Ramularia", "Oculimacula", "Stagonospora", "Neoscytalidium"
+  ],
+
+  "neighbor_countries": ["China", "Japan", "Taiwan"],
+
+  "countries": {
+    "Korea":        ["korea", "south korea", "republic of korea"],
+    "China":        ["china", "p. r. china", "pr china"],
+    "Japan":        ["japan"],
+    "Taiwan":       ["taiwan"],
+    "Vietnam":      ["vietnam", "viet nam"],
+    "Thailand":     ["thailand"],
+    "Philippines":  ["philippines"],
+    "Indonesia":    ["indonesia"],
+    "Malaysia":     ["malaysia"],
+    "Myanmar":      ["myanmar"],
+    "Cambodia":     ["cambodia"],
+    "Laos":         ["laos", "lao pdr"],
+    "India":        ["india"],
+    "Bangladesh":   ["bangladesh"],
+    "Pakistan":     ["pakistan"],
+    "Nepal":        ["nepal"],
+    "Sri Lanka":    ["sri lanka"],
+    "Iran":         ["iran"],
+    "Iraq":         ["iraq"],
+    "Turkey":       ["turkey", "türkiye", "turkiye"],
+    "Saudi Arabia": ["saudi arabia"],
+    "Israel":       ["israel"],
+    "Kazakhstan":   ["kazakhstan"],
+    "Uzbekistan":   ["uzbekistan"],
+    "Russia":       ["russia"],
+    "Ukraine":      ["ukraine"],
+    "Egypt":        ["egypt"],
+    "Morocco":      ["morocco"],
+    "Tunisia":      ["tunisia"],
+    "Algeria":      ["algeria"],
+    "Ethiopia":     ["ethiopia"],
+    "Kenya":        ["kenya"],
+    "Tanzania":     ["tanzania"],
+    "Uganda":       ["uganda"],
+    "Nigeria":      ["nigeria"],
+    "South Africa": ["south africa"],
+    "Italy":        ["italy"],
+    "Spain":        ["spain"],
+    "Portugal":     ["portugal"],
+    "France":       ["france"],
+    "Germany":      ["germany"],
+    "United Kingdom": ["united kingdom", "england", "scotland", "u.k."],
+    "Greece":       ["greece"],
+    "Poland":       ["poland"],
+    "Hungary":      ["hungary"],
+    "Serbia":       ["serbia"],
+    "USA":          ["united states", "u.s.a", "usa", "arkansas", "louisiana", "california", "texas", "mississippi", "missouri", "kansas", "north dakota", "montana", "oklahoma", "idaho"],
+    "Canada":       ["canada"],
+    "Mexico":       ["mexico"],
+    "Brazil":       ["brazil"],
+    "Argentina":    ["argentina"],
+    "Uruguay":      ["uruguay"],
+    "Colombia":     ["colombia"],
+    "Peru":         ["peru"],
+    "Chile":        ["chile"],
+    "Ecuador":      ["ecuador"],
+    "Australia":    ["australia"],
+    "New Zealand":  ["new zealand"]
+  }
+}
