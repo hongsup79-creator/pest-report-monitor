@@ -16,8 +16,31 @@
     "Journal of Phytopathology":       ["0931-1785", "1439-0434"],
     "Australasian Plant Disease Notes": ["1833-928X"],
     "The Plant Pathology Journal":     ["1598-2254", "2093-9280"],
-    "Plant Health Progress":           ["1535-1025"]
+    "Plant Health Progress":           ["1535-1025"],
+    "식물병연구":                      ["1598-2262", "2233-9191"],
+    "Mycobiology":                     ["1229-8093", "2092-9323"],
+    "한국응용곤충학회지":              ["1225-0171", "2287-545X"]
   },
+
+  "_note_domestic": "국내 학회지. 이 저널에서 나온 문헌은 '국내 학술지'로 표시됩니다.",
+  "domestic_journals": ["The Plant Pathology Journal", "식물병연구", "Mycobiology", "한국응용곤충학회지"],
+
+  "_note_ko": "한글 제목용 정규식. 한글은 단어 경계(\\b)가 통하지 않아 앞뒤 글자를 직접 지정합니다.",
+  "crops_ko": {
+    "벼":   ["벼(?!룩|락)", "논벼", "수도작"],
+    "밀":   ["(?<![가-힣])밀(?=[\\s에의을이과와은는·,)]|$)", "소맥", "맥류"],
+    "보리": ["보리(?!수)", "맥류", "대맥"]
+  },
+  "first_report_patterns_ko": [
+    "(?:최초|첫|처음)\\s?(?:보고|발생|기록|검출)",
+    "국내\\s?(?:미기록|미발생|신규)",
+    "신규\\s?(?:발생|병해|병원|해충)",
+    "새로운\\s?(?:병|병원|해충)",
+    "발생\\s?보고",
+    "(?:병|해충)\\s?발생$"
+  ],
+  "seed_patterns_ko": ["종자"],
+  "korea_ko": ["국내", "한국", "우리나라"],
 
   "pubmed_query": "(rice[tiab] OR Oryza[tiab] OR wheat[tiab] OR Triticum[tiab] OR barley[tiab] OR Hordeum[tiab]) AND (\"first report\"[tiab] OR \"new disease\"[tiab] OR \"seed-borne\"[tiab] OR seedborne[tiab] OR \"seed transmission\"[tiab] OR \"seed-transmitted\"[tiab])",
 

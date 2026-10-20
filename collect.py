@@ -59,13 +59,15 @@ def date_from_parts(obj):
 
 
 def parse_crossref(w, journal):
-    title = (w.get("title") or [""])[0]
+    titles = [t for t in (w.get("title") or []) + (w.get("original-title") or []) if t]
+    title = titles[0] if titles else ""
     authors = w.get("author") or []
-    first = authors[0].get("family", "") if authors else ""
+    first = (authors[0].get("family") or authors[0].get("name", "")) if authors else ""
     return {
         "doi": (w.get("DOI") or "").lower(),
         "pmid": None,
         "title_raw": title,
+        "title_alt": " / ".join(dict.fromkeys(titles[1:])),   # 국내 학회지의 영문·한글 병기 제목
         "abstract": w.get("abstract", ""),
         "journal": journal,
         "date": date_from_parts(w.get("published-online") or w.get("published-print")
@@ -86,7 +88,7 @@ def fetch_crossref(since, until):
                 params = {
                     "filter": f"from-created-date:{since},until-created-date:{until},type:journal-article",
                     "rows": 1000, "cursor": cursor,
-                    "select": "DOI,title,abstract,author,published,published-online,published-print,created",
+                    "select": "DOI,title,original-title,abstract,author,published,published-online,published-print,created",
                 }
                 if EMAIL:
                     params["mailto"] = EMAIL
@@ -154,10 +156,12 @@ def fetch_pubmed(since, until):
 
 # ---------------------------------------------------------------- 병합·저장
 def build_item(rec, tagger):
-    tags = tagger.tag(rec["title_raw"], rec["abstract"])
+    alt = rec.get("title_alt", "")
+    tags = tagger.tag(rec["title_raw"] + (" / " + alt if alt else ""), rec["abstract"])
     if not Tagger.is_relevant(tags):
         return None
     tags.pop("excluded")
+    tags["domestic_source"] = rec["journal"] in CFG.get("domestic_journals", [])
     key = rec["doi"] or f"pmid:{rec['pmid']}"
     authors = rec["first_author"] + (" et al." if rec["n_authors"] > 1 else "")
     return {
@@ -166,6 +170,7 @@ def build_item(rec, tagger):
         "pmid": rec["pmid"],
         "title": strip_tags(rec["title_raw"]),
         "title_html": safe_title_html(rec["title_raw"]),
+        "title_alt": strip_tags(alt) or None,
         "journal": rec["journal"],
         "date": rec["date"],
         "authors": authors.strip(),
@@ -239,8 +244,9 @@ def main():
         key = r["doi"] or f"pmid:{r['pmid']}"
         if key in kept:
             continue
-        t = tagger.tag(r["title_raw"])
-        row = {"date": r["date"], "journal": r["journal"], "title": strip_tags(r["title_raw"])}
+        full_title = r["title_raw"] + (" / " + r["title_alt"] if r.get("title_alt") else "")
+        t = tagger.tag(full_title)
+        row = {"date": r["date"], "journal": r["journal"], "title": strip_tags(full_title)}
         if (t["first_report"] or t["seed_borne"]) and not t["crops"]:
             review["missing_crop"].append(row)
         elif t["crops"] and t["pathogens"] and not t["excluded"]:

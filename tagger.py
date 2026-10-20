@@ -3,7 +3,8 @@ import html
 import re
 
 CROP_BINOMIALS = {"oryza sativa", "triticum aestivum", "triticum durum", "hordeum vulgare"}
-HYPHENS = "‐‑‒–—"
+HANGUL = re.compile(r"[가-힣]")
+HYPHENS ="‐‑‒–—"
 VIRUS_RE = re.compile(
     r"\b((?:[A-Za-z][A-Za-z-]* ){1,6}(?:virus|viroid))\b", re.IGNORECASE)
 PHYTOPLASMA_RE = re.compile(r"\b(?:Candidatus\s+)?Phytoplasma(?:\s+[a-z]+)?\b")
@@ -38,11 +39,17 @@ class Tagger:
             name: [re.compile(r"\b" + re.escape(k) + r"\b", re.I) for k in kws]
             for name, kws in cfg["crops"].items()
         }
-        self.first_report = [re.compile(p, re.I) for p in cfg["first_report_patterns"]]
+        # 한글 제목용 규칙(정규식 그대로 사용)
+        for name, pats in cfg.get("crops_ko", {}).items():
+            self.crops.setdefault(name, []).extend(re.compile(p) for p in pats)
+        self.first_report = [re.compile(p, re.I) for p in
+                             cfg["first_report_patterns"] + cfg.get("first_report_patterns_ko", [])]
         self.seed = [re.compile(p, re.I) for p in cfg["seed_patterns"]]
         self.exclude = [re.compile(p, re.I) for p in cfg.get("exclude_patterns", [])]
         self.occ_start = [re.compile(p, re.I) for p in cfg.get("occurrence_start_patterns", [])]
-        self.seed_title = [re.compile(p, re.I) for p in cfg.get("seed_title_patterns", [])]
+        self.seed_title = [re.compile(p, re.I) for p in
+                           cfg.get("seed_title_patterns", []) + cfg.get("seed_patterns_ko", [])]
+        self.korea_ko = [re.compile(p) for p in cfg.get("korea_ko", [])]
         genera = "|".join(sorted(cfg["pathogen_genera"], key=len, reverse=True))
         # 속명 + (선택) 종소명/약어: "Fusarium luffae", "F. luffae"는 별도 처리
         self.genus_re = re.compile(
@@ -96,7 +103,12 @@ class Tagger:
                 if not any(o != n and o.startswith(n + " ") for o in uniq)]
 
     def tag_countries(self, text):
-        return [name for name, pats in self.countries.items() if any(p.search(text) for p in pats)]
+        found = [name for name, pats in self.countries.items() if any(p.search(text) for p in pats)]
+        # 한글 제목: '국내·한국'이 있거나, 다른 나라가 없으면 국내 연구로 판단
+        if HANGUL.search(text) and "Korea" not in found and (
+                any(p.search(text) for p in self.korea_ko) or not found):
+            found.insert(0, "Korea")
+        return found
 
     # ---------- 종합 ----------
     def tag(self, title, abstract=""):

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>병해충 신규보고 모니터</title>
+<title>벼·맥류 병해충 국내외 신규보고 모니터</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
 :root{
@@ -75,6 +75,9 @@ input[type=search],select{width:100%;padding:8px 10px;border:1px solid var(--lin
 .tag.kr{background:var(--kr-soft);color:var(--kr);font-weight:600}
 .tag.nb{background:var(--warn-soft);color:var(--warn);font-weight:600}
 .tag.new{background:var(--kr);color:#fff;font-weight:700}
+.tag.dom{background:#e8eefc;color:#2f4f9e}
+@media (prefers-color-scheme: dark){.tag.dom{background:#1f2a44;color:#a9bdf0}}
+.alt{font-size:13.5px;color:var(--muted);margin:-4px 0 7px}
 .tag.path{background:transparent;color:var(--ink);font-style:italic;padding-left:0}
 .empty{padding:40px;text-align:center;color:var(--muted)}
 .more{display:block;margin:12px auto;padding:9px 22px;border:1px solid var(--line);background:var(--panel);
@@ -109,8 +112,8 @@ footer a{color:var(--muted)}
 <body>
 <div class="wrap">
   <header>
-    <h1>병해충 신규보고 모니터
-      <small>벼·맥류 해외 신규 발생보고 및 종자전염 관련 문헌 · Crossref·PubMed 매일 자동 수집</small></h1>
+    <h1>벼·맥류 병해충 국내외 신규보고 모니터
+      <small>국내외 식물병리·곤충 학술지 12종과 PubMed의 신규 발생보고·종자 관련 문헌 · 매일 자동 수집</small></h1>
     <div class="updated" id="updated">불러오는 중…</div>
   </header>
 
@@ -128,6 +131,7 @@ footer a{color:var(--muted)}
       <div class="box"><h3>작물</h3><div class="chips" id="f-crop"></div></div>
       <div class="box"><h3>구분</h3><div class="chips" id="f-type"></div></div>
       <div class="box"><h3>지역</h3><div class="chips" id="f-region"></div></div>
+      <div class="box"><h3>출처</h3><div class="chips" id="f-src"></div></div>
       <div class="box"><h3>국가</h3><select id="f-country"></select></div>
       <div class="box"><h3>병원체 속</h3><select id="f-genus"></select></div>
       <div class="box"><h3>기간</h3><select id="f-period">
@@ -152,14 +156,16 @@ footer a{color:var(--muted)}
   </div>
 
   <footer>
-    수집 기준: 제목에 대상 작물(벼·밀·보리)이 있고, 신규·발생보고이거나 종자 관련인 문헌.
+    수집 기준: 제목(한글·영문)에 대상 작물(벼·밀·보리)이 있고, 신규·발생보고이거나 종자 관련인 문헌.
+    국내 학술지: 식물병연구, The Plant Pathology Journal, Mycobiology, 한국응용곤충학회지.
     제목·서지정보만 표시하며 원문은 DOI 링크로 연결됩니다. 자동 분류이므로 최종 판단은 원문을 확인하세요.
+    개인 연구 목적의 시범 운영 사이트입니다.
     · <a href="https://github.com/hongsup79-creator/pest-report-monitor">저장소</a>
   </footer>
 </div>
 
 <script>
-const S = {crop:new Set(), type:new Set(), region:"all", country:"", genus:"", period:0, q:"", sort:"date", shown:40};
+const S = {crop:new Set(), type:new Set(), region:"all", src:"all", country:"", genus:"", period:0, q:"", sort:"date", shown:40};
 let ITEMS = [];
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -178,7 +184,7 @@ function chips(el, opts, set, single) {
   el.onclick = e => {
     const b = e.target.closest(".chip"); if (!b) return;
     const v = b.dataset.v;
-    if (single) { S.region = S.region === v ? "all" : v; }
+    if (single) { S[single] = S[single] === v ? "all" : v; }
     else { set.has(v) ? set.delete(v) : set.add(v); }
     syncChips(); S.shown = 40; render();
   };
@@ -187,6 +193,7 @@ function syncChips() {
   document.querySelectorAll("#f-crop .chip").forEach(b => b.setAttribute("aria-pressed", S.crop.has(b.dataset.v)));
   document.querySelectorAll("#f-type .chip").forEach(b => b.setAttribute("aria-pressed", S.type.has(b.dataset.v)));
   document.querySelectorAll("#f-region .chip").forEach(b => b.setAttribute("aria-pressed", S.region === b.dataset.v));
+  document.querySelectorAll("#f-src .chip").forEach(b => b.setAttribute("aria-pressed", S.src === b.dataset.v));
 }
 
 function pass(it) {
@@ -196,11 +203,13 @@ function pass(it) {
   if (S.region === "kr" && !it.korea) return false;
   if (S.region === "nb" && !it.neighbor) return false;
   if (S.region === "krnb" && !(it.korea || it.neighbor)) return false;
+  if (S.src === "dom" && !it.domestic_source) return false;
+  if (S.src === "intl" && it.domestic_source) return false;
   if (S.country && !it.countries.includes(S.country)) return false;
   if (S.genus && !it.pathogens.some(p => genusOf(p) === S.genus)) return false;
   if (S.period && daysAgo(it.date) > S.period) return false;
   if (S.q) {
-    const hay = (it.title + " " + it.journal + " " + it.pathogens.join(" ") + " " +
+    const hay = (it.title + " " + (it.title_alt || "") + " " + it.journal + " " + it.pathogens.join(" ") + " " +
       it.countries.map(c => c + " " + ko(c)).join(" ") + " " + it.crops.join(" ")).toLowerCase();
     if (!S.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
   }
@@ -214,6 +223,7 @@ function card(it) {
   if (it.korea) t.push(`<span class="tag kr">국내</span>`); else if (it.neighbor) t.push(`<span class="tag nb">인접국</span>`);
   if (it.first_report) t.push(`<span class="tag fr">신규·발생보고</span>`);
   if (it.seed_borne) t.push(`<span class="tag seed">종자</span>`);
+  if (it.domestic_source) t.push(`<span class="tag dom">국내 학술지</span>`);
   it.crops.forEach(c => t.push(`<span class="tag">${esc(c)}</span>`));
   it.countries.forEach(c => t.push(`<span class="tag ctry">${esc(ko(c))}</span>`));
   it.pathogens.forEach(p => t.push(`<span class="tag path">${esc(p)}</span>`));
@@ -221,6 +231,7 @@ function card(it) {
   return `<a class="card ${cls}" href="${esc(it.url)}" target="_blank" rel="noopener">
     <div class="meta"><span>${esc(it.date || "")}</span><span class="j">${esc(it.journal)}</span><span>${esc(it.authors)}</span></div>
     <div class="title">${it.title_html || esc(it.title)}</div>
+    ${it.title_alt ? `<div class="alt">${esc(it.title_alt)}</div>` : ""}
     <div class="tags">${t.join("")}</div></a>`;
 }
 
@@ -253,7 +264,7 @@ function barsCountry(rows) {
 }
 
 function render() {
-  const nf = S.crop.size + S.type.size + (S.region !== "all") + !!S.country + !!S.genus + !!S.period;
+  const nf = S.crop.size + S.type.size + (S.region !== "all") + (S.src !== "all") + !!S.country + !!S.genus + !!S.period;
   $("fcount").textContent = nf ? `(${nf})` : "";
   let rows = ITEMS.filter(pass);
   if (S.sort === "kr") rows = rows.slice().sort((a, b) =>
@@ -281,7 +292,7 @@ function kpis() {
 }
 
 function resetAll(doRender = true) {
-  S.crop.clear(); S.type.clear(); S.region = "all"; S.country = ""; S.genus = ""; S.period = 0; S.q = ""; S.shown = 40;
+  S.crop.clear(); S.type.clear(); S.region = "all"; S.src = "all"; S.country = ""; S.genus = ""; S.period = 0; S.q = ""; S.shown = 40;
   $("q").value = ""; $("f-country").value = ""; $("f-genus").value = ""; $("f-period").value = "0";
   if (doRender) { syncChips(); render(); }
 }
@@ -300,7 +311,8 @@ fetch("data/items.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
   const crops = [...new Set(ITEMS.flatMap(i => i.crops))];
   chips($("f-crop"), ["벼", "밀", "보리"].filter(c => crops.includes(c)).map(c => [c, c]), S.crop);
   chips($("f-type"), [["fr", "신규·발생보고"], ["seed", "종자 관련"]], S.type);
-  chips($("f-region"), [["kr", "국내"], ["nb", "인접국"], ["krnb", "국내+인접국"]], null, true);
+  chips($("f-region"), [["kr", "국내"], ["nb", "인접국"], ["krnb", "국내+인접국"]], null, "region");
+  chips($("f-src"), [["dom", "국내 학술지"], ["intl", "해외 학술지"]], null, "src");
 
   const cc = {}; ITEMS.forEach(i => i.countries.forEach(c => cc[c] = (cc[c] || 0) + 1));
   $("f-country").innerHTML = `<option value="">전체</option>` + Object.entries(cc).sort((a, b) => b[1] - a[1])

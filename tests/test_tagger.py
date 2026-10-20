@@ -69,6 +69,17 @@ CASES = [
      dict(pathogens=["Spartina Mottle Virus"])),
     ("First Record of the <i>Aphelenchoides besseyi</i> Detected from Rice Seeds in Shanghai", "",
      dict(relevant=True, countries=["China"], neighbor=True, seed_borne=True)),
+    # 국내 학회지 한글 제목
+    ("벼에서 <i>Fusarium luffae</i>에 의한 키다리병의 국내 첫 보고", "",
+     dict(relevant=True, crops=["벼"], first_report=True, korea=True, pathogens=["Fusarium luffae"])),
+    ("밀 붉은곰팡이병 발생", "", dict(relevant=True, crops=["밀"], korea=True)),
+    ("보리 종자에서 분리한 세균의 동정", "", dict(relevant=True, crops=["보리"], seed_borne=True)),
+    ("맥류 줄기녹병 국내 발생 보고 / First Report of Stem Rust on Barley in Korea", "",
+     dict(relevant=True, crops=["밀", "보리"], countries=["Korea"])),
+    ("배추벼룩잎벌레의 신규 발생", "", dict(relevant=False)),          # 벼룩 ≠ 벼
+    ("보리수나무 탄저병의 국내 첫 보고", "", dict(relevant=False)),      # 보리수 ≠ 보리
+    ("밀도 의존적 해충 발생 모델", "", dict(relevant=False)),            # 밀도 ≠ 밀
+    ("중국산 벼 종자의 세균 오염 실태", "", dict(relevant=True, countries=["Korea"])),
     ("First Report of <i>Calonectria</i> Causing Damping-off of Soybean Seedlings in Korea", "",
      dict(relevant=False)),   # seedling ≠ seed, 대상 작물 아님
 ]
