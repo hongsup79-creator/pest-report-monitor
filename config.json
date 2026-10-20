@@ -24,11 +24,10 @@
   "_note_domestic": "국내 학회지. 이 저널에서 나온 문헌은 '국내 학술지'로 표시됩니다.",
   "domestic_journals": ["The Plant Pathology Journal", "식물병연구", "Mycobiology"],
 
-  "_note_watch": "관심 병원체: 제목에 작물명이 없어도 신규·발생보고나 종자 관련이면 수집 (기주 범위 확대 감시용)",
+  "_note_watch": "관심 병원체: 제목에 작물명이 없어도 신규·발생보고나 종자 관련이면 수집 (기주 범위 확대 감시용). 기주가 매우 넓은 F. proliferatum·F. verticillioides·B. gladioli는 잡음이 많아 제외",
   "watch_pathogens": [
-    "Fusarium fujikuroi", "Fusarium proliferatum", "Fusarium verticillioides", "Fusarium andiyazi", "Fusarium luffae",
-    "Gibberella fujikuroi", "Pantoea ananatis", "Pantoea dispersa", "Burkholderia glumae", "Burkholderia gladioli",
-    "Aphelenchoides besseyi", "Xanthomonas oryzae", "Pyricularia oryzae", "Magnaporthe oryzae", "Bipolaris oryzae",
+    "Fusarium fujikuroi", "Fusarium andiyazi", "Fusarium luffae",
+    "Gibberella fujikuroi", "Pantoea ananatis", "Pantoea dispersa", "Burkholderia glumae", "Aphelenchoides besseyi", "Xanthomonas oryzae", "Pyricularia oryzae", "Magnaporthe oryzae", "Bipolaris oryzae",
     "Ustilaginoidea virens", "Tilletia indica", "Xanthomonas translucens"
   ],
 
