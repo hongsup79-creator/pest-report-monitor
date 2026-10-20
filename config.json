@@ -24,9 +24,24 @@
   "first_report_patterns": [
     "\\bfirst reports?\\b",
     "\\bfirst (?:record|detection|occurrence|identification)\\b",
-    "\\bnew (?:disease|pathogen|record|host)\\b",
+    "\\bnew (?:disease|pathogen|record)s?\\b",
+    "\\bnew (?:alternate |alternative |natural )?hosts?\\b",
+    "\\bnew reservoirs?\\b",
     "\\bnewly (?:reported|recorded|emerging|identified)\\b",
-    "\\bemerging (?:disease|pathogen)\\b"
+    "\\bemerging (?:disease|pathogen|risk|threat)s?\\b",
+    "\\bemergence of\\b",
+    "^report on\\b"
+  ],
+
+  "_note_occurrence": "제목이 아래 표현으로 시작하고 국가가 명시되면 발생보고로 판정 (예: Molecular Detection of ... in Ecuador)",
+  "occurrence_start_patterns": [
+    "^(?:molecular |first )?(?:detection|identification|occurrence|characteri[sz]ation)\\b"
+  ],
+
+  "_note_seed_title": "제목에만 적용하는 종자 표현 (초록에 적용하면 범위가 지나치게 넓어짐)",
+  "seed_title_patterns": [
+    "\\bseeds?\\b",
+    "\\bseed treatments?\\b"
   ],
 
   "seed_patterns": [

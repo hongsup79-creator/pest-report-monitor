@@ -48,6 +48,23 @@ CASES = [
     ("Pathogenicity of <i>Bipolaris sorokiniana</i> isolates on barley",
      "Seed-borne inoculum was the main source.",
      dict(relevant=True, seed_borne=True)),   # 작물은 제목, 종자전염은 초록 허용
+    # 1년치 점검에서 발견된 누락 유형 (실제 제목)
+    ("Report on Rice Yellowing Syndrome Caused by Coinfection of Rice Grassy Stunt Virus and "
+     "Rice Ragged Stunt Virus in Oryza sativa in the Philippines", "",
+     dict(relevant=True, countries=["Philippines"])),
+    ("Molecular Detection and Phylogenetic Analysis of Rice Hoja Blanca Virus Infecting Rice in Ecuador", "",
+     dict(relevant=True, first_report=True, countries=["Ecuador"])),
+    ("Identification of <i>Fusarium armeniacum</i> Causing Fusarium Head Blight and Crown Rot on "
+     "Winter Wheat (<i>Triticum aestivum</i>) in China", "",
+     dict(relevant=True, first_report=True, pathogens=["Fusarium armeniacum"])),
+    ("Emergence of Southern Rice Black Streak Dwarf Virus in Sugarcane and Jungle Rice Reveals New Alternate Hosts", "",
+     dict(relevant=True, first_report=True)),
+    ("Transmission of <i>Xanthomonas translucens</i> Associated with Wheat and Barley Seed", "",
+     dict(relevant=True, seed_borne=True)),
+    ("Identification of sources of Fusarium head blight resistance in Ethiopian wheat cultivars", "",
+     dict(relevant=False)),   # 국가명이 아닌 형용사(Ethiopian) → 발생보고 아님
+    ("First Report of <i>Calonectria</i> Causing Damping-off of Soybean Seedlings in Korea", "",
+     dict(relevant=False)),   # seedling ≠ seed, 대상 작물 아님
 ]
 
 
