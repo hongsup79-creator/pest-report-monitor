@@ -29,7 +29,7 @@
   "Plant Health Progress (1535-1025)": 191
  },
  "errors": [],
- "updated": "2026-10-20T00:31:08+00:00",
+ "updated": "2026-10-20T00:32:25+00:00",
  "period": [
   "2025-10-20",
   "2026-10-20"
@@ -39,7 +39,7 @@
  "added": 55,
  "total": 55,
  "review_counts": {
-  "missing_crop": 912,
+  "missing_crop": 914,
   "missing_report_type": 90
  }
 }

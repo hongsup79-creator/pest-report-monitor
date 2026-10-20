@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T00:31:08+00:00",
+ "updated": "2026-10-20T00:32:25+00:00",
  "count": 55,
  "items": [
   {
@@ -215,11 +215,13 @@
    "pathogens": [
     "Aphelenchoides besseyi"
    ],
-   "countries": [],
+   "countries": [
+    "China"
+   ],
    "first_report": true,
    "seed_borne": true,
    "korea": false,
-   "neighbor": false,
+   "neighbor": true,
    "domestic_status": null,
    "first_seen": "2026-10-20"
   },
@@ -327,7 +329,7 @@
     "보리"
    ],
    "pathogens": [
-    "Characterization of Spartina Mottle Virus",
+    "Spartina Mottle Virus",
     "Barley Yellow Striate Mosaic Virus"
    ],
    "countries": [
@@ -606,7 +608,7 @@
     "벼"
    ],
    "pathogens": [
-    "Analysis of Rice Hoja Blanca Virus"
+    "Rice Hoja Blanca Virus"
    ],
    "countries": [
     "Ecuador"
@@ -635,7 +637,7 @@
     "벼"
    ],
    "pathogens": [
-    "Streaked Dwarf Virus"
+    "Southern Rice Black-Streaked Dwarf Virus"
    ],
    "countries": [
     "Philippines"
@@ -664,7 +666,7 @@
     "벼"
    ],
    "pathogens": [
-    "Streaked Dwarf Virus"
+    "Southern Rice Black-Streaked Dwarf Virus"
    ],
    "countries": [
     "India"
@@ -857,7 +859,7 @@
     "벼"
    ],
    "pathogens": [
-    "Coinfection of Rice Grassy Stunt Virus",
+    "Rice Grassy Stunt Virus",
     "Rice Ragged Stunt Virus"
    ],
    "countries": [
