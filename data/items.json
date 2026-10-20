@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T00:29:17+00:00",
- "count": 34,
+ "updated": "2026-10-20T00:31:08+00:00",
+ "count": 55,
  "items": [
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
@@ -25,6 +25,86 @@
     "India"
    ],
    "first_report": true,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1093/jxb/erag499",
+   "doi": "10.1093/jxb/erag499",
+   "pmid": "42848321",
+   "title": "The Wheat Seed Microbiome as a Model for Understanding the Transmission of Beneficial Plant-Associated Bacteria.",
+   "title_html": "The Wheat Seed Microbiome as a Model for Understanding the Transmission of Beneficial Plant-Associated Bacteria.",
+   "journal": "Journal of experimental botany",
+   "date": "2026-10-08",
+   "authors": "Sanz-Puente et al.",
+   "url": "https://doi.org/10.1093/jxb/erag499",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/phyto-01-26-0022-r",
+   "doi": "10.1094/phyto-01-26-0022-r",
+   "pmid": "42828855",
+   "title": "Transmission of Xanthomonas translucens Associated with Wheat and Barley Seed.",
+   "title_html": "Transmission of Xanthomonas translucens Associated with Wheat and Barley Seed.",
+   "journal": "Phytopathology",
+   "date": "2026-10-03",
+   "authors": "Ledman et al.",
+   "url": "https://doi.org/10.1094/phyto-01-26-0022-r",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "밀",
+    "보리"
+   ],
+   "pathogens": [
+    "Xanthomonas translucens"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/ppj.oa.06.2026.0083",
+   "doi": "10.5423/ppj.oa.06.2026.0083",
+   "pmid": null,
+   "title": "Functional Characterization of Wheat Seed Endophytic Bacteria Reveals Plant Growth-Promoting Traits and Potential Biocontrol Activity Against Fusarium Pathogens",
+   "title_html": "Functional Characterization of Wheat Seed Endophytic Bacteria Reveals Plant Growth-Promoting Traits and Potential Biocontrol Activity Against Fusarium Pathogens",
+   "journal": "The Plant Pathology Journal",
+   "date": "2026-10-01",
+   "authors": "Roy et al.",
+   "url": "https://doi.org/10.5423/ppj.oa.06.2026.0083",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium"
+   ],
+   "countries": [],
+   "first_report": false,
    "seed_borne": true,
    "korea": false,
    "neighbor": false,
@@ -137,7 +217,7 @@
    ],
    "countries": [],
    "first_report": true,
-   "seed_borne": false,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_status": null,
@@ -231,6 +311,36 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-02-26-0394-sc",
+   "doi": "10.1094/pdis-02-26-0394-sc",
+   "pmid": null,
+   "title": "Characterization of Spartina Mottle Virus (SpMV) and Barley Yellow Striate Mosaic Virus (BYSMV) Infecting Green Foxtail ( Setaria viridis ) in France",
+   "title_html": "Characterization of Spartina Mottle Virus (SpMV) and Barley Yellow Striate Mosaic Virus (BYSMV) Infecting Green Foxtail ( <i>Setaria viridis</i> ) in France",
+   "journal": "Plant Disease",
+   "date": "2026-09-25",
+   "authors": "Candresse et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0394-sc",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "보리"
+   ],
+   "pathogens": [
+    "Characterization of Spartina Mottle Virus",
+    "Barley Yellow Striate Mosaic Virus"
+   ],
+   "countries": [
+    "France"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-05-26-0866-pdn",
    "doi": "10.1094/pdis-05-26-0866-pdn",
    "pmid": null,
@@ -287,6 +397,33 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1007/s10658-026-03312-4",
+   "doi": "10.1007/s10658-026-03312-4",
+   "pmid": null,
+   "title": "Wild Poaceae weeds as new reservoirs of High Plains wheat mosaic virus in Ukrainian agroecosystems",
+   "title_html": "Wild Poaceae weeds as new reservoirs of High Plains wheat mosaic virus in Ukrainian agroecosystems",
+   "journal": "European Journal of Plant Pathology",
+   "date": "2026-09-10",
+   "authors": "Snihur et al.",
+   "url": "https://doi.org/10.1007/s10658-026-03312-4",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "High Plains wheat mosaic virus"
+   ],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/php-06-26-0126-rs",
    "doi": "10.1094/php-06-26-0126-rs",
    "pmid": null,
@@ -303,6 +440,33 @@
     "밀"
    ],
    "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-10-25-2171-re",
+   "doi": "10.1094/pdis-10-25-2171-re",
+   "pmid": null,
+   "title": "Seed Priming with Antagonistic Bacteria for Managing Fusarium Crown and Root Rot in Durum Wheat",
+   "title_html": "Seed Priming with Antagonistic Bacteria for Managing Fusarium Crown and Root Rot in Durum Wheat",
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Cappelletti et al.",
+   "url": "https://doi.org/10.1094/pdis-10-25-2171-re",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium"
+   ],
    "countries": [],
    "first_report": false,
    "seed_borne": true,
@@ -426,6 +590,35 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1002/ndr2.70145",
+   "doi": "10.1002/ndr2.70145",
+   "pmid": null,
+   "title": "Molecular Detection and Phylogenetic Analysis of Rice Hoja Blanca Virus Infecting Rice in Ecuador",
+   "title_html": "Molecular Detection and Phylogenetic Analysis of Rice Hoja Blanca Virus Infecting Rice in Ecuador",
+   "journal": "New Disease Reports",
+   "date": "2026-08-18",
+   "authors": "Toscano Gómez et al.",
+   "url": "https://doi.org/10.1002/ndr2.70145",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Analysis of Rice Hoja Blanca Virus"
+   ],
+   "countries": [
+    "Ecuador"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1002/ndr2.70144",
    "doi": "10.1002/ndr2.70144",
    "pmid": null,
@@ -446,6 +639,35 @@
    ],
    "countries": [
     "Philippines"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70376",
+   "doi": "10.1111/jph.70376",
+   "pmid": null,
+   "title": "Southern Rice Black‐Streaked Dwarf Virus in the Rice Ecosystem of Haryana, India: Emerging Risks, Ecological Establishment and Management Strategies",
+   "title_html": "Southern Rice Black‐Streaked Dwarf Virus in the Rice Ecosystem of Haryana, India: Emerging Risks, Ecological Establishment and Management Strategies",
+   "journal": "Journal of Phytopathology",
+   "date": "2026-08-16",
+   "authors": "Kumar et al.",
+   "url": "https://doi.org/10.1111/jph.70376",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Streaked Dwarf Virus"
+   ],
+   "countries": [
+    "India"
    ],
    "first_report": true,
    "seed_borne": false,
@@ -511,6 +733,34 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-08-25-1717-re",
+   "doi": "10.1094/pdis-08-25-1717-re",
+   "pmid": null,
+   "title": "Identification of Halo Blight Disease on Oat in Idaho and Exploration of Resistant Sources in Oat, Barley, and Wheat",
+   "title_html": "Identification of Halo Blight Disease on Oat in Idaho and Exploration of Resistant Sources in Oat, Barley, and Wheat",
+   "journal": "Plant Disease",
+   "date": "2026-07-01",
+   "authors": "Butchacas et al.",
+   "url": "https://doi.org/10.1094/pdis-08-25-1717-re",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀",
+    "보리"
+   ],
+   "pathogens": [],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-08-25-1685-re",
    "doi": "10.1094/pdis-08-25-1685-re",
    "pmid": "41486766",
@@ -533,6 +783,33 @@
    "countries": [],
    "first_report": true,
    "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/ppa.70218",
+   "doi": "10.1111/ppa.70218",
+   "pmid": null,
+   "title": "Decoupling Climate and Seed System Drivers of Wheat Yellow Rust Epidemics in Ethiopia: A 30‐Year Geospatial Machine‐Learning Approach",
+   "title_html": "Decoupling Climate and Seed System Drivers of Wheat Yellow Rust Epidemics in Ethiopia: A 30‐Year Geospatial Machine‐Learning Approach",
+   "journal": "Plant Pathology",
+   "date": "2026-06-24",
+   "authors": "Usmael et al.",
+   "url": "https://doi.org/10.1111/ppa.70218",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [],
+   "countries": [
+    "Ethiopia"
+   ],
+   "first_report": false,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_status": null,
@@ -564,6 +841,65 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-11-25-2350-pdn",
+   "doi": "10.1094/pdis-11-25-2350-pdn",
+   "pmid": null,
+   "title": "Report on Rice Yellowing Syndrome Caused by Coinfection of Rice Grassy Stunt Virus and Rice Ragged Stunt Virus in Oryza sativa in the Philippines",
+   "title_html": "Report on Rice Yellowing Syndrome Caused by Coinfection of Rice Grassy Stunt Virus and Rice Ragged Stunt Virus in <i>Oryza sativa</i> in the Philippines",
+   "journal": "Plant Disease",
+   "date": "2026-06-01",
+   "authors": "Jonson et al.",
+   "url": "https://doi.org/10.1094/pdis-11-25-2350-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Coinfection of Rice Grassy Stunt Virus",
+    "Rice Ragged Stunt Virus"
+   ],
+   "countries": [
+    "Philippines"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-02-26-0287-pdn",
+   "doi": "10.1094/pdis-02-26-0287-pdn",
+   "pmid": null,
+   "title": "Identification of Fusarium armeniacum Causing Fusarium Head Blight and Crown Rot on Winter Wheat ( Triticum aestivum ) in China",
+   "title_html": "Identification of <i>Fusarium armeniacum</i> Causing Fusarium Head Blight and Crown Rot on Winter Wheat ( <i>Triticum aestivum</i> ) in China",
+   "journal": "Plant Disease",
+   "date": "2026-06-01",
+   "authors": "Wang et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0287-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium armeniacum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1002/ndr2.70126",
    "doi": "10.1002/ndr2.70126",
    "pmid": null,
@@ -585,6 +921,58 @@
    "countries": [
     "Malaysia"
    ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-02-26-0244-re",
+   "doi": "10.1094/pdis-02-26-0244-re",
+   "pmid": null,
+   "title": "Biocontrol of Wheat Blast by Seed-Associated Bacillus Strains: Three-Year Field Evaluation and Comparison with Chemical Fungicide for Disease Control and Yield Optimization",
+   "title_html": "Biocontrol of Wheat Blast by Seed-Associated <i>Bacillus</i> Strains: Three-Year Field Evaluation and Comparison with Chemical Fungicide for Disease Control and Yield Optimization",
+   "journal": "Plant Disease",
+   "date": "2026-05-01",
+   "authors": "Paul et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0244-re",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70298",
+   "doi": "10.1111/jph.70298",
+   "pmid": null,
+   "title": "Emergence of Southern Rice Black Streak Dwarf Virus in Sugarcane and Jungle Rice Reveals New Alternate Hosts",
+   "title_html": "Emergence of Southern Rice Black Streak Dwarf Virus in Sugarcane and Jungle Rice Reveals New Alternate Hosts",
+   "journal": "Journal of Phytopathology",
+   "date": "2026-04-03",
+   "authors": "Vats et al.",
+   "url": "https://doi.org/10.1111/jph.70298",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Southern Rice Black Streak Dwarf Virus"
+   ],
+   "countries": [],
    "first_report": true,
    "seed_borne": false,
    "korea": false,
@@ -622,6 +1010,31 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1111/jph.70293",
+   "doi": "10.1111/jph.70293",
+   "pmid": null,
+   "title": "Enhancing Wheat Seed Germination and Protection Against Fungal Seed‐Borne Pathogens With Beneficial Microorganisms",
+   "title_html": "Enhancing Wheat Seed Germination and Protection Against Fungal Seed‐Borne Pathogens With Beneficial Microorganisms",
+   "journal": "Journal of Phytopathology",
+   "date": "2026-03-30",
+   "authors": "Rashid et al.",
+   "url": "https://doi.org/10.1111/jph.70293",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1007/s42161-026-02173-4",
    "doi": "10.1007/s42161-026-02173-4",
    "pmid": null,
@@ -651,6 +1064,31 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1007/s10658-026-03212-7",
+   "doi": "10.1007/s10658-026-03212-7",
+   "pmid": null,
+   "title": "Host-specific multi-strain PGPR consortium delivers superior bacterial leaf blight control and yield enhancement in rice through integrated seed priming and foliar applications",
+   "title_html": "Host-specific multi-strain PGPR consortium delivers superior bacterial leaf blight control and yield enhancement in rice through integrated seed priming and foliar applications",
+   "journal": "European Journal of Plant Pathology",
+   "date": "2026-03-21",
+   "authors": "Naqvi et al.",
+   "url": "https://doi.org/10.1007/s10658-026-03212-7",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1002/ndr2.70115",
    "doi": "10.1002/ndr2.70115",
    "pmid": null,
@@ -672,6 +1110,62 @@
    ],
    "first_report": true,
    "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70280",
+   "doi": "10.1111/jph.70280",
+   "pmid": null,
+   "title": "Characterisation of Pantoea ananatis Isolated From Mutant Rice Lines and Its Pathogenicity on the Commercial Rice Variety MR220‐CL2 in Peninsular Malaysia",
+   "title_html": "Characterisation of <i>Pantoea ananatis</i> Isolated From Mutant Rice Lines and Its Pathogenicity on the Commercial Rice Variety MR220‐CL2 in Peninsular Malaysia",
+   "journal": "Journal of Phytopathology",
+   "date": "2026-03-16",
+   "authors": "Khairuddin et al.",
+   "url": "https://doi.org/10.1111/jph.70280",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "Malaysia"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70276",
+   "doi": "10.1111/jph.70276",
+   "pmid": null,
+   "title": "Role of Seed Inoculum Load for Development of Kernel Smut of Rice in North Western Plain Zone of India",
+   "title_html": "Role of Seed Inoculum Load for Development of Kernel Smut of Rice in North Western Plain Zone of India",
+   "journal": "Journal of Phytopathology",
+   "date": "2026-03-12",
+   "authors": "Kaur et al.",
+   "url": "https://doi.org/10.1111/jph.70276",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [
+    "India"
+   ],
+   "first_report": false,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_status": null,
@@ -851,6 +1345,33 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/php-06-25-0174-rs",
+   "doi": "10.1094/php-06-25-0174-rs",
+   "pmid": null,
+   "title": "Proof of Concept: NIR Spectroscopy Can Detect Rice Pathogen Burkholderia glumae in Artificially Inoculated Rice Seeds",
+   "title_html": "Proof of Concept: NIR Spectroscopy Can Detect Rice Pathogen <i>Burkholderia glumae</i> in Artificially Inoculated Rice Seeds",
+   "journal": "Plant Health Progress",
+   "date": "2026-01-01",
+   "authors": "Maghirang et al.",
+   "url": "https://doi.org/10.1094/php-06-25-0174-rs",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Burkholderia glumae"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-07-25-1535-pdn",
    "doi": "10.1094/pdis-07-25-1535-pdn",
    "pmid": null,
@@ -957,6 +1478,64 @@
    ],
    "first_report": true,
    "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70189",
+   "doi": "10.1111/jph.70189",
+   "pmid": null,
+   "title": "Seed Treatment With Pseudomonas fluorescens and Aspergillus flavus Enhances Rice Growth and Suppresses Bacterial Blight Caused by Xanthomonas oryzae pv. oryzae",
+   "title_html": "Seed Treatment With <i>Pseudomonas fluorescens</i> and <i>Aspergillus flavus</i> Enhances Rice Growth and Suppresses Bacterial Blight Caused by <i>Xanthomonas oryzae</i> pv. oryzae",
+   "journal": "Journal of Phytopathology",
+   "date": "2025-11-02",
+   "authors": "Awla et al.",
+   "url": "https://doi.org/10.1111/jph.70189",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pseudomonas fluorescens",
+    "Aspergillus flavus",
+    "Xanthomonas oryzae"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/php-08-25-0201-pdmr",
+   "doi": "10.1094/php-08-25-0201-pdmr",
+   "pmid": null,
+   "title": "Efficacy of Seed Treatments for Control of Rhizoctonia solani Seedling Disease in Rice in Arkansas, 2024",
+   "title_html": "Efficacy of Seed Treatments for Control of <i>Rhizoctonia solani</i> Seedling Disease in Rice in Arkansas, 2024",
+   "journal": "Plant Health Progress",
+   "date": "2025-01-01",
+   "authors": "Nicolli et al.",
+   "url": "https://doi.org/10.1094/php-08-25-0201-pdmr",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Rhizoctonia solani"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": false,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_status": null,
