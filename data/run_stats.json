@@ -9,6 +9,9 @@
   "Australasian Plant Disease Notes": 0,
   "The Plant Pathology Journal": 78,
   "Plant Health Progress": 191,
+  "식물병연구": 57,
+  "Mycobiology": 55,
+  "한국응용곤충학회지": 0,
   "PubMed": 59
  },
  "crossref_total": {
@@ -26,20 +29,26 @@
   "Australasian Plant Disease Notes (1833-928X)": 0,
   "The Plant Pathology Journal (1598-2254)": 0,
   "The Plant Pathology Journal (2093-9280)": 78,
-  "Plant Health Progress (1535-1025)": 191
+  "Plant Health Progress (1535-1025)": 191,
+  "식물병연구 (1598-2262)": 0,
+  "식물병연구 (2233-9191)": 57,
+  "Mycobiology (1229-8093)": 55,
+  "Mycobiology (2092-9323)": 55,
+  "한국응용곤충학회지 (1225-0171)": 0,
+  "한국응용곤충학회지 (2287-545X)": 0
  },
  "errors": [],
- "updated": "2026-10-20T00:32:25+00:00",
+ "updated": "2026-10-20T01:29:23+00:00",
  "period": [
   "2025-10-20",
   "2026-10-20"
  ],
- "raw": 2457,
- "relevant": 56,
- "added": 55,
- "total": 55,
+ "raw": 2569,
+ "relevant": 59,
+ "added": 58,
+ "total": 58,
  "review_counts": {
-  "missing_crop": 914,
-  "missing_report_type": 90
+  "missing_crop": 930,
+  "missing_report_type": 93
  }
 }
