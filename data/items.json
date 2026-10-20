@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T01:45:46+00:00",
- "count": 113,
+ "updated": "2026-10-20T01:47:13+00:00",
+ "count": 115,
  "items": [
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
@@ -1464,6 +1464,39 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-07-26-1333-sr",
+   "doi": "10.1094/pdis-07-26-1333-sr",
+   "pmid": "42550145",
+   "title": "Pathogenic characteristics and chemical control of soybean leaf anthracnose caused by Colletotrichum sojae newly found in Northeast China",
+   "title_html": "Pathogenic characteristics and chemical control of soybean leaf anthracnose caused by <i>Colletotrichum sojae</i> newly found in Northeast China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-08-04",
+   "authors": "Niu et al.",
+   "url": "https://doi.org/10.1094/pdis-07-26-1333-sr",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Colletotrichum sojae"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.3389/fbinf.2026.1821527",
    "doi": "10.3389/fbinf.2026.1821527",
    "pmid": "42602184",
@@ -2908,6 +2941,38 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/ppa.70129",
+   "doi": "10.1111/ppa.70129",
+   "pmid": null,
+   "title": "Aphelenchoides besseyi Causing Green Stem and Foliar Retention Syndrome on Soybean Major Production Fields Across China",
+   "title_html": "<i>Aphelenchoides besseyi</i> Causing Green Stem and Foliar Retention Syndrome on Soybean Major Production Fields Across China",
+   "title_alt": null,
+   "journal": "Plant Pathology",
+   "date": "2026-02-01",
+   "authors": "Elhamouly et al.",
+   "url": "https://doi.org/10.1111/ppa.70129",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Aphelenchoides besseyi"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
