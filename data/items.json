@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T01:32:40+00:00",
- "count": 82,
+ "updated": "2026-10-20T01:33:35+00:00",
+ "count": 73,
  "items": [
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
@@ -275,36 +275,6 @@
    ],
    "first_report": true,
    "seed_borne": true,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-02-26-0409-pdn",
-   "doi": "10.1094/pdis-02-26-0409-pdn",
-   "pmid": null,
-   "title": "First Report of Burkholderia gladioli Causing Bacterial Leaf Streak of Fresh-Consumption Sugarcane in Fujian Province, China",
-   "title_html": "First Report of <i>Burkholderia gladioli</i> Causing Bacterial Leaf Streak of Fresh-Consumption Sugarcane in Fujian Province, China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-09-28",
-   "authors": "Lin et al.",
-   "url": "https://doi.org/10.1094/pdis-02-26-0409-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Burkholderia gladioli"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
    "korea": false,
    "neighbor": true,
    "domestic_source": false,
@@ -649,36 +619,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10.1094/pdis-12-25-2439-pdn",
-   "doi": "10.1094/pdis-12-25-2439-pdn",
-   "pmid": null,
-   "title": "First Report of Husk Black Spot of Macadamia Caused by Fusarium proliferatum in China",
-   "title_html": "First Report of Husk Black Spot of Macadamia Caused by <i>Fusarium proliferatum</i> in China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-09-01",
-   "authors": "Tian et al.",
-   "url": "https://doi.org/10.1094/pdis-12-25-2439-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Fusarium proliferatum"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
    "id": "10.1094/pdis-10-25-2171-re",
    "doi": "10.1094/pdis-10-25-2171-re",
    "pmid": null,
@@ -702,36 +642,6 @@
    "countries": [],
    "first_report": false,
    "seed_borne": true,
-   "korea": false,
-   "neighbor": false,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-03-26-0506-pdn",
-   "doi": "10.1094/pdis-03-26-0506-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium verticillioides Causing Momordica charantia Fruit Rot in Mexico",
-   "title_html": "First Report of <i>Fusarium verticillioides</i> Causing <i>Momordica charantia</i> Fruit Rot in Mexico",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-09-01",
-   "authors": "Castro-Diego et al.",
-   "url": "https://doi.org/10.1094/pdis-03-26-0506-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Fusarium verticillioides"
-   ],
-   "countries": [
-    "Mexico"
-   ],
-   "first_report": true,
-   "seed_borne": false,
    "korea": false,
    "neighbor": false,
    "domestic_source": false,
@@ -1575,66 +1485,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10.1094/pdis-11-25-2316-pdn",
-   "doi": "10.1094/pdis-11-25-2316-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium proliferatum Causing Root Rot on Bupleurum chinense in China",
-   "title_html": "First Report of <i>Fusarium proliferatum</i> Causing Root Rot on <i>Bupleurum chinense</i> in China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-04-01",
-   "authors": "Niu et al.",
-   "url": "https://doi.org/10.1094/pdis-11-25-2316-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Fusarium proliferatum"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-10-25-2172-pdn",
-   "doi": "10.1094/pdis-10-25-2172-pdn",
-   "pmid": null,
-   "title": "First Report of Burkholderia gladioli Infecting Dendrobium officinale in China",
-   "title_html": "First Report of <i>Burkholderia gladioli</i> Infecting <i>Dendrobium officinale</i> in China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-04-01",
-   "authors": "Chen et al.",
-   "url": "https://doi.org/10.1094/pdis-10-25-2172-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Burkholderia gladioli"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
    "id": "10.1094/pdis-09-25-2015-pdn",
    "doi": "10.1094/pdis-09-25-2015-pdn",
    "pmid": null,
@@ -1652,36 +1502,6 @@
    "crops": [],
    "pathogens": [
     "Pantoea ananatis"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-03-25-0689-pdn",
-   "doi": "10.1094/pdis-03-25-0689-pdn",
-   "pmid": null,
-   "title": "First Report of Burkholderia gladioli Causing Yellow Spot Disease on Pleurotus pulmonarius in China",
-   "title_html": "First Report of <i>Burkholderia gladioli</i> Causing Yellow Spot Disease on <i>Pleurotus pulmonarius</i> in China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-04-01",
-   "authors": "Wei et al.",
-   "url": "https://doi.org/10.1094/pdis-03-25-0689-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Burkholderia gladioli"
    ],
    "countries": [
     "China"
@@ -1971,36 +1791,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10.1094/pdis-07-25-1571-pdn",
-   "doi": "10.1094/pdis-07-25-1571-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium verticillioides Causing Fusarium Blight on Tall Fescue in Anhui, China",
-   "title_html": "First Report of <i>Fusarium verticillioides</i> Causing Fusarium Blight on Tall Fescue in Anhui, China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-03-01",
-   "authors": "Shi et al.",
-   "url": "https://doi.org/10.1094/pdis-07-25-1571-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Fusarium verticillioides"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
    "id": "10.1007/s42161-026-02146-7",
    "doi": "10.1007/s42161-026-02146-7",
    "pmid": null,
@@ -2028,66 +1818,6 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": false,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-09-25-1918-pdn",
-   "doi": "10.1094/pdis-09-25-1918-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium verticillioides Causing Stem Blight of Sinopodophyllum hexandrum in China",
-   "title_html": "First Report of <i>Fusarium verticillioides</i> Causing Stem Blight of <i>Sinopodophyllum hexandrum</i> in China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-02-01",
-   "authors": "Wang et al.",
-   "url": "https://doi.org/10.1094/pdis-09-25-1918-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Fusarium verticillioides"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_source": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-06-25-1176-pdn",
-   "doi": "10.1094/pdis-06-25-1176-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium proliferatum Causing Leaf Spot on Juglans regia in Xinjiang, China",
-   "title_html": "First Report of <i>Fusarium proliferatum</i> Causing Leaf Spot on <i>Juglans regia</i> in Xinjiang, China",
-   "title_alt": null,
-   "journal": "Plant Disease",
-   "date": "2026-02-01",
-   "authors": "Chen et al.",
-   "url": "https://doi.org/10.1094/pdis-06-25-1176-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "watch": true,
-   "crops": [],
-   "pathogens": [
-    "Fusarium proliferatum"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
