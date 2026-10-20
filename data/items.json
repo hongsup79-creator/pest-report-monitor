@@ -1,0 +1,1243 @@
+{
+ "updated": "2026-10-20T00:26:44+00:00",
+ "count": 44,
+ "items": [
+  {
+   "id": "10.1111/jfd.70212",
+   "doi": "10.1111/jfd.70212",
+   "pmid": "42227021",
+   "title": "Renal Trichodinosis in the Japanese Rice Fish, Oryzias latipes: First Report and Phylogenetic Classification.",
+   "title_html": "Renal Trichodinosis in the Japanese Rice Fish, Oryzias latipes: First Report and Phylogenetic Classification.",
+   "journal": "Journal of fish diseases",
+   "date": "2026-11-01",
+   "authors": "Harl et al.",
+   "url": "https://doi.org/10.1111/jfd.70212",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-08-26-1515-pdn",
+   "doi": "10.1094/pdis-08-26-1515-pdn",
+   "pmid": null,
+   "title": "First report of Sphingomonas yabuuchiae causing Bacterial Leaf blight Disease of rice in West Bengal, India",
+   "title_html": "First report of <i>Sphingomonas yabuuchiae</i> causing Bacterial Leaf blight Disease of rice in West Bengal, India",
+   "journal": "Plant Disease",
+   "date": "2026-10-08",
+   "authors": "Mahato et al.",
+   "url": "https://doi.org/10.1094/pdis-08-26-1515-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Sphingomonas yabuuchiae"
+   ],
+   "countries": [
+    "India"
+   ],
+   "first_report": true,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-07-26-1454-pdn",
+   "doi": "10.1094/pdis-07-26-1454-pdn",
+   "pmid": null,
+   "title": "First report of ‘ Candidatus Arsenophonus phytopathogenicus’ in maize ( Zea mays L.) in Germany",
+   "title_html": "First report of ‘ <i>Candidatus</i> Arsenophonus phytopathogenicus’ in maize ( <i>Zea mays</i> L.) in Germany",
+   "journal": "Plant Disease",
+   "date": "2026-10-03",
+   "authors": "Benaouda et al.",
+   "url": "https://doi.org/10.1094/pdis-07-26-1454-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀",
+    "보리"
+   ],
+   "pathogens": [],
+   "countries": [
+    "Germany"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0124-pdn",
+   "doi": "10.1094/pdis-01-26-0124-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium fujikuroi Causing Wilt of Norway spruce Seedlings in Korea",
+   "title_html": "First Report of <i>Fusarium fujikuroi</i> Causing Wilt of Norway spruce Seedlings in Korea",
+   "journal": "Plant Disease",
+   "date": "2026-10-03",
+   "authors": "Lee et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0124-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Fusarium fujikuroi"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70404",
+   "doi": "10.1111/jph.70404",
+   "pmid": null,
+   "title": "First Report of Subepidermal Hyphal Growth Associated With Scab Lesions Caused by Venturia effusa on Pecan Leaf Veins",
+   "title_html": "First Report of Subepidermal Hyphal Growth Associated With Scab Lesions Caused by <i>Venturia effusa</i> on Pecan Leaf Veins",
+   "journal": "Journal of Phytopathology",
+   "date": "2026-09-30",
+   "authors": "Brungardt et al.",
+   "url": "https://doi.org/10.1111/jph.70404",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1002/ndr2.70151",
+   "doi": "10.1002/ndr2.70151",
+   "pmid": null,
+   "title": "First Report of Fusarium Head Blight, Ear Rot and Stalk Rot Caused by Fusarium temperatum in Zea mays (Maize) and Triticum aestivum (Wheat) in the United Kingdom",
+   "title_html": "First Report of Fusarium Head Blight, Ear Rot and Stalk Rot Caused by <i>Fusarium temperatum</i> in <i>Zea mays</i> (Maize) and <i>Triticum aestivum</i> (Wheat) in the United Kingdom",
+   "journal": "New Disease Reports",
+   "date": "2026-09-29",
+   "authors": "Tsourekas et al.",
+   "url": "https://doi.org/10.1002/ndr2.70151",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium temperatum"
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-26-1074-pdn",
+   "doi": "10.1094/pdis-05-26-1074-pdn",
+   "pmid": null,
+   "title": "First Report of Stenotrophomonas maltophilia Causing Bacterial Leaf Blight of Rice in West Bengal, India",
+   "title_html": "First Report of <i>Stenotrophomonas maltophilia</i> Causing Bacterial Leaf Blight of Rice in West Bengal, India",
+   "journal": "Plant Disease",
+   "date": "2026-09-28",
+   "authors": "Mahato et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-1074-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [
+    "India"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-04-26-0825-pdn",
+   "doi": "10.1094/pdis-04-26-0825-pdn",
+   "pmid": null,
+   "title": "First Report of Bacterial Dieback of Rice Caused by Pantoea anthophila in Guangxi, China",
+   "title_html": "First Report of Bacterial Dieback of Rice Caused by <i>Pantoea anthophila</i> in Guangxi, China",
+   "journal": "Plant Disease",
+   "date": "2026-09-28",
+   "authors": "Zhang et al.",
+   "url": "https://doi.org/10.1094/pdis-04-26-0825-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea anthophila"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-26-0443-pdn",
+   "doi": "10.1094/pdis-03-26-0443-pdn",
+   "pmid": null,
+   "title": "First Record of the Aphelenchoides besseyi Detected from Rice Seeds in Shanghai",
+   "title_html": "First Record of the <i>Aphelenchoides besseyi</i> Detected from Rice Seeds in Shanghai",
+   "journal": "Plant Disease",
+   "date": "2026-09-28",
+   "authors": "Yang et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0443-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Aphelenchoides besseyi"
+   ],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-02-26-0407-pdn",
+   "doi": "10.1094/pdis-02-26-0407-pdn",
+   "pmid": null,
+   "title": "First Report of Rice Bacterial Blight Caused by Pantoea ananatis on Rice in Jiangsu Province, China",
+   "title_html": "First Report of Rice Bacterial Blight Caused by <i>Pantoea ananatis</i> on Rice in Jiangsu Province, China",
+   "journal": "Plant Disease",
+   "date": "2026-09-28",
+   "authors": "Chen et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0407-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-26-1044-pdn",
+   "doi": "10.1094/pdis-05-26-1044-pdn",
+   "pmid": null,
+   "title": "First Report of Root-Lesion Nematode, Pratylenchus thornei , Infecting Wheat ( Triticum aestivum ) in Ethiopia",
+   "title_html": "First Report of Root-Lesion Nematode, <i>Pratylenchus thornei</i> , Infecting Wheat ( <i>Triticum aestivum</i> ) in Ethiopia",
+   "journal": "Plant Disease",
+   "date": "2026-09-26",
+   "authors": "Ferede et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-1044-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Pratylenchus thornei"
+   ],
+   "countries": [
+    "Ethiopia"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-04-26-0764-pdn",
+   "doi": "10.1094/pdis-04-26-0764-pdn",
+   "pmid": null,
+   "title": "First Report of Rice Bacterial Leaf Blight Caused by Pantoea ananatis in Texas, U.S.A.",
+   "title_html": "First Report of Rice Bacterial Leaf Blight Caused by <i>Pantoea ananatis</i> in Texas, U.S.A.",
+   "journal": "Plant Disease",
+   "date": "2026-09-25",
+   "authors": "Khanal et al.",
+   "url": "https://doi.org/10.1094/pdis-04-26-0764-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-26-0866-pdn",
+   "doi": "10.1094/pdis-05-26-0866-pdn",
+   "pmid": null,
+   "title": "First Report of Rice Bacterial Leaf Blight Caused by Pantoea ananatis in South Korea",
+   "title_html": "First Report of Rice Bacterial Leaf Blight Caused by <i>Pantoea ananatis</i> in South Korea",
+   "journal": "Plant Disease",
+   "date": "2026-09-22",
+   "authors": "Choi et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-0866-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-26-0977-pdn",
+   "doi": "10.1094/pdis-05-26-0977-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium nisikadoi Causing Pokkah Boeng Disease on Sugarcane in China",
+   "title_html": "First Report of <i>Fusarium nisikadoi</i> Causing Pokkah Boeng Disease on Sugarcane in China",
+   "journal": "Plant Disease",
+   "date": "2026-09-20",
+   "authors": "Lin et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-0977-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium nisikadoi"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-07-26-1452-pdn",
+   "doi": "10.1094/pdis-07-26-1452-pdn",
+   "pmid": null,
+   "title": "First Report of Pseudomonas syringae causing bacterial leaf blight on wheat ( Triticum aestivum ) in Michigan",
+   "title_html": "First Report of <i>Pseudomonas syringae</i> causing bacterial leaf blight on wheat ( <i>Triticum aestivum</i> ) in Michigan",
+   "journal": "Plant Disease",
+   "date": "2026-09-10",
+   "authors": "Ritko et al.",
+   "url": "https://doi.org/10.1094/pdis-07-26-1452-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Pseudomonas syringae"
+   ],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-06-26-1169-pdn",
+   "doi": "10.1094/pdis-06-26-1169-pdn",
+   "pmid": null,
+   "title": "First Report of Bacterial Shot Hole Disease of Peach Caused by Pseudomonas oryzihabitans in China",
+   "title_html": "First Report of Bacterial Shot Hole Disease of Peach Caused by <i>Pseudomonas oryzihabitans</i> in China",
+   "journal": "Plant Disease",
+   "date": "2026-09-10",
+   "authors": "Zhao et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1169-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pseudomonas oryzihabitans"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/php-06-26-0126-rs",
+   "doi": "10.1094/php-06-26-0126-rs",
+   "pmid": null,
+   "title": "Assessing Seed Transmission Rate and Efficacy of Seed Applied Plant Protection for Bacterial Leaf Streak in Hard Red Spring Wheat",
+   "title_html": "Assessing Seed Transmission Rate and Efficacy of Seed Applied Plant Protection for Bacterial Leaf Streak in Hard Red Spring Wheat",
+   "journal": "Plant Health Progress",
+   "date": "2026-09-01",
+   "authors": "Dusek et al.",
+   "url": "https://doi.org/10.1094/php-06-26-0126-rs",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-26-0496-pdn",
+   "doi": "10.1094/pdis-03-26-0496-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium luffae Causing Crown Rot of Wheat in China",
+   "title_html": "First Report of <i>Fusarium luffae</i> Causing Crown Rot of Wheat in China",
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Kang et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0496-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium luffae"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0191-pdn",
+   "doi": "10.1094/pdis-01-26-0191-pdn",
+   "pmid": null,
+   "title": "First Report of Panicle Rot on Rice ( Oryza sativa ) Caused by Cladosporium pruni-salicina in China",
+   "title_html": "First Report of Panicle Rot on Rice ( <i>Oryza sativa</i> ) Caused by <i>Cladosporium pruni-salicina</i> in China",
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Zhang et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0191-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Cladosporium pruni-salicina"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0114-pdn",
+   "doi": "10.1094/pdis-01-26-0114-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium Head Blight of Wheat Caused by Fusarium brachygibbosum in China",
+   "title_html": "First Report of Fusarium Head Blight of Wheat Caused by <i>Fusarium brachygibbosum</i> in China",
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Zhang et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0114-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium brachygibbosum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1002/tox.70031",
+   "doi": "10.1002/tox.70031",
+   "pmid": "41492862",
+   "title": "First Report on Field-Evolved Resistance to Lambda-Cyhalothrin in Rice Leaf Folder (Cnaphalocrocis medinalis Guenee) Populations in Kerala, India: Implications and Concerns of Its Environmental Impact.",
+   "title_html": "First Report on Field-Evolved Resistance to Lambda-Cyhalothrin in Rice Leaf Folder (Cnaphalocrocis medinalis Guenee) Populations in Kerala, India: Implications and Concerns of Its Environmental Impact.",
+   "journal": "Environmental toxicology",
+   "date": "2026-09-01",
+   "authors": "Subhagan et al.",
+   "url": "https://doi.org/10.1002/tox.70031",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [
+    "India"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-26-0913-pdn",
+   "doi": "10.1094/pdis-05-26-0913-pdn",
+   "pmid": null,
+   "title": "First Report of Tea Leaf Spot Caused by Fusarium graminearum in Guizhou, China",
+   "title_html": "First Report of Tea Leaf Spot Caused by <i>Fusarium graminearum</i> in Guizhou, China",
+   "journal": "Plant Disease",
+   "date": "2026-08-18",
+   "authors": "Zhao et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-0913-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium graminearum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1002/ndr2.70144",
+   "doi": "10.1002/ndr2.70144",
+   "pmid": null,
+   "title": "First Report of Southern Rice Black‐Streaked Dwarf Virus in the Philippines",
+   "title_html": "First Report of Southern Rice Black‐Streaked Dwarf Virus in the Philippines",
+   "journal": "New Disease Reports",
+   "date": "2026-08-18",
+   "authors": "Jonson et al.",
+   "url": "https://doi.org/10.1002/ndr2.70144",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Streaked Dwarf Virus"
+   ],
+   "countries": [
+    "Philippines"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-06-26-1184-pdn",
+   "doi": "10.1094/pdis-06-26-1184-pdn",
+   "pmid": null,
+   "title": "First report of Meloidogyne fallax parasitising coriander in the United Kingdom",
+   "title_html": "First report of <i>Meloidogyne fallax</i> parasitising coriander in the United Kingdom",
+   "journal": "Plant Disease",
+   "date": "2026-08-16",
+   "authors": "Moura de Souza et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1184-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Meloidogyne fallax"
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1007/s42161-026-02264-2",
+   "doi": "10.1007/s42161-026-02264-2",
+   "pmid": null,
+   "title": "First report of barley yellow dwarf virus PAS in Hordeum vulgare L. plants in Ukraine",
+   "title_html": "First report of barley yellow dwarf virus PAS in Hordeum vulgare L. plants in Ukraine",
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-07-27",
+   "authors": "Mishchenko et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02264-2",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "보리"
+   ],
+   "pathogens": [
+    "barley yellow dwarf virus"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/ppa.70239",
+   "doi": "10.1111/ppa.70239",
+   "pmid": null,
+   "title": "Phytophthora pseudocitrophthora , A New Pathogen of Carnations Causing Root Rot and Basal Stem Necroses in Türkiye",
+   "title_html": "<i>Phytophthora pseudocitrophthora</i> , A New Pathogen of Carnations Causing Root Rot and Basal Stem Necroses in Türkiye",
+   "journal": "Plant Pathology",
+   "date": "2026-07-18",
+   "authors": "Kurbetli et al.",
+   "url": "https://doi.org/10.1111/ppa.70239",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Phytophthora pseudocitrophthora"
+   ],
+   "countries": [
+    "Turkey"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/phyto-03-26-0097-sa",
+   "doi": "10.1094/phyto-03-26-0097-sa",
+   "pmid": "42467811",
+   "title": "Characterizing the Seedborne Nature of Pantoea ananatis in Rice: Pathogenicity and Evidence of Vertical Transmission.",
+   "title_html": "Characterizing the Seedborne Nature of Pantoea ananatis in Rice: Pathogenicity and Evidence of Vertical Transmission.",
+   "journal": "Phytopathology",
+   "date": "2026-07-17",
+   "authors": "Pedrozo et al.",
+   "url": "https://doi.org/10.1094/phyto-03-26-0097-sa",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-08-25-1685-re",
+   "doi": "10.1094/pdis-08-25-1685-re",
+   "pmid": "41486766",
+   "title": "First Report and Characterization of Propiconazole Resistance in Tilletia horrida Causing Kernel Smut in Rice",
+   "title_html": "First Report and Characterization of Propiconazole Resistance in <i>Tilletia horrida</i> Causing Kernel Smut in Rice",
+   "journal": "Plant Disease",
+   "date": "2026-07-01",
+   "authors": "Khanal et al.",
+   "url": "https://doi.org/10.1094/pdis-08-25-1685-re",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Tilletia horrida"
+   ],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.3390/biology15120957",
+   "doi": "10.3390/biology15120957",
+   "pmid": "42345813",
+   "title": "Influence of UV-C Irradiation Duration on Seed-Borne Fungal Suppression, Germination, and Seedling Development in Rice (Oryza sativa L.).",
+   "title_html": "Influence of UV-C Irradiation Duration on Seed-Borne Fungal Suppression, Germination, and Seedling Development in Rice (Oryza sativa L.).",
+   "journal": "Biology",
+   "date": "2026-06-18",
+   "authors": "Al-Sager et al.",
+   "url": "https://doi.org/10.3390/biology15120957",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1002/ndr2.70126",
+   "doi": "10.1002/ndr2.70126",
+   "pmid": null,
+   "title": "First Report of Pantoea deleyi Causing Bacterial Leaf Blight on Rice in Peninsular Malaysia",
+   "title_html": "First Report of <i>Pantoea deleyi</i> Causing Bacterial Leaf Blight on Rice in Peninsular Malaysia",
+   "journal": "New Disease Reports",
+   "date": "2026-05-11",
+   "authors": "Muhamad Rizal et al.",
+   "url": "https://doi.org/10.1002/ndr2.70126",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea deleyi"
+   ],
+   "countries": [
+    "Malaysia"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-11-25-2400-pdn",
+   "doi": "10.1094/pdis-11-25-2400-pdn",
+   "pmid": null,
+   "title": "First Report of Wheat Crown Rot Caused by Fusarium commune in China",
+   "title_html": "First Report of Wheat Crown Rot Caused by <i>Fusarium commune</i> in China",
+   "journal": "Plant Disease",
+   "date": "2026-04-01",
+   "authors": "Li et al.",
+   "url": "https://doi.org/10.1094/pdis-11-25-2400-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium commune"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1007/s42161-026-02173-4",
+   "doi": "10.1007/s42161-026-02173-4",
+   "pmid": null,
+   "title": "First report of barley yellow dwarf virus-PAV infecting Zea mays L. in Ukraine",
+   "title_html": "First report of barley yellow dwarf virus-PAV infecting Zea mays L. in Ukraine",
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-03-30",
+   "authors": "Snihur et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02173-4",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "보리"
+   ],
+   "pathogens": [
+    "barley yellow dwarf virus"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1002/ndr2.70115",
+   "doi": "10.1002/ndr2.70115",
+   "pmid": null,
+   "title": "First Report of Kosakonia Cowanii Causing Grain Discolouration of Rice ( Oryza sativa L.) in Indonesia",
+   "title_html": "First Report of <i>Kosakonia Cowanii</i> Causing Grain Discolouration of Rice ( <i>Oryza sativa</i> L.) in Indonesia",
+   "journal": "New Disease Reports",
+   "date": "2026-03-17",
+   "authors": "Azzahra et al.",
+   "url": "https://doi.org/10.1002/ndr2.70115",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-11-25-2199-pdn",
+   "doi": "10.1094/pdis-11-25-2199-pdn",
+   "pmid": null,
+   "title": "First Report of Xanthomonas translucens pv. undulosa Causing Bacterial Leaf Streak on Wheat in Arizona, U.S.A.",
+   "title_html": "First Report of <i>Xanthomonas</i> <i>translucens</i> pv. <i>undulosa</i> Causing Bacterial Leaf Streak on Wheat in Arizona, U.S.A.",
+   "journal": "Plant Disease",
+   "date": "2026-03-01",
+   "authors": "Murcia Bermudez et al.",
+   "url": "https://doi.org/10.1094/pdis-11-25-2199-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Xanthomonas translucens"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-10-25-2151-pdn",
+   "doi": "10.1094/pdis-10-25-2151-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium equiseti Causing Crown Rot of Wheat in the Drought–Alkali Wheat-Growing Area of Cangzhou, China",
+   "title_html": "First Report of <i>Fusarium equiseti</i> Causing Crown Rot of Wheat in the Drought–Alkali Wheat-Growing Area of Cangzhou, China",
+   "journal": "Plant Disease",
+   "date": "2026-03-01",
+   "authors": "Hao et al.",
+   "url": "https://doi.org/10.1094/pdis-10-25-2151-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium equiseti"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-08-25-1777-pdn",
+   "doi": "10.1094/pdis-08-25-1777-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium culmorum Causing Wheat Crown Rot in Ningxia, China",
+   "title_html": "First Report of <i>Fusarium culmorum</i> Causing Wheat Crown Rot in Ningxia, China",
+   "journal": "Plant Disease",
+   "date": "2026-03-01",
+   "authors": "Zhou et al.",
+   "url": "https://doi.org/10.1094/pdis-08-25-1777-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium culmorum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1007/s42161-026-02146-7",
+   "doi": "10.1007/s42161-026-02146-7",
+   "pmid": null,
+   "title": "First report of barley yellow dwarf virus-PAS in Phragmites australis (common reed) in Türkiye",
+   "title_html": "First report of barley yellow dwarf virus-PAS in Phragmites australis (common reed) in Türkiye",
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-02-13",
+   "authors": "İlbağı",
+   "url": "https://doi.org/10.1007/s42161-026-02146-7",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "보리"
+   ],
+   "pathogens": [
+    "barley yellow dwarf virus"
+   ],
+   "countries": [
+    "Turkey"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1007/s42161-026-02116-z",
+   "doi": "10.1007/s42161-026-02116-z",
+   "pmid": null,
+   "title": "Unveiling the regional variation in pathogenicity and aggressiveness of Bipolaris sorokiniana isolates on barley seedlings",
+   "title_html": "Unveiling the regional variation in pathogenicity and aggressiveness of Bipolaris sorokiniana isolates on barley seedlings",
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-01-28",
+   "authors": "Kanwal et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02116-z",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "보리"
+   ],
+   "pathogens": [
+    "Bipolaris sorokiniana"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1007/s42161-025-02111-w",
+   "doi": "10.1007/s42161-025-02111-w",
+   "pmid": null,
+   "title": "First report of barley yellow dwarf virus-GPV naturally infecting wheat in Ukraine",
+   "title_html": "First report of barley yellow dwarf virus-GPV naturally infecting wheat in Ukraine",
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-01-19",
+   "authors": "Snihur et al.",
+   "url": "https://doi.org/10.1007/s42161-025-02111-w",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀",
+    "보리"
+   ],
+   "pathogens": [
+    "barley yellow dwarf virus"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-07-25-1535-pdn",
+   "doi": "10.1094/pdis-07-25-1535-pdn",
+   "pmid": null,
+   "title": "First Report of Beet Western Yellows Virus Infecting Wheat in Uzbekistan",
+   "title_html": "First Report of Beet Western Yellows Virus Infecting Wheat in Uzbekistan",
+   "journal": "Plant Disease",
+   "date": "2026-01-01",
+   "authors": "Makhmudov et al.",
+   "url": "https://doi.org/10.1094/pdis-07-25-1535-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Beet Western Yellows Virus"
+   ],
+   "countries": [
+    "Uzbekistan"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70221",
+   "doi": "10.1111/jph.70221",
+   "pmid": null,
+   "title": "Isolation, Identification and Characterisation of Pseudomonas syringae pv. atrofaciens From Wheat Seed Lots in Yozgat Province, Türkiye",
+   "title_html": "Isolation, Identification and Characterisation of <i>Pseudomonas syringae</i> pv. <i>atrofaciens</i> From Wheat Seed Lots in Yozgat Province, Türkiye",
+   "journal": "Journal of Phytopathology",
+   "date": "2025-12-29",
+   "authors": "Aydın et al.",
+   "url": "https://doi.org/10.1111/jph.70221",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Pseudomonas syringae"
+   ],
+   "countries": [
+    "Turkey"
+   ],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/ppj.oa.08.2025.0101",
+   "doi": "10.5423/ppj.oa.08.2025.0101",
+   "pmid": null,
+   "title": "Biocontrol of Bacterial Seedling Rot in Rice Plants Using Bacillus velezensis JBCS608 and Its Formulated Products",
+   "title_html": "Biocontrol of Bacterial Seedling Rot in Rice Plants Using Bacillus velezensis JBCS608 and Its Formulated Products",
+   "journal": "The Plant Pathology Journal",
+   "date": "2025-12-01",
+   "authors": "Kang et al.",
+   "url": "https://doi.org/10.5423/ppj.oa.08.2025.0101",
+   "sources": [
+    "crossref"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1016/j.envint.2025.109950",
+   "doi": "10.1016/j.envint.2025.109950",
+   "pmid": "41314947",
+   "title": "Corrigendum to \"Seed-borne and environmental transmission mechanisms drive diverse heavy metal-resistant plant growth-promoting bacteria (PGPB) in rice\". [Environ. Int. 204 (2025) 109840].",
+   "title_html": "Corrigendum to \"Seed-borne and environmental transmission mechanisms drive diverse heavy metal-resistant plant growth-promoting bacteria (PGPB) in rice\". [Environ. Int. 204 (2025) 109840].",
+   "journal": "Environment international",
+   "date": "2025-12-01",
+   "authors": "Hou et al.",
+   "url": "https://doi.org/10.1016/j.envint.2025.109950",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.2478/helm-2025-0024",
+   "doi": "10.2478/helm-2025-0024",
+   "pmid": "41312311",
+   "title": "First report of Pratylenchus parazeae (Nematoda: Pratylenchidae) associated with rice in Vietnam.",
+   "title_html": "First report of Pratylenchus parazeae (Nematoda: Pratylenchidae) associated with rice in Vietnam.",
+   "journal": "Helminthologia",
+   "date": "2025-11-26",
+   "authors": "Nguyen et al.",
+   "url": "https://doi.org/10.2478/helm-2025-0024",
+   "sources": [
+    "pubmed"
+   ],
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pratylenchus parazeae"
+   ],
+   "countries": [
+    "Vietnam"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  }
+ ]
+}
