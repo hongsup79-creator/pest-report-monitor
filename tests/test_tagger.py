@@ -96,6 +96,12 @@ CASES = [
     ("Plant architecture genes affect seed composition and seed weight in soybeans grown in the Midsouth USA", "",
      dict(relevant=False)),          # 종자 성분 연구 ≠ 종자 병리
     ("콩 종자 단백질 함량의 품종 간 차이", "", dict(relevant=False)),
+    ("<i>Aphelenchoides besseyi</i> Causing Green Stem and Foliar Retention Syndrome on Soybean Major Production Fields Across China", "",
+     dict(relevant=True, first_report=True, watch=True, crops=["콩"])),
+    ("Pathogenic characteristics of soybean leaf anthracnose caused by <i>Colletotrichum sojae</i> newly found in China", "",
+     dict(relevant=True, first_report=True)),
+    ("Evaluation of Early-Maturity Soybean Lines for Resistance to <i>Sclerotinia sclerotiorum</i>", "",
+     dict(relevant=False)),          # 저항성 평가 ≠ 발생보고
     ("땅콩 흰비단병의 국내 첫 보고", "", dict(relevant=False)),          # 땅콩 ≠ 콩
     ("강낭콩 탄저병 신규 발생", "", dict(relevant=False)),              # 강낭콩 ≠ 콩
     ("콩나물 부패 세균의 동정", "", dict(relevant=False)),              # 콩나물 제외

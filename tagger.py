@@ -125,12 +125,16 @@ class Tagger:
             bool(countries) and any(p.search(t) for p in self.occ_start + self.occ_any))
         # 명시적 종자전염 표현은 그대로 인정, 제목의 단순 '종자/seed'는 병해 맥락이 있을 때만
         pathogens = self.tag_pathogens(t)
+        watch = any(p.search(t) for p in self.watch)
+        # 관심 병원체가 특정 국가에서 병을 일으킨다는 제목은 발생보고로 인정
+        if watch and countries and re.search(r"\bcaus(?:ing|ed by)\b", t, re.I):
+            first = True
         seed = self.is_seed(full) or (
             any(p.search(t) for p in self.seed_title)
             and (bool(pathogens) or any(p.search(t) for p in self.seed_ctx)))
         return {
             "excluded": any(p.search(t) for p in self.exclude),
-            "watch": any(p.search(t) for p in self.watch),
+            "watch": watch,
             "crops": self.tag_crops(t),
             "pathogens": pathogens,
             "countries": countries,
