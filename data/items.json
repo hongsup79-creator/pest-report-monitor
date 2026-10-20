@@ -1,32 +1,7 @@
 {
- "updated": "2026-10-20T00:26:44+00:00",
- "count": 44,
+ "updated": "2026-10-20T00:29:17+00:00",
+ "count": 34,
  "items": [
-  {
-   "id": "10.1111/jfd.70212",
-   "doi": "10.1111/jfd.70212",
-   "pmid": "42227021",
-   "title": "Renal Trichodinosis in the Japanese Rice Fish, Oryzias latipes: First Report and Phylogenetic Classification.",
-   "title_html": "Renal Trichodinosis in the Japanese Rice Fish, Oryzias latipes: First Report and Phylogenetic Classification.",
-   "journal": "Journal of fish diseases",
-   "date": "2026-11-01",
-   "authors": "Harl et al.",
-   "url": "https://doi.org/10.1111/jfd.70212",
-   "sources": [
-    "pubmed"
-   ],
-   "crops": [
-    "벼"
-   ],
-   "pathogens": [],
-   "countries": [],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
    "doi": "10.1094/pdis-08-26-1515-pdn",
@@ -51,88 +26,6 @@
    ],
    "first_report": true,
    "seed_borne": true,
-   "korea": false,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-07-26-1454-pdn",
-   "doi": "10.1094/pdis-07-26-1454-pdn",
-   "pmid": null,
-   "title": "First report of ‘ Candidatus Arsenophonus phytopathogenicus’ in maize ( Zea mays L.) in Germany",
-   "title_html": "First report of ‘ <i>Candidatus</i> Arsenophonus phytopathogenicus’ in maize ( <i>Zea mays</i> L.) in Germany",
-   "journal": "Plant Disease",
-   "date": "2026-10-03",
-   "authors": "Benaouda et al.",
-   "url": "https://doi.org/10.1094/pdis-07-26-1454-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "밀",
-    "보리"
-   ],
-   "pathogens": [],
-   "countries": [
-    "Germany"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-01-26-0124-pdn",
-   "doi": "10.1094/pdis-01-26-0124-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium fujikuroi Causing Wilt of Norway spruce Seedlings in Korea",
-   "title_html": "First Report of <i>Fusarium fujikuroi</i> Causing Wilt of Norway spruce Seedlings in Korea",
-   "journal": "Plant Disease",
-   "date": "2026-10-03",
-   "authors": "Lee et al.",
-   "url": "https://doi.org/10.1094/pdis-01-26-0124-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "벼"
-   ],
-   "pathogens": [
-    "Fusarium fujikuroi"
-   ],
-   "countries": [
-    "Korea"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": true,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1111/jph.70404",
-   "doi": "10.1111/jph.70404",
-   "pmid": null,
-   "title": "First Report of Subepidermal Hyphal Growth Associated With Scab Lesions Caused by Venturia effusa on Pecan Leaf Veins",
-   "title_html": "First Report of Subepidermal Hyphal Growth Associated With Scab Lesions Caused by <i>Venturia effusa</i> on Pecan Leaf Veins",
-   "journal": "Journal of Phytopathology",
-   "date": "2026-09-30",
-   "authors": "Brungardt et al.",
-   "url": "https://doi.org/10.1111/jph.70404",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "밀"
-   ],
-   "pathogens": [],
-   "countries": [],
-   "first_report": true,
-   "seed_borne": false,
    "korea": false,
    "neighbor": false,
    "domestic_status": null,
@@ -367,35 +260,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10.1094/pdis-05-26-0977-pdn",
-   "doi": "10.1094/pdis-05-26-0977-pdn",
-   "pmid": null,
-   "title": "First Report of Fusarium nisikadoi Causing Pokkah Boeng Disease on Sugarcane in China",
-   "title_html": "First Report of <i>Fusarium nisikadoi</i> Causing Pokkah Boeng Disease on Sugarcane in China",
-   "journal": "Plant Disease",
-   "date": "2026-09-20",
-   "authors": "Lin et al.",
-   "url": "https://doi.org/10.1094/pdis-05-26-0977-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "밀"
-   ],
-   "pathogens": [
-    "Fusarium nisikadoi"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
    "id": "10.1094/pdis-07-26-1452-pdn",
    "doi": "10.1094/pdis-07-26-1452-pdn",
    "pmid": null,
@@ -419,35 +283,6 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1094/pdis-06-26-1169-pdn",
-   "doi": "10.1094/pdis-06-26-1169-pdn",
-   "pmid": null,
-   "title": "First Report of Bacterial Shot Hole Disease of Peach Caused by Pseudomonas oryzihabitans in China",
-   "title_html": "First Report of Bacterial Shot Hole Disease of Peach Caused by <i>Pseudomonas oryzihabitans</i> in China",
-   "journal": "Plant Disease",
-   "date": "2026-09-10",
-   "authors": "Zhao et al.",
-   "url": "https://doi.org/10.1094/pdis-06-26-1169-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "벼"
-   ],
-   "pathogens": [
-    "Pseudomonas oryzihabitans"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
    "domestic_status": null,
    "first_seen": "2026-10-20"
   },
@@ -591,35 +426,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10.1094/pdis-05-26-0913-pdn",
-   "doi": "10.1094/pdis-05-26-0913-pdn",
-   "pmid": null,
-   "title": "First Report of Tea Leaf Spot Caused by Fusarium graminearum in Guizhou, China",
-   "title_html": "First Report of Tea Leaf Spot Caused by <i>Fusarium graminearum</i> in Guizhou, China",
-   "journal": "Plant Disease",
-   "date": "2026-08-18",
-   "authors": "Zhao et al.",
-   "url": "https://doi.org/10.1094/pdis-05-26-0913-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "밀"
-   ],
-   "pathogens": [
-    "Fusarium graminearum"
-   ],
-   "countries": [
-    "China"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": true,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
    "id": "10.1002/ndr2.70144",
    "doi": "10.1002/ndr2.70144",
    "pmid": null,
@@ -649,35 +455,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10.1094/pdis-06-26-1184-pdn",
-   "doi": "10.1094/pdis-06-26-1184-pdn",
-   "pmid": null,
-   "title": "First report of Meloidogyne fallax parasitising coriander in the United Kingdom",
-   "title_html": "First report of <i>Meloidogyne fallax</i> parasitising coriander in the United Kingdom",
-   "journal": "Plant Disease",
-   "date": "2026-08-16",
-   "authors": "Moura de Souza et al.",
-   "url": "https://doi.org/10.1094/pdis-06-26-1184-pdn",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "밀"
-   ],
-   "pathogens": [
-    "Meloidogyne fallax"
-   ],
-   "countries": [
-    "United Kingdom"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
    "id": "10.1007/s42161-026-02264-2",
    "doi": "10.1007/s42161-026-02264-2",
    "pmid": null,
@@ -698,35 +475,6 @@
    ],
    "countries": [
     "Ukraine"
-   ],
-   "first_report": true,
-   "seed_borne": false,
-   "korea": false,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1111/ppa.70239",
-   "doi": "10.1111/ppa.70239",
-   "pmid": null,
-   "title": "Phytophthora pseudocitrophthora , A New Pathogen of Carnations Causing Root Rot and Basal Stem Necroses in Türkiye",
-   "title_html": "<i>Phytophthora pseudocitrophthora</i> , A New Pathogen of Carnations Causing Root Rot and Basal Stem Necroses in Türkiye",
-   "journal": "Plant Pathology",
-   "date": "2026-07-18",
-   "authors": "Kurbetli et al.",
-   "url": "https://doi.org/10.1111/ppa.70239",
-   "sources": [
-    "crossref"
-   ],
-   "crops": [
-    "밀"
-   ],
-   "pathogens": [
-    "Phytophthora pseudocitrophthora"
-   ],
-   "countries": [
-    "Turkey"
    ],
    "first_report": true,
    "seed_borne": false,
@@ -1172,31 +920,6 @@
    "url": "https://doi.org/10.5423/ppj.oa.08.2025.0101",
    "sources": [
     "crossref"
-   ],
-   "crops": [
-    "벼"
-   ],
-   "pathogens": [],
-   "countries": [],
-   "first_report": false,
-   "seed_borne": true,
-   "korea": false,
-   "neighbor": false,
-   "domestic_status": null,
-   "first_seen": "2026-10-20"
-  },
-  {
-   "id": "10.1016/j.envint.2025.109950",
-   "doi": "10.1016/j.envint.2025.109950",
-   "pmid": "41314947",
-   "title": "Corrigendum to \"Seed-borne and environmental transmission mechanisms drive diverse heavy metal-resistant plant growth-promoting bacteria (PGPB) in rice\". [Environ. Int. 204 (2025) 109840].",
-   "title_html": "Corrigendum to \"Seed-borne and environmental transmission mechanisms drive diverse heavy metal-resistant plant growth-promoting bacteria (PGPB) in rice\". [Environ. Int. 204 (2025) 109840].",
-   "journal": "Environment international",
-   "date": "2025-12-01",
-   "authors": "Hou et al.",
-   "url": "https://doi.org/10.1016/j.envint.2025.109950",
-   "sources": [
-    "pubmed"
    ],
    "crops": [
     "벼"
