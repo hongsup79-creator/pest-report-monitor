@@ -35,6 +35,7 @@ class Tagger:
         }
         self.first_report = [re.compile(p, re.I) for p in cfg["first_report_patterns"]]
         self.seed = [re.compile(p, re.I) for p in cfg["seed_patterns"]]
+        self.exclude = [re.compile(p, re.I) for p in cfg.get("exclude_patterns", [])]
         genera = "|".join(sorted(cfg["pathogen_genera"], key=len, reverse=True))
         # 속명 + (선택) 종소명/약어: "Fusarium luffae", "F. luffae"는 별도 처리
         self.genus_re = re.compile(
@@ -88,12 +89,14 @@ class Tagger:
 
     # ---------- 종합 ----------
     def tag(self, title, abstract=""):
-        """제목은 국가·병원체·보고유형 판정, 초록은 작물·종자전염 보조 판정에만 사용."""
+        """작물·국가·병원체·신규보고는 제목으로만 판정(초록 언급에 의한 오탐 방지).
+        종자전염 여부만 초록까지 확인."""
         t = strip_tags(title)
         full = t + " " + strip_tags(abstract)
         countries = self.tag_countries(t)
         return {
-            "crops": self.tag_crops(full),
+            "excluded": any(p.search(t) for p in self.exclude),
+            "crops": self.tag_crops(t),
             "pathogens": self.tag_pathogens(t),
             "countries": countries,
             "first_report": self.is_first_report(t),
@@ -105,4 +108,5 @@ class Tagger:
     @staticmethod
     def is_relevant(tags):
         """수집 기준: 대상 작물이면서 (신규보고 또는 종자전염)."""
-        return bool(tags["crops"]) and (tags["first_report"] or tags["seed_borne"])
+        return (not tags["excluded"]) and bool(tags["crops"]) and (
+            tags["first_report"] or tags["seed_borne"])

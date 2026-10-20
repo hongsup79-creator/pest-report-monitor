@@ -38,6 +38,12 @@
     "\\bseed (?:infection|contamination)\\b"
   ],
 
+  "exclude_patterns": [
+    "^(?:corrigendum|erratum|correction|retraction|retracted)\\b",
+    "\\brice ?fish\\b",
+    "\\boryzias\\b"
+  ],
+
   "pathogen_genera": [
     "Fusarium", "Gibberella", "Pantoea", "Xanthomonas", "Pseudomonas", "Burkholderia",
     "Acidovorax", "Enterobacter", "Klebsiella", "Sphingomonas", "Clavibacter", "Erwinia",

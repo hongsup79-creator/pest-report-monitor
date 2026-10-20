@@ -28,6 +28,8 @@ EMAIL = os.environ.get("CONTACT_EMAIL", "")
 NCBI_KEY = os.environ.get("NCBI_API_KEY", "")
 UA = f"pest-report-monitor/1.0 (mailto:{EMAIL})" if EMAIL else "pest-report-monitor/1.0"
 
+STATS = {"fetched": {}, "crossref_total": {}, "errors": []}   # 실행 기록(run_stats.json)
+
 session = requests.Session()
 session.headers["User-Agent"] = UA
 
@@ -90,7 +92,10 @@ def fetch_crossref(since, until):
                     params["mailto"] = EMAIL
                 js = get_json(f"https://api.crossref.org/journals/{issn}/works", params)
                 if not js:
+                    STATS["errors"].append(f"Crossref {journal} ({issn})")
                     break
+                if cursor == "*":
+                    STATS["crossref_total"][f"{journal} ({issn})"] = js["message"].get("total-results")
                 items = js["message"].get("items", [])
                 for w in items:
                     doi = (w.get("DOI") or "").lower()
@@ -101,6 +106,7 @@ def fetch_crossref(since, until):
                 cursor = js["message"].get("next-cursor") if items else None
                 time.sleep(0.3)
         print(f"  Crossref {journal}: {len(seen)}건")
+        STATS["fetched"][journal] = len(seen)
     return out
 
 
@@ -116,6 +122,8 @@ def fetch_pubmed(since, until):
         **common, "term": CFG["pubmed_query"], "datetype": "edat",
         "mindate": since.replace("-", "/"), "maxdate": until.replace("-", "/"), "retmax": 5000,
     })
+    if not js:
+        STATS["errors"].append("PubMed esearch")
     ids = js["esearchresult"]["idlist"] if js else []
     out = []
     for i in range(0, len(ids), 200):
@@ -140,6 +148,7 @@ def fetch_pubmed(since, until):
                 "source": "pubmed",
             })
     print(f"  PubMed: {len(out)}건")
+    STATS["fetched"]["PubMed"] = len(out)
     return out
 
 
@@ -148,6 +157,7 @@ def build_item(rec, tagger):
     tags = tagger.tag(rec["title_raw"], rec["abstract"])
     if not Tagger.is_relevant(tags):
         return None
+    tags.pop("excluded")
     key = rec["doi"] or f"pmid:{rec['pmid']}"
     authors = rec["first_author"] + (" et al." if rec["n_authors"] > 1 else "")
     return {
@@ -194,6 +204,8 @@ def main():
     ap.add_argument("--since")
     ap.add_argument("--until")
     ap.add_argument("--no-pubmed", action="store_true")
+    ap.add_argument("--rebuild", action="store_true",
+                    help="기존 누적 데이터를 버리고 새로 구성(설정·태깅 규칙 변경 후 사용)")
     args = ap.parse_args()
 
     today = dt.date.today()
@@ -210,16 +222,37 @@ def main():
     candidates = [it for it in (build_item(r, tagger) for r in raw) if it]
 
     existing = []
-    if DATA_FILE.exists():
+    if DATA_FILE.exists() and not args.rebuild:
         existing = json.loads(DATA_FILE.read_text(encoding="utf-8")).get("items", [])
     items, added = merge(existing, candidates, today.isoformat())
 
+    now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     DATA_FILE.parent.mkdir(exist_ok=True)
     DATA_FILE.write_text(json.dumps({
-        "updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "count": len(items),
-        "items": items,
+        "updated": now, "count": len(items), "items": items,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # 키워드 점검용: 아깝게 빠진 제목(신규보고·종자전염이지만 대상 작물 미검출 / 대상 작물+병원체지만 보고유형 미검출)
+    kept = {it["id"] for it in candidates}
+    review = {"missing_crop": [], "missing_report_type": []}
+    for r in raw:
+        key = r["doi"] or f"pmid:{r['pmid']}"
+        if key in kept:
+            continue
+        t = tagger.tag(r["title_raw"])
+        row = {"date": r["date"], "journal": r["journal"], "title": strip_tags(r["title_raw"])}
+        if (t["first_report"] or t["seed_borne"]) and not t["crops"]:
+            review["missing_crop"].append(row)
+        elif t["crops"] and t["pathogens"] and not t["excluded"]:
+            review["missing_report_type"].append(row)
+    (DATA_FILE.parent / "review.json").write_text(
+        json.dumps(review, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    STATS.update(updated=now, period=[since, until], raw=len(raw),
+                 relevant=len(candidates), added=added, total=len(items),
+                 review_counts={k: len(v) for k, v in review.items()})
+    (DATA_FILE.parent / "run_stats.json").write_text(
+        json.dumps(STATS, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"원자료 {len(raw)}건 → 해당 {len(candidates)}건 → 신규 추가 {added}건 (누적 {len(items)}건)")
 
 

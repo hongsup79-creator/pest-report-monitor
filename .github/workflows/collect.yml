@@ -9,6 +9,10 @@ on:
         description: "수집 기간(일). 초기 수집은 365"
         default: "7"
         required: false
+      rebuild:
+        description: "기존 데이터 버리고 새로 구성 (태깅 규칙 변경 후)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -38,7 +42,9 @@ jobs:
         env:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-        run: python collect.py --days "${{ github.event.inputs.days || '7' }}"
+        run: |
+          python collect.py --days "${{ github.event.inputs.days || '7' }}" \
+            ${{ github.event.inputs.rebuild == 'true' && '--rebuild' || '' }}
 
       - name: 결과 커밋
         run: |

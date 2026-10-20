@@ -37,6 +37,17 @@ CASES = [
     ("Effects of commodity price shocks on wheat trade", "", dict(relevant=False)),
     ("First report of tomato brown rugose fruit virus in Indiana greenhouses", "",
      dict(relevant=False, countries=[])),   # Indiana ≠ India
+    # 1년치 실수집에서 발견된 오탐 유형
+    ("First Report of <i>Fusarium fujikuroi</i> Causing Wilt of Norway spruce Seedlings in Korea",
+     "F. fujikuroi is the causal agent of bakanae disease of rice.",
+     dict(relevant=False)),          # 작물은 초록이 아닌 제목으로만 판정
+    ("Renal Trichodinosis in the Japanese Rice Fish, Oryzias latipes: First Report", "",
+     dict(relevant=False)),
+    ("Corrigendum to \"Seed-borne transmission of Pantoea in rice\"", "",
+     dict(relevant=False)),
+    ("Pathogenicity of <i>Bipolaris sorokiniana</i> isolates on barley",
+     "Seed-borne inoculum was the main source.",
+     dict(relevant=True, seed_borne=True)),   # 작물은 제목, 종자전염은 초록 허용
 ]
 
 
