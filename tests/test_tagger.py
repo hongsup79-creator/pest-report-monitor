@@ -63,6 +63,12 @@ CASES = [
      dict(relevant=True, seed_borne=True)),
     ("Identification of sources of Fusarium head blight resistance in Ethiopian wheat cultivars", "",
      dict(relevant=False)),   # 국가명이 아닌 형용사(Ethiopian) → 발생보고 아님
+    ("Emergence of Southern Rice Black‐Streaked Dwarf Virus in Haryana, India", "",
+     dict(pathogens=["Southern Rice Black-Streaked Dwarf Virus"])),
+    ("Characterization of Spartina Mottle Virus Infecting Barley", "",
+     dict(pathogens=["Spartina Mottle Virus"])),
+    ("First Record of the <i>Aphelenchoides besseyi</i> Detected from Rice Seeds in Shanghai", "",
+     dict(relevant=True, countries=["China"], neighbor=True, seed_borne=True)),
     ("First Report of <i>Calonectria</i> Causing Damping-off of Soybean Seedlings in Korea", "",
      dict(relevant=False)),   # seedling ≠ seed, 대상 작물 아님
 ]

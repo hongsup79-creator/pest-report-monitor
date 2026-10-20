@@ -77,7 +77,11 @@
 
   "countries": {
     "Korea":        ["korea", "south korea", "republic of korea"],
-    "China":        ["china", "p. r. china", "pr china"],
+    "China":        ["china", "p. r. china", "pr china", "shanghai", "beijing", "tianjin", "chongqing",
+                     "heilongjiang", "jilin", "liaoning", "hebei", "henan", "shandong", "shanxi", "shaanxi",
+                     "jiangsu", "zhejiang", "anhui", "jiangxi", "fujian", "hubei", "hunan", "guangdong",
+                     "guangxi", "hainan", "sichuan", "guizhou", "yunnan", "gansu", "qinghai", "ningxia",
+                     "xinjiang", "inner mongolia"],
     "Japan":        ["japan"],
     "Taiwan":       ["taiwan"],
     "Vietnam":      ["vietnam", "viet nam"],

@@ -3,11 +3,16 @@ import html
 import re
 
 CROP_BINOMIALS = {"oryza sativa", "triticum aestivum", "triticum durum", "hordeum vulgare"}
+HYPHENS = "‐‑‒–—"
 VIRUS_RE = re.compile(
-    r"\b((?:[A-Za-z]+ ){1,5}(?:virus|viroid))\b", re.IGNORECASE)
+    r"\b((?:[A-Za-z][A-Za-z-]* ){1,6}(?:virus|viroid))\b", re.IGNORECASE)
 PHYTOPLASMA_RE = re.compile(r"\b(?:Candidatus\s+)?Phytoplasma(?:\s+[a-z]+)?\b")
+# 바이러스명은 'virus' 앞에서부터 거꾸로 읽다가 이 단어를 만나면 멈춤
 VIRUS_STOPWORDS = {"of", "the", "a", "an", "and", "by", "caused", "causing", "on", "in",
-                   "first", "report", "new", "infected", "infecting", "with", "novel"}
+                   "first", "report", "new", "infected", "infecting", "with", "novel",
+                   "characterization", "characterisation", "detection", "identification",
+                   "occurrence", "emergence", "analysis", "molecular", "record", "from",
+                   "to", "for", "as", "is", "are", "natural", "naturally", "mixed", "coinfection"}
 
 
 def strip_tags(text):
@@ -72,13 +77,17 @@ class Tagger:
                 name = genus
             if name.lower() not in CROP_BINOMIALS:
                 found.append(name)
-        for m in VIRUS_RE.finditer(text):
+        vtext = text.translate({ord(h): "-" for h in HYPHENS})
+        for m in VIRUS_RE.finditer(vtext):
             words = m.group(1).split()
-            # 앞쪽 불용어 제거: "of rice stripe virus" → "rice stripe virus"
-            while words and words[0].lower() in VIRUS_STOPWORDS:
-                words.pop(0)
-            if len(words) >= 2:
-                found.append(" ".join(words))
+            # 뒤에서부터 불용어 직전까지만 사용: "Report of Rice Stripe Virus" → "Rice Stripe Virus"
+            keep = []
+            for w in reversed(words):
+                if w.lower() in VIRUS_STOPWORDS:
+                    break
+                keep.insert(0, w)
+            if len(keep) >= 2:
+                found.append(" ".join(keep))
         for m in PHYTOPLASMA_RE.finditer(text):
             found.append(m.group(0))
         # 같은 속의 "Fusarium"과 "Fusarium luffae"가 함께 잡히면 구체적인 쪽만 유지
