@@ -93,6 +93,9 @@ CASES = [
     ("First Report of <i>Cercospora kikuchii</i> Causing Purple Seed Stain on Soybean in China", "",
      dict(relevant=True, neighbor=True, seed_borne=True)),
     ("콩 미이라병 국내 발생 보고", "", dict(relevant=True, crops=["콩"], korea=True)),
+    ("Plant architecture genes affect seed composition and seed weight in soybeans grown in the Midsouth USA", "",
+     dict(relevant=False)),          # 종자 성분 연구 ≠ 종자 병리
+    ("콩 종자 단백질 함량의 품종 간 차이", "", dict(relevant=False)),
     ("땅콩 흰비단병의 국내 첫 보고", "", dict(relevant=False)),          # 땅콩 ≠ 콩
     ("강낭콩 탄저병 신규 발생", "", dict(relevant=False)),              # 강낭콩 ≠ 콩
     ("콩나물 부패 세균의 동정", "", dict(relevant=False)),              # 콩나물 제외

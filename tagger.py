@@ -50,6 +50,7 @@ class Tagger:
         self.seed_title = [re.compile(p, re.I) for p in
                            cfg.get("seed_title_patterns", []) + cfg.get("seed_patterns_ko", [])]
         self.korea_ko = [re.compile(p) for p in cfg.get("korea_ko", [])]
+        self.seed_ctx = [re.compile(p, re.I) for p in cfg.get("seed_context_patterns", [])]
         self.occ_any = [re.compile(p, re.I) for p in cfg.get("occurrence_patterns", [])]
         self.watch = [re.compile(r"\b" + re.escape(n).replace(r"\ ", r"\s+") + r"\b", re.I)
                       for n in cfg.get("watch_pathogens", [])]
@@ -122,12 +123,16 @@ class Tagger:
         countries = self.tag_countries(t)
         first = self.is_first_report(t) or (
             bool(countries) and any(p.search(t) for p in self.occ_start + self.occ_any))
-        seed = self.is_seed(full) or any(p.search(t) for p in self.seed_title)
+        # 명시적 종자전염 표현은 그대로 인정, 제목의 단순 '종자/seed'는 병해 맥락이 있을 때만
+        pathogens = self.tag_pathogens(t)
+        seed = self.is_seed(full) or (
+            any(p.search(t) for p in self.seed_title)
+            and (bool(pathogens) or any(p.search(t) for p in self.seed_ctx)))
         return {
             "excluded": any(p.search(t) for p in self.exclude),
             "watch": any(p.search(t) for p in self.watch),
             "crops": self.tag_crops(t),
-            "pathogens": self.tag_pathogens(t),
+            "pathogens": pathogens,
             "countries": countries,
             "first_report": first,
             "seed_borne": seed,
