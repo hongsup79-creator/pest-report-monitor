@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>벼·맥류 병해충 국내외 신규보고 모니터</title>
+<title>4대 작물 병해충 국내외 신규보고 모니터</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
 :root{
@@ -113,7 +113,7 @@ footer a{color:var(--muted)}
 <body>
 <div class="wrap">
   <header>
-    <h1>벼·맥류 병해충 국내외 신규보고 모니터
+    <h1>4대 작물(벼·보리·밀·콩) 병해충 국내외 신규보고 모니터
       <small>국내외 식물병리 학술지 11종과 PubMed의 신규 발생보고·종자 관련 문헌 · 매일 자동 수집</small></h1>
     <div class="updated" id="updated">불러오는 중…</div>
   </header>
@@ -157,7 +157,7 @@ footer a{color:var(--muted)}
   </div>
 
   <footer>
-    수집 기준: 제목(한글·영문)에 대상 작물(벼·밀·보리) 또는 관심 병원체(키다리병균, <i>Pantoea</i>, <i>B. glumae</i>, 벼잎선충 등)가 있고,
+    수집 기준: 제목(한글·영문)에 4대 작물(벼·보리·밀·콩) 또는 관심 병원체(키다리병균, <i>Pantoea</i>, <i>B. glumae</i>, 벼잎선충, 콩 자주무늬병균 등)가 있고,
     신규·발생보고이거나 종자 관련인 문헌. 국내 학술지: 식물병연구, The Plant Pathology Journal, Mycobiology.
     제목·서지정보만 표시하며 원문은 DOI 링크로 연결됩니다. 자동 분류이므로 최종 판단은 원문을 확인하세요.
     개인 연구 목적의 시범 운영 사이트입니다.
@@ -312,7 +312,7 @@ fetch("data/items.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
   $("updated").innerHTML = `최근 갱신 ${up.toLocaleString("ko-KR", {dateStyle: "medium", timeStyle: "short"})}<br>누적 ${ITEMS.length}건`;
 
   const crops = [...new Set(ITEMS.flatMap(i => i.crops))];
-  chips($("f-crop"), ["벼", "밀", "보리"].filter(c => crops.includes(c)).map(c => [c, c]), S.crop);
+  chips($("f-crop"), ["벼", "보리", "밀", "콩"].filter(c => crops.includes(c)).map(c => [c, c]), S.crop);
   chips($("f-type"), [["fr", "신규·발생보고"], ["seed", "종자 관련"], ["watch", "관심 병원체"]], S.type);
   chips($("f-region"), [["kr", "국내"], ["nb", "인접국"], ["krnb", "국내+인접국"]], null, "region");
   chips($("f-src"), [["dom", "국내 학술지"], ["intl", "해외 학술지"]], null, "src");

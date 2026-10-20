@@ -36,7 +36,7 @@ CASES = [
      dict(relevant=False)),          # 대상 작물 아님
     ("Effects of commodity price shocks on wheat trade", "", dict(relevant=False)),
     ("First report of tomato brown rugose fruit virus in Indiana greenhouses", "",
-     dict(relevant=False, countries=[])),   # Indiana ≠ India
+     dict(relevant=False, countries=["USA"])),   # Indiana는 미국 주(인도 아님)
     # 1년치 실수집에서 발견된 오탐 유형
     ("First Report of <i>Fusarium fujikuroi</i> Causing Wilt of Norway spruce Seedlings in Korea",
      "F. fujikuroi is the causal agent of bakanae disease of rice.",
@@ -85,8 +85,20 @@ CASES = [
     ("보리수나무 탄저병의 국내 첫 보고", "", dict(relevant=False)),      # 보리수 ≠ 보리
     ("밀도 의존적 해충 발생 모델", "", dict(relevant=False)),            # 밀도 ≠ 밀
     ("중국산 벼 종자의 세균 오염 실태", "", dict(relevant=True, countries=["Korea"])),
+    # 콩
+    ("First Report of <i>Diaporthe longicolla</i> Causing Seed Decay of Soybean in Korea", "",
+     dict(relevant=True, crops=["콩"], seed_borne=True, korea=True, watch=True)),
+    ("First Report of Red Crown Rot of Soybean (<i>Glycine max</i>) Caused by <i>Calonectria ilicicola</i> in Wisconsin", "",
+     dict(relevant=True, crops=["콩"], countries=["USA"], pathogens=["Calonectria ilicicola"])),
+    ("First Report of <i>Cercospora kikuchii</i> Causing Purple Seed Stain on Soybean in China", "",
+     dict(relevant=True, neighbor=True, seed_borne=True)),
+    ("콩 미이라병 국내 발생 보고", "", dict(relevant=True, crops=["콩"], korea=True)),
+    ("땅콩 흰비단병의 국내 첫 보고", "", dict(relevant=False)),          # 땅콩 ≠ 콩
+    ("강낭콩 탄저병 신규 발생", "", dict(relevant=False)),              # 강낭콩 ≠ 콩
+    ("콩나물 부패 세균의 동정", "", dict(relevant=False)),              # 콩나물 제외
+    ("First Report of Leaf Spot on Peanut in China", "", dict(relevant=False)),
     ("First Report of <i>Calonectria</i> Causing Damping-off of Soybean Seedlings in Korea", "",
-     dict(relevant=False)),   # seedling ≠ seed, 대상 작물 아님
+     dict(relevant=True, crops=["콩"], seed_borne=False)),   # seedling ≠ seed (콩은 대상 작물)
 ]
 
 

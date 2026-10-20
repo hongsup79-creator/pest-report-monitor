@@ -1,44 +1,138 @@
 {
   "_note": "모니터링 범위 설정 파일. 작물·저널·키워드를 여기서 추가/수정하면 수집 범위가 바뀝니다.",
-
   "crops": {
-    "벼":   ["rice", "oryza sativa", "oryza", "paddy"],
-    "밀":   ["wheat", "triticum aestivum", "triticum", "durum"],
-    "보리": ["barley", "hordeum vulgare", "hordeum"]
+    "벼": [
+      "rice",
+      "oryza sativa",
+      "oryza",
+      "paddy"
+    ],
+    "밀": [
+      "wheat",
+      "triticum aestivum",
+      "triticum",
+      "durum"
+    ],
+    "보리": [
+      "barley",
+      "hordeum vulgare",
+      "hordeum"
+    ],
+    "콩": [
+      "soybean",
+      "soybeans",
+      "soya",
+      "soy bean",
+      "glycine max"
+    ]
   },
-
   "crossref_journals": {
-    "Plant Disease":                   ["0191-2917", "1943-7692"],
-    "New Disease Reports":             ["2044-0588"],
-    "Plant Pathology":                 ["0032-0862", "1365-3059"],
-    "Journal of Plant Pathology":      ["1125-4718", "2239-7264"],
-    "European Journal of Plant Pathology": ["0929-1873", "1573-8469"],
-    "Journal of Phytopathology":       ["0931-1785", "1439-0434"],
-    "Australasian Plant Disease Notes": ["1833-928X"],
-    "The Plant Pathology Journal":     ["1598-2254", "2093-9280"],
-    "Plant Health Progress":           ["1535-1025"],
-    "식물병연구":                      ["1598-2262", "2233-9191"],
-    "Mycobiology":                     ["1229-8093", "2092-9323"]
+    "Plant Disease": [
+      "0191-2917",
+      "1943-7692"
+    ],
+    "New Disease Reports": [
+      "2044-0588"
+    ],
+    "Plant Pathology": [
+      "0032-0862",
+      "1365-3059"
+    ],
+    "Journal of Plant Pathology": [
+      "1125-4718",
+      "2239-7264"
+    ],
+    "European Journal of Plant Pathology": [
+      "0929-1873",
+      "1573-8469"
+    ],
+    "Journal of Phytopathology": [
+      "0931-1785",
+      "1439-0434"
+    ],
+    "Australasian Plant Disease Notes": [
+      "1833-928X"
+    ],
+    "The Plant Pathology Journal": [
+      "1598-2254",
+      "2093-9280"
+    ],
+    "Plant Health Progress": [
+      "1535-1025"
+    ],
+    "식물병연구": [
+      "1598-2262",
+      "2233-9191"
+    ],
+    "Mycobiology": [
+      "1229-8093",
+      "2092-9323"
+    ]
   },
-
   "_note_domestic": "국내 학회지. 이 저널에서 나온 문헌은 '국내 학술지'로 표시됩니다.",
-  "domestic_journals": ["The Plant Pathology Journal", "식물병연구", "Mycobiology"],
-
+  "domestic_journals": [
+    "The Plant Pathology Journal",
+    "식물병연구",
+    "Mycobiology"
+  ],
   "_note_watch": "관심 병원체: 제목에 작물명이 없어도 신규·발생보고나 종자 관련이면 수집 (기주 범위 확대 감시용). 기주가 매우 넓은 F. proliferatum·F. verticillioides·B. gladioli는 잡음이 많아 제외",
   "watch_pathogens": [
-    "Fusarium fujikuroi", "Fusarium andiyazi", "Fusarium luffae",
-    "Gibberella fujikuroi", "Pantoea ananatis", "Pantoea dispersa", "Burkholderia glumae", "Aphelenchoides besseyi", "Xanthomonas oryzae", "Pyricularia oryzae", "Magnaporthe oryzae", "Bipolaris oryzae",
-    "Ustilaginoidea virens", "Tilletia indica", "Xanthomonas translucens"
+    "Fusarium fujikuroi",
+    "Fusarium andiyazi",
+    "Fusarium luffae",
+    "Gibberella fujikuroi",
+    "Pantoea ananatis",
+    "Pantoea dispersa",
+    "Burkholderia glumae",
+    "Aphelenchoides besseyi",
+    "Xanthomonas oryzae",
+    "Pyricularia oryzae",
+    "Magnaporthe oryzae",
+    "Bipolaris oryzae",
+    "Ustilaginoidea virens",
+    "Tilletia indica",
+    "Xanthomonas translucens",
+    "Cercospora kikuchii",
+    "Diaporthe longicolla",
+    "Phomopsis longicolla",
+    "Peronospora manshurica",
+    "Xanthomonas citri pv. glycines",
+    "Xanthomonas axonopodis pv. glycines",
+    "Pseudomonas savastanoi pv. glycinea",
+    "Soybean mosaic virus",
+    "Heterodera glycines",
+    "Phakopsora pachyrhizi"
   ],
-
   "_note_occ_any": "제목 어디에 있어도 국가가 함께 명시되면 발생보고로 판정",
-  "occurrence_patterns": ["\\bspecies (?:complex )?associated with\\b", "\\bnew records?\\b"],
-
+  "occurrence_patterns": [
+    "\\bspecies (?:complex )?associated with\\b",
+    "\\bnew records?\\b"
+  ],
   "_note_ko": "한글 제목용 정규식. 한글은 단어 경계(\\b)가 통하지 않아 앞뒤 글자를 직접 지정합니다.",
   "crops_ko": {
-    "벼":   ["벼(?!룩|락)", "논벼", "수도작"],
-    "밀":   ["(?<![가-힣])밀(?=[\\s에의을이과와은는·,)]|$)", "소맥", "맥류"],
-    "보리": ["보리(?!수)", "맥류", "대맥"]
+    "벼": [
+      "벼(?!룩|락)",
+      "논벼",
+      "수도작"
+    ],
+    "밀": [
+      "(?<![가-힣])밀(?=[\\s에의을이과와은는·,)]|$)",
+      "소맥",
+      "맥류"
+    ],
+    "보리": [
+      "보리(?!수)",
+      "맥류",
+      "대맥"
+    ],
+    "콩": [
+      "(?<![가-힣])콩(?!나물)",
+      "대두",
+      "검정콩",
+      "서리태",
+      "풋콩",
+      "나물콩"
+    ]
   },
   "first_report_patterns_ko": [
     "(?:최초|첫|처음)\\s?(?:보고|발생|기록|검출)",
@@ -48,11 +142,15 @@
     "발생\\s?보고",
     "(?:병|해충)\\s?발생$"
   ],
-  "seed_patterns_ko": ["종자"],
-  "korea_ko": ["국내", "한국", "우리나라"],
-
-  "pubmed_query": "(rice[tiab] OR Oryza[tiab] OR wheat[tiab] OR Triticum[tiab] OR barley[tiab] OR Hordeum[tiab]) AND (\"first report\"[tiab] OR \"new disease\"[tiab] OR \"seed-borne\"[tiab] OR seedborne[tiab] OR \"seed transmission\"[tiab] OR \"seed-transmitted\"[tiab])",
-
+  "seed_patterns_ko": [
+    "종자"
+  ],
+  "korea_ko": [
+    "국내",
+    "한국",
+    "우리나라"
+  ],
+  "pubmed_query": "(rice[tiab] OR Oryza[tiab] OR wheat[tiab] OR Triticum[tiab] OR barley[tiab] OR Hordeum[tiab] OR soybean[tiab] OR \"Glycine max\"[tiab]) AND (\"first report\"[tiab] OR \"new disease\"[tiab] OR \"seed-borne\"[tiab] OR seedborne[tiab] OR \"seed transmission\"[tiab] OR \"seed-transmitted\"[tiab])",
   "first_report_patterns": [
     "\\bfirst reports?\\b",
     "\\bfirst (?:record|detection|occurrence|identification)\\b",
@@ -64,18 +162,15 @@
     "\\bemergence of\\b",
     "^report on\\b"
   ],
-
   "_note_occurrence": "제목이 아래 표현으로 시작하고 국가가 명시되면 발생보고로 판정 (예: Molecular Detection of ... in Ecuador)",
   "occurrence_start_patterns": [
     "^(?:molecular |first )?(?:detection|identification|occurrence|characteri[sz]ation)\\b"
   ],
-
   "_note_seed_title": "제목에만 적용하는 종자 표현 (초록에 적용하면 범위가 지나치게 넓어짐)",
   "seed_title_patterns": [
     "\\bseeds?\\b",
     "\\bseed treatments?\\b"
   ],
-
   "seed_patterns": [
     "\\bseed[- ]?borne\\b",
     "\\bseed[- ]?transmi",
@@ -84,91 +179,338 @@
     "\\bseed health\\b",
     "\\bseed (?:infection|contamination)\\b"
   ],
-
   "exclude_patterns": [
     "^(?:corrigendum|erratum|correction|retraction|retracted)\\b",
     "\\brice ?fish\\b",
     "\\boryzias\\b"
   ],
-
   "pathogen_genera": [
-    "Fusarium", "Gibberella", "Pantoea", "Xanthomonas", "Pseudomonas", "Burkholderia",
-    "Acidovorax", "Enterobacter", "Klebsiella", "Sphingomonas", "Clavibacter", "Erwinia",
-    "Dickeya", "Pectobacterium", "Magnaporthe", "Pyricularia", "Bipolaris", "Cochliobolus",
-    "Curvularia", "Alternaria", "Ustilaginoidea", "Villosiclava", "Sarocladium", "Rhizoctonia",
-    "Waitea", "Microdochium", "Monographella", "Tilletia", "Ustilago", "Pyrenophora",
-    "Drechslera", "Exserohilum", "Zymoseptoria", "Septoria", "Parastagonospora", "Puccinia",
-    "Blumeria", "Gaeumannomyces", "Epicoccum", "Nigrospora", "Phoma", "Didymella",
-    "Colletotrichum", "Cladosporium", "Penicillium", "Aspergillus", "Pythium", "Globisporangium",
-    "Phytophthora", "Sclerotium", "Athelia", "Pestalotiopsis", "Neopestalotiopsis", "Diaporthe",
-    "Lasiodiplodia", "Aphelenchoides", "Meloidogyne", "Ditylenchus", "Heterodera", "Pratylenchus",
-    "Claviceps", "Ramularia", "Oculimacula", "Stagonospora", "Neoscytalidium"
+    "Fusarium",
+    "Gibberella",
+    "Pantoea",
+    "Xanthomonas",
+    "Pseudomonas",
+    "Burkholderia",
+    "Acidovorax",
+    "Enterobacter",
+    "Klebsiella",
+    "Sphingomonas",
+    "Clavibacter",
+    "Erwinia",
+    "Dickeya",
+    "Pectobacterium",
+    "Magnaporthe",
+    "Pyricularia",
+    "Bipolaris",
+    "Cochliobolus",
+    "Curvularia",
+    "Alternaria",
+    "Ustilaginoidea",
+    "Villosiclava",
+    "Sarocladium",
+    "Rhizoctonia",
+    "Waitea",
+    "Microdochium",
+    "Monographella",
+    "Tilletia",
+    "Ustilago",
+    "Pyrenophora",
+    "Drechslera",
+    "Exserohilum",
+    "Zymoseptoria",
+    "Septoria",
+    "Parastagonospora",
+    "Puccinia",
+    "Blumeria",
+    "Gaeumannomyces",
+    "Epicoccum",
+    "Nigrospora",
+    "Phoma",
+    "Didymella",
+    "Colletotrichum",
+    "Cladosporium",
+    "Penicillium",
+    "Aspergillus",
+    "Pythium",
+    "Globisporangium",
+    "Phytophthora",
+    "Sclerotium",
+    "Athelia",
+    "Pestalotiopsis",
+    "Neopestalotiopsis",
+    "Diaporthe",
+    "Lasiodiplodia",
+    "Aphelenchoides",
+    "Meloidogyne",
+    "Ditylenchus",
+    "Heterodera",
+    "Pratylenchus",
+    "Claviceps",
+    "Ramularia",
+    "Oculimacula",
+    "Stagonospora",
+    "Neoscytalidium",
+    "Cercospora",
+    "Phomopsis",
+    "Peronospora",
+    "Phakopsora",
+    "Macrophomina",
+    "Sclerotinia",
+    "Corynespora",
+    "Cadophora",
+    "Phialophora",
+    "Calonectria",
+    "Curtobacterium"
   ],
-
-  "neighbor_countries": ["China", "Japan", "Taiwan"],
-
+  "neighbor_countries": [
+    "China",
+    "Japan",
+    "Taiwan"
+  ],
   "countries": {
-    "Korea":        ["korea", "south korea", "republic of korea"],
-    "China":        ["china", "p. r. china", "pr china", "shanghai", "beijing", "tianjin", "chongqing",
-                     "heilongjiang", "jilin", "liaoning", "hebei", "henan", "shandong", "shanxi", "shaanxi",
-                     "jiangsu", "zhejiang", "anhui", "jiangxi", "fujian", "hubei", "hunan", "guangdong",
-                     "guangxi", "hainan", "sichuan", "guizhou", "yunnan", "gansu", "qinghai", "ningxia",
-                     "xinjiang", "inner mongolia"],
-    "Japan":        ["japan"],
-    "Taiwan":       ["taiwan"],
-    "Vietnam":      ["vietnam", "viet nam"],
-    "Thailand":     ["thailand"],
-    "Philippines":  ["philippines"],
-    "Indonesia":    ["indonesia"],
-    "Malaysia":     ["malaysia"],
-    "Myanmar":      ["myanmar"],
-    "Cambodia":     ["cambodia"],
-    "Laos":         ["laos", "lao pdr"],
-    "India":        ["india"],
-    "Bangladesh":   ["bangladesh"],
-    "Pakistan":     ["pakistan"],
-    "Nepal":        ["nepal"],
-    "Sri Lanka":    ["sri lanka"],
-    "Iran":         ["iran"],
-    "Iraq":         ["iraq"],
-    "Turkey":       ["turkey", "türkiye", "turkiye"],
-    "Saudi Arabia": ["saudi arabia"],
-    "Israel":       ["israel"],
-    "Kazakhstan":   ["kazakhstan"],
-    "Uzbekistan":   ["uzbekistan"],
-    "Russia":       ["russia"],
-    "Ukraine":      ["ukraine"],
-    "Egypt":        ["egypt"],
-    "Morocco":      ["morocco"],
-    "Tunisia":      ["tunisia"],
-    "Algeria":      ["algeria"],
-    "Ethiopia":     ["ethiopia"],
-    "Kenya":        ["kenya"],
-    "Tanzania":     ["tanzania"],
-    "Uganda":       ["uganda"],
-    "Nigeria":      ["nigeria"],
-    "South Africa": ["south africa"],
-    "Italy":        ["italy"],
-    "Spain":        ["spain"],
-    "Portugal":     ["portugal"],
-    "France":       ["france"],
-    "Germany":      ["germany"],
-    "United Kingdom": ["united kingdom", "england", "scotland", "u.k."],
-    "Greece":       ["greece"],
-    "Poland":       ["poland"],
-    "Hungary":      ["hungary"],
-    "Serbia":       ["serbia"],
-    "USA":          ["united states", "u.s.a", "usa", "arkansas", "louisiana", "california", "texas", "mississippi", "missouri", "kansas", "north dakota", "montana", "oklahoma", "idaho"],
-    "Canada":       ["canada"],
-    "Mexico":       ["mexico"],
-    "Brazil":       ["brazil"],
-    "Argentina":    ["argentina"],
-    "Uruguay":      ["uruguay"],
-    "Colombia":     ["colombia"],
-    "Peru":         ["peru"],
-    "Chile":        ["chile"],
-    "Ecuador":      ["ecuador"],
-    "Australia":    ["australia"],
-    "New Zealand":  ["new zealand"]
+    "Korea": [
+      "korea",
+      "south korea",
+      "republic of korea"
+    ],
+    "China": [
+      "china",
+      "p. r. china",
+      "pr china",
+      "shanghai",
+      "beijing",
+      "tianjin",
+      "chongqing",
+      "heilongjiang",
+      "jilin",
+      "liaoning",
+      "hebei",
+      "henan",
+      "shandong",
+      "shanxi",
+      "shaanxi",
+      "jiangsu",
+      "zhejiang",
+      "anhui",
+      "jiangxi",
+      "fujian",
+      "hubei",
+      "hunan",
+      "guangdong",
+      "guangxi",
+      "hainan",
+      "sichuan",
+      "guizhou",
+      "yunnan",
+      "gansu",
+      "qinghai",
+      "ningxia",
+      "xinjiang",
+      "inner mongolia"
+    ],
+    "Japan": [
+      "japan"
+    ],
+    "Taiwan": [
+      "taiwan"
+    ],
+    "Vietnam": [
+      "vietnam",
+      "viet nam"
+    ],
+    "Thailand": [
+      "thailand"
+    ],
+    "Philippines": [
+      "philippines"
+    ],
+    "Indonesia": [
+      "indonesia"
+    ],
+    "Malaysia": [
+      "malaysia"
+    ],
+    "Myanmar": [
+      "myanmar"
+    ],
+    "Cambodia": [
+      "cambodia"
+    ],
+    "Laos": [
+      "laos",
+      "lao pdr"
+    ],
+    "India": [
+      "india"
+    ],
+    "Bangladesh": [
+      "bangladesh"
+    ],
+    "Pakistan": [
+      "pakistan"
+    ],
+    "Nepal": [
+      "nepal"
+    ],
+    "Sri Lanka": [
+      "sri lanka"
+    ],
+    "Iran": [
+      "iran"
+    ],
+    "Iraq": [
+      "iraq"
+    ],
+    "Turkey": [
+      "turkey",
+      "türkiye",
+      "turkiye"
+    ],
+    "Saudi Arabia": [
+      "saudi arabia"
+    ],
+    "Israel": [
+      "israel"
+    ],
+    "Kazakhstan": [
+      "kazakhstan"
+    ],
+    "Uzbekistan": [
+      "uzbekistan"
+    ],
+    "Russia": [
+      "russia"
+    ],
+    "Ukraine": [
+      "ukraine"
+    ],
+    "Egypt": [
+      "egypt"
+    ],
+    "Morocco": [
+      "morocco"
+    ],
+    "Tunisia": [
+      "tunisia"
+    ],
+    "Algeria": [
+      "algeria"
+    ],
+    "Ethiopia": [
+      "ethiopia"
+    ],
+    "Kenya": [
+      "kenya"
+    ],
+    "Tanzania": [
+      "tanzania"
+    ],
+    "Uganda": [
+      "uganda"
+    ],
+    "Nigeria": [
+      "nigeria"
+    ],
+    "South Africa": [
+      "south africa"
+    ],
+    "Italy": [
+      "italy"
+    ],
+    "Spain": [
+      "spain"
+    ],
+    "Portugal": [
+      "portugal"
+    ],
+    "France": [
+      "france"
+    ],
+    "Germany": [
+      "germany"
+    ],
+    "United Kingdom": [
+      "united kingdom",
+      "england",
+      "scotland",
+      "u.k."
+    ],
+    "Greece": [
+      "greece"
+    ],
+    "Poland": [
+      "poland"
+    ],
+    "Hungary": [
+      "hungary"
+    ],
+    "Serbia": [
+      "serbia"
+    ],
+    "USA": [
+      "united states",
+      "u.s.a",
+      "usa",
+      "arkansas",
+      "louisiana",
+      "california",
+      "texas",
+      "mississippi",
+      "missouri",
+      "kansas",
+      "north dakota",
+      "montana",
+      "oklahoma",
+      "idaho",
+      "wisconsin",
+      "minnesota",
+      "iowa",
+      "illinois",
+      "indiana",
+      "ohio",
+      "nebraska",
+      "michigan",
+      "south dakota",
+      "tennessee",
+      "kentucky",
+      "north carolina",
+      "virginia",
+      "maryland",
+      "delaware",
+      "alabama"
+    ],
+    "Canada": [
+      "canada"
+    ],
+    "Mexico": [
+      "mexico"
+    ],
+    "Brazil": [
+      "brazil"
+    ],
+    "Argentina": [
+      "argentina"
+    ],
+    "Uruguay": [
+      "uruguay"
+    ],
+    "Colombia": [
+      "colombia"
+    ],
+    "Peru": [
+      "peru"
+    ],
+    "Chile": [
+      "chile"
+    ],
+    "Ecuador": [
+      "ecuador"
+    ],
+    "Australia": [
+      "australia"
+    ],
+    "New Zealand": [
+      "new zealand"
+    ]
   }
 }
