@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>병해충 신규보고 모니터</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+:root{
+  --bg:#f6f7f4; --panel:#ffffff; --ink:#1d2a1f; --muted:#5f6d62; --line:#e2e6df;
+  --accent:#2f6b3a; --accent-soft:#e6f0e6; --warn:#b54708; --warn-soft:#fdf0e6;
+  --kr:#b42318; --kr-soft:#fdecea; --seed:#7a5a12; --seed-soft:#f8f0dc;
+  --bar:#5d8f66; --shadow:0 1px 2px rgba(20,40,25,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#111612; --panel:#192019; --ink:#e3ebe4; --muted:#9aa89d; --line:#2b352d;
+    --accent:#86c294; --accent-soft:#213325; --warn:#f3a467; --warn-soft:#3a2615;
+    --kr:#f19a90; --kr-soft:#3d1c19; --seed:#e2c37a; --seed-soft:#352c16;
+    --bar:#6fa87a; --shadow:none;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 16px 60px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:8px 24px;
+  border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:20px}
+h1{font-size:24px;margin:0;letter-spacing:-.02em}
+h1 small{display:block;font-size:13px;font-weight:500;color:var(--muted);letter-spacing:0;margin-top:4px}
+.updated{font-size:13px;color:var(--muted);text-align:right}
+
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:18px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;box-shadow:var(--shadow);
+  cursor:pointer;transition:border-color .15s}
+.kpi:hover{border-color:var(--accent)}
+.kpi .n{font-size:26px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi .l{font-size:12.5px;color:var(--muted)}
+.kpi.kr .n{color:var(--kr)} .kpi.nb .n{color:var(--warn)}
+
+.layout{display:grid;grid-template-columns:270px 1fr;gap:18px;align-items:start}
+aside{position:sticky;top:12px;display:flex;flex-direction:column;gap:14px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;box-shadow:var(--shadow)}
+.box h3{font-size:12.5px;font-weight:600;color:var(--muted);margin:0 0 8px;letter-spacing:.02em}
+input[type=search],select{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:7px;
+  background:var(--bg);color:var(--ink);font:inherit;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:4px 11px;
+  font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+.reset{margin-top:2px;background:none;border:0;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0;text-align:left}
+
+.charts{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin-bottom:14px}
+.chart svg{width:100%;height:auto;display:block}
+.chart text{fill:var(--muted);font-size:11px;font-family:inherit}
+.chart .bar{fill:var(--bar)} .chart .bar:hover{fill:var(--accent)}
+.chart .val{fill:var(--ink);font-weight:600}
+
+.listhead{display:flex;justify-content:space-between;align-items:center;margin:4px 2px 8px;font-size:13.5px;color:var(--muted)}
+.listhead b{color:var(--ink)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:13px 15px;margin-bottom:9px;
+  box-shadow:var(--shadow);display:block;color:inherit;text-decoration:none;transition:border-color .15s}
+.card:hover{border-color:var(--accent)}
+.card.kr{border-left:4px solid var(--kr)} .card.nb{border-left:4px solid var(--warn)}
+.meta{font-size:12.5px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px}
+.meta .j{font-weight:600;color:var(--ink)}
+.title{font-size:15.5px;font-weight:600;margin:3px 0 7px;line-height:1.45}
+.title i{font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:12px;border-radius:5px;padding:1px 7px;background:var(--accent-soft);color:var(--accent)}
+.tag.fr{background:var(--accent);color:var(--panel)}
+.tag.seed{background:var(--seed-soft);color:var(--seed)}
+.tag.ctry{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.tag.kr{background:var(--kr-soft);color:var(--kr);font-weight:600}
+.tag.nb{background:var(--warn-soft);color:var(--warn);font-weight:600}
+.tag.new{background:var(--kr);color:#fff;font-weight:700}
+.tag.path{background:transparent;color:var(--ink);font-style:italic;padding-left:0}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+.more{display:block;margin:12px auto;padding:9px 22px;border:1px solid var(--line);background:var(--panel);
+  color:var(--ink);border-radius:8px;font:inherit;cursor:pointer}
+footer{margin-top:30px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+footer a{color:var(--muted)}
+
+.filters summary{list-style:none;display:none;cursor:pointer;font-weight:600}
+.filters summary::-webkit-details-marker{display:none}
+.filters summary::after{content:"▾";float:right;color:var(--muted)}
+.filters[open] summary::after{content:"▴"}
+#fcount{color:var(--accent);font-weight:700}
+.fbody{display:flex;flex-direction:column;gap:14px}
+
+@media (max-width:900px){
+  .kpis{grid-template-columns:repeat(3,1fr)}
+  .layout{grid-template-columns:1fr}
+  aside{position:static;gap:10px}
+  .filters summary{display:block}
+  .filters[open] .fbody{margin-top:10px}
+  .charts{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .kpis{grid-template-columns:repeat(2,1fr);gap:8px}
+  .kpi{padding:9px 12px} .kpi .n{font-size:22px}
+  .kpi:last-child{grid-column:span 2}
+  h1{font-size:20px}
+  .updated{text-align:left}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>병해충 신규보고 모니터
+      <small>벼·맥류 해외 신규 발생보고 및 종자전염 관련 문헌 · Crossref·PubMed 매일 자동 수집</small></h1>
+    <div class="updated" id="updated">불러오는 중…</div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <div class="layout">
+    <aside>
+      <div class="box">
+        <h3>검색</h3>
+        <input type="search" id="q" placeholder="병원체, 제목, 저널…">
+      </div>
+      <details id="filters" class="filters">
+      <summary class="box">필터 <span id="fcount"></span></summary>
+      <div class="fbody">
+      <div class="box"><h3>작물</h3><div class="chips" id="f-crop"></div></div>
+      <div class="box"><h3>구분</h3><div class="chips" id="f-type"></div></div>
+      <div class="box"><h3>지역</h3><div class="chips" id="f-region"></div></div>
+      <div class="box"><h3>국가</h3><select id="f-country"></select></div>
+      <div class="box"><h3>병원체 속</h3><select id="f-genus"></select></div>
+      <div class="box"><h3>기간</h3><select id="f-period">
+        <option value="0">전체</option><option value="30">최근 30일</option>
+        <option value="90">최근 3개월</option><option value="180">최근 6개월</option></select>
+        <button class="reset" id="reset" style="margin-top:12px">필터 초기화</button>
+      </div>
+      </div>
+      </details>
+    </aside>
+
+    <main>
+      <div class="charts">
+        <div class="box chart"><h3>월별 보고 건수</h3><div id="c-month"></div></div>
+        <div class="box chart"><h3>국가별 상위 8개</h3><div id="c-country"></div></div>
+      </div>
+      <div class="listhead"><span><b id="cnt">0</b>건</span>
+        <select id="sort" style="width:auto"><option value="date">최신순</option><option value="kr">국내·인접국 우선</option></select></div>
+      <div id="list"></div>
+      <button class="more" id="more" hidden>더 보기</button>
+    </main>
+  </div>
+
+  <footer>
+    수집 기준: 제목에 대상 작물(벼·밀·보리)이 있고, 신규·발생보고이거나 종자 관련인 문헌.
+    제목·서지정보만 표시하며 원문은 DOI 링크로 연결됩니다. 자동 분류이므로 최종 판단은 원문을 확인하세요.
+    · <a href="https://github.com/hongsup79-creator/pest-report-monitor">저장소</a>
+  </footer>
+</div>
+
+<script>
+const S = {crop:new Set(), type:new Set(), region:"all", country:"", genus:"", period:0, q:"", sort:"date", shown:40};
+let ITEMS = [];
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const KO = {Korea:"한국",China:"중국",Japan:"일본",Taiwan:"대만",India:"인도",USA:"미국",Ukraine:"우크라이나",
+  Ethiopia:"에티오피아",Philippines:"필리핀",Malaysia:"말레이시아",Turkey:"튀르키예",Vietnam:"베트남",
+  Thailand:"태국",Indonesia:"인도네시아",Bangladesh:"방글라데시",Pakistan:"파키스탄","United Kingdom":"영국",
+  France:"프랑스",Germany:"독일",Italy:"이탈리아",Spain:"스페인",Ecuador:"에콰도르",Brazil:"브라질",
+  Argentina:"아르헨티나",Canada:"캐나다",Australia:"호주",Iran:"이란",Egypt:"이집트",Russia:"러시아",
+  Uzbekistan:"우즈베키스탄",Kazakhstan:"카자흐스탄",Mexico:"멕시코",Nepal:"네팔"};
+const ko = c => KO[c] || c;
+const daysAgo = d => d ? (Date.now() - new Date(d + "T00:00:00")) / 864e5 : 1e9;
+const genusOf = p => /virus|viroid/i.test(p) ? "바이러스" : /phytoplasma/i.test(p) ? "파이토플라스마" : p.split(" ")[0];
+
+function chips(el, opts, set, single) {
+  el.innerHTML = opts.map(([v, l]) => `<button class="chip" data-v="${esc(v)}" aria-pressed="false">${esc(l)}</button>`).join("");
+  el.onclick = e => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    const v = b.dataset.v;
+    if (single) { S.region = S.region === v ? "all" : v; }
+    else { set.has(v) ? set.delete(v) : set.add(v); }
+    syncChips(); S.shown = 40; render();
+  };
+}
+function syncChips() {
+  document.querySelectorAll("#f-crop .chip").forEach(b => b.setAttribute("aria-pressed", S.crop.has(b.dataset.v)));
+  document.querySelectorAll("#f-type .chip").forEach(b => b.setAttribute("aria-pressed", S.type.has(b.dataset.v)));
+  document.querySelectorAll("#f-region .chip").forEach(b => b.setAttribute("aria-pressed", S.region === b.dataset.v));
+}
+
+function pass(it) {
+  if (S.crop.size && !it.crops.some(c => S.crop.has(c))) return false;
+  if (S.type.has("fr") && !it.first_report) return false;
+  if (S.type.has("seed") && !it.seed_borne) return false;
+  if (S.region === "kr" && !it.korea) return false;
+  if (S.region === "nb" && !it.neighbor) return false;
+  if (S.region === "krnb" && !(it.korea || it.neighbor)) return false;
+  if (S.country && !it.countries.includes(S.country)) return false;
+  if (S.genus && !it.pathogens.some(p => genusOf(p) === S.genus)) return false;
+  if (S.period && daysAgo(it.date) > S.period) return false;
+  if (S.q) {
+    const hay = (it.title + " " + it.journal + " " + it.pathogens.join(" ") + " " +
+      it.countries.map(c => c + " " + ko(c)).join(" ") + " " + it.crops.join(" ")).toLowerCase();
+    if (!S.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function card(it) {
+  const cls = it.korea ? "kr" : it.neighbor ? "nb" : "";
+  const t = [];
+  if (daysAgo(it.date) <= 14) t.push(`<span class="tag new">NEW</span>`);
+  if (it.korea) t.push(`<span class="tag kr">국내</span>`); else if (it.neighbor) t.push(`<span class="tag nb">인접국</span>`);
+  if (it.first_report) t.push(`<span class="tag fr">신규·발생보고</span>`);
+  if (it.seed_borne) t.push(`<span class="tag seed">종자</span>`);
+  it.crops.forEach(c => t.push(`<span class="tag">${esc(c)}</span>`));
+  it.countries.forEach(c => t.push(`<span class="tag ctry">${esc(ko(c))}</span>`));
+  it.pathogens.forEach(p => t.push(`<span class="tag path">${esc(p)}</span>`));
+  // title_html은 수집 단계에서 <i> 외 태그를 제거한 값
+  return `<a class="card ${cls}" href="${esc(it.url)}" target="_blank" rel="noopener">
+    <div class="meta"><span>${esc(it.date || "")}</span><span class="j">${esc(it.journal)}</span><span>${esc(it.authors)}</span></div>
+    <div class="title">${it.title_html || esc(it.title)}</div>
+    <div class="tags">${t.join("")}</div></a>`;
+}
+
+function barsMonth(rows) {
+  // 최근 12개월 고정 축
+  const now = new Date(), keys = [];
+  for (let i = 11; i >= 0; i--) { const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    keys.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`); }
+  const cnt = Object.fromEntries(keys.map(k => [k, 0]));
+  rows.forEach(r => { const k = (r.date || "").slice(0, 7); if (k in cnt) cnt[k]++; });
+  const W = 520, H = 170, pad = 22, bw = (W - pad) / 12, max = Math.max(1, ...Object.values(cnt));
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="월별 보고 건수">${keys.map((k, i) => {
+    const h = cnt[k] / max * (H - 48), x = pad + i * bw + 3, y = H - 22 - h;
+    return `<rect class="bar" x="${x}" y="${y}" width="${bw - 6}" height="${h}" rx="3"><title>${k}: ${cnt[k]}건</title></rect>
+      ${cnt[k] ? `<text class="val" x="${x + (bw - 6) / 2}" y="${y - 4}" text-anchor="middle">${cnt[k]}</text>` : ""}
+      <text x="${x + (bw - 6) / 2}" y="${H - 6}" text-anchor="middle">${+k.slice(5)}월</text>`;
+  }).join("")}</svg>`;
+}
+function barsCountry(rows) {
+  const c = {}; rows.forEach(r => r.countries.forEach(k => c[k] = (c[k] || 0) + 1));
+  const top = Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  if (!top.length) return `<div class="empty">국가 정보 없음</div>`;
+  const W = 360, rh = 21, H = top.length * rh + 4, lab = 78, max = top[0][1];
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="국가별 보고 건수">${top.map(([k, v], i) => {
+    const w = v / max * (W - lab - 30), y = i * rh + 2;
+    return `<text x="${lab - 6}" y="${y + 14}" text-anchor="end">${esc(ko(k))}</text>
+      <rect class="bar" x="${lab}" y="${y + 2}" width="${w}" height="${rh - 7}" rx="3"><title>${esc(ko(k))}: ${v}건</title></rect>
+      <text class="val" x="${lab + w + 5}" y="${y + 14}">${v}</text>`;
+  }).join("")}</svg>`;
+}
+
+function render() {
+  const nf = S.crop.size + S.type.size + (S.region !== "all") + !!S.country + !!S.genus + !!S.period;
+  $("fcount").textContent = nf ? `(${nf})` : "";
+  let rows = ITEMS.filter(pass);
+  if (S.sort === "kr") rows = rows.slice().sort((a, b) =>
+    ((b.korea ? 2 : b.neighbor ? 1 : 0) - (a.korea ? 2 : a.neighbor ? 1 : 0)) || (b.date || "").localeCompare(a.date || ""));
+  $("cnt").textContent = rows.length;
+  $("list").innerHTML = rows.length ? rows.slice(0, S.shown).map(card).join("")
+    : `<div class="empty">조건에 맞는 보고가 없습니다.</div>`;
+  $("more").hidden = rows.length <= S.shown;
+  $("c-month").innerHTML = barsMonth(rows);
+  $("c-country").innerHTML = barsCountry(rows);
+}
+
+function kpis() {
+  const k = [
+    ["전체", ITEMS.length, "", () => resetAll()],
+    ["최근 30일", ITEMS.filter(i => daysAgo(i.date) <= 30).length, "", () => { resetAll(false); S.period = 30; $("f-period").value = "30"; }],
+    ["신규·발생보고", ITEMS.filter(i => i.first_report).length, "", () => { resetAll(false); S.type.add("fr"); }],
+    ["국내 보고", ITEMS.filter(i => i.korea).length, "kr", () => { resetAll(false); S.region = "kr"; }],
+    ["인접국 보고", ITEMS.filter(i => i.neighbor).length, "nb", () => { resetAll(false); S.region = "nb"; }],
+  ];
+  $("kpis").innerHTML = k.map(([l, n, c], i) => `<div class="kpi ${c}" data-i="${i}" role="button" tabindex="0">
+    <div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
+  $("kpis").onclick = e => { const d = e.target.closest(".kpi"); if (!d) return;
+    k[+d.dataset.i][3](); syncChips(); S.shown = 40; render(); };
+}
+
+function resetAll(doRender = true) {
+  S.crop.clear(); S.type.clear(); S.region = "all"; S.country = ""; S.genus = ""; S.period = 0; S.q = ""; S.shown = 40;
+  $("q").value = ""; $("f-country").value = ""; $("f-genus").value = ""; $("f-period").value = "0";
+  if (doRender) { syncChips(); render(); }
+}
+
+// 넓은 화면에서는 필터를 항상 펼쳐 둠
+const mq = matchMedia("(min-width: 901px)");
+const syncFilters = () => { if (mq.matches) $("filters").open = true; };
+syncFilters(); mq.addEventListener("change", syncFilters);
+$("filters").addEventListener("toggle", () => { if (mq.matches && !$("filters").open) $("filters").open = true; });
+
+fetch("data/items.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
+  ITEMS = d.items || [];
+  const up = new Date(d.updated);
+  $("updated").innerHTML = `최근 갱신 ${up.toLocaleString("ko-KR", {dateStyle: "medium", timeStyle: "short"})}<br>누적 ${ITEMS.length}건`;
+
+  const crops = [...new Set(ITEMS.flatMap(i => i.crops))];
+  chips($("f-crop"), ["벼", "밀", "보리"].filter(c => crops.includes(c)).map(c => [c, c]), S.crop);
+  chips($("f-type"), [["fr", "신규·발생보고"], ["seed", "종자 관련"]], S.type);
+  chips($("f-region"), [["kr", "국내"], ["nb", "인접국"], ["krnb", "국내+인접국"]], null, true);
+
+  const cc = {}; ITEMS.forEach(i => i.countries.forEach(c => cc[c] = (cc[c] || 0) + 1));
+  $("f-country").innerHTML = `<option value="">전체</option>` + Object.entries(cc).sort((a, b) => b[1] - a[1])
+    .map(([c, n]) => `<option value="${esc(c)}">${esc(ko(c))} (${n})</option>`).join("");
+  const gc = {}; ITEMS.forEach(i => new Set(i.pathogens.map(genusOf)).forEach(g => gc[g] = (gc[g] || 0) + 1));
+  $("f-genus").innerHTML = `<option value="">전체</option>` + Object.entries(gc).sort((a, b) => b[1] - a[1])
+    .map(([g, n]) => `<option value="${esc(g)}">${esc(g)} (${n})</option>`).join("");
+
+  $("q").oninput = e => { S.q = e.target.value.trim(); S.shown = 40; render(); };
+  $("f-country").onchange = e => { S.country = e.target.value; S.shown = 40; render(); };
+  $("f-genus").onchange = e => { S.genus = e.target.value; S.shown = 40; render(); };
+  $("f-period").onchange = e => { S.period = +e.target.value; S.shown = 40; render(); };
+  $("sort").onchange = e => { S.sort = e.target.value; render(); };
+  $("reset").onclick = () => resetAll();
+  $("more").onclick = () => { S.shown += 40; render(); };
+  kpis(); render();
+}).catch(() => { $("updated").textContent = "데이터를 불러오지 못했습니다."; });
+</script>
+</body>
+</html>
