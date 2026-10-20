@@ -18,12 +18,22 @@
     "The Plant Pathology Journal":     ["1598-2254", "2093-9280"],
     "Plant Health Progress":           ["1535-1025"],
     "식물병연구":                      ["1598-2262", "2233-9191"],
-    "Mycobiology":                     ["1229-8093", "2092-9323"],
-    "한국응용곤충학회지":              ["1225-0171", "2287-545X"]
+    "Mycobiology":                     ["1229-8093", "2092-9323"]
   },
 
   "_note_domestic": "국내 학회지. 이 저널에서 나온 문헌은 '국내 학술지'로 표시됩니다.",
-  "domestic_journals": ["The Plant Pathology Journal", "식물병연구", "Mycobiology", "한국응용곤충학회지"],
+  "domestic_journals": ["The Plant Pathology Journal", "식물병연구", "Mycobiology"],
+
+  "_note_watch": "관심 병원체: 제목에 작물명이 없어도 신규·발생보고나 종자 관련이면 수집 (기주 범위 확대 감시용)",
+  "watch_pathogens": [
+    "Fusarium fujikuroi", "Fusarium proliferatum", "Fusarium verticillioides", "Fusarium andiyazi", "Fusarium luffae",
+    "Gibberella fujikuroi", "Pantoea ananatis", "Pantoea dispersa", "Burkholderia glumae", "Burkholderia gladioli",
+    "Aphelenchoides besseyi", "Xanthomonas oryzae", "Pyricularia oryzae", "Magnaporthe oryzae", "Bipolaris oryzae",
+    "Ustilaginoidea virens", "Tilletia indica", "Xanthomonas translucens"
+  ],
+
+  "_note_occ_any": "제목 어디에 있어도 국가가 함께 명시되면 발생보고로 판정",
+  "occurrence_patterns": ["\\bspecies (?:complex )?associated with\\b", "\\bnew records?\\b"],
 
   "_note_ko": "한글 제목용 정규식. 한글은 단어 경계(\\b)가 통하지 않아 앞뒤 글자를 직접 지정합니다.",
   "crops_ko": {

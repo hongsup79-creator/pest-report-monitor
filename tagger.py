@@ -50,6 +50,9 @@ class Tagger:
         self.seed_title = [re.compile(p, re.I) for p in
                            cfg.get("seed_title_patterns", []) + cfg.get("seed_patterns_ko", [])]
         self.korea_ko = [re.compile(p) for p in cfg.get("korea_ko", [])]
+        self.occ_any = [re.compile(p, re.I) for p in cfg.get("occurrence_patterns", [])]
+        self.watch = [re.compile(r"\b" + re.escape(n).replace(r"\ ", r"\s+") + r"\b", re.I)
+                      for n in cfg.get("watch_pathogens", [])]
         genera = "|".join(sorted(cfg["pathogen_genera"], key=len, reverse=True))
         # 속명 + (선택) 종소명/약어: "Fusarium luffae", "F. luffae"는 별도 처리
         self.genus_re = re.compile(
@@ -118,10 +121,11 @@ class Tagger:
         full = t + " " + strip_tags(abstract)
         countries = self.tag_countries(t)
         first = self.is_first_report(t) or (
-            bool(countries) and any(p.search(t) for p in self.occ_start))
+            bool(countries) and any(p.search(t) for p in self.occ_start + self.occ_any))
         seed = self.is_seed(full) or any(p.search(t) for p in self.seed_title)
         return {
             "excluded": any(p.search(t) for p in self.exclude),
+            "watch": any(p.search(t) for p in self.watch),
             "crops": self.tag_crops(t),
             "pathogens": self.tag_pathogens(t),
             "countries": countries,
@@ -134,5 +138,6 @@ class Tagger:
     @staticmethod
     def is_relevant(tags):
         """수집 기준: 대상 작물이면서 (신규보고 또는 종자전염)."""
-        return (not tags["excluded"]) and bool(tags["crops"]) and (
+        """수집 기준: (대상 작물 또는 관심 병원체) + (신규·발생보고 또는 종자 관련)."""
+        return (not tags["excluded"]) and (bool(tags["crops"]) or tags["watch"]) and (
             tags["first_report"] or tags["seed_borne"])

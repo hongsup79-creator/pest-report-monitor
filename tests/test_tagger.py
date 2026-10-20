@@ -40,7 +40,12 @@ CASES = [
     # 1년치 실수집에서 발견된 오탐 유형
     ("First Report of <i>Fusarium fujikuroi</i> Causing Wilt of Norway spruce Seedlings in Korea",
      "F. fujikuroi is the causal agent of bakanae disease of rice.",
-     dict(relevant=False)),          # 작물은 초록이 아닌 제목으로만 판정
+     dict(relevant=True, crops=[], watch=True)),   # 작물은 제목으로만 판정, 단 관심 병원체는 기주 무관하게 수집
+    ("The Fusarium fujikuroi Species Complex in Korea: Taxonomic Revision, New Records, and Description of "
+     "Fusarium ipomoeicola sp. nov.", "", dict(relevant=True, watch=True, first_report=True)),
+    ("Pyrenophora Species Associated with Barley and Wheat in Japan", "",
+     dict(relevant=True, first_report=True, neighbor=True)),
+    ("First Report of <i>Colletotrichum fructicola</i> on Persimmon in Korea", "", dict(relevant=False)),
     ("Renal Trichodinosis in the Japanese Rice Fish, Oryzias latipes: First Report", "",
      dict(relevant=False)),
     ("Corrigendum to \"Seed-borne transmission of Pantoea in rice\"", "",

@@ -162,6 +162,9 @@ def build_item(rec, tagger):
         return None
     tags.pop("excluded")
     tags["domestic_source"] = rec["journal"] in CFG.get("domestic_journals", [])
+    # 국내 학회지에서 나라 이름이 없는 제목(예: "...in Haenam")은 국내 연구로 판단
+    if tags["domestic_source"] and not tags["countries"]:
+        tags["countries"], tags["korea"] = ["Korea"], True
     key = rec["doi"] or f"pmid:{rec['pmid']}"
     authors = rec["first_author"] + (" et al." if rec["n_authors"] > 1 else "")
     return {
@@ -193,7 +196,7 @@ def merge(existing, new_items, today):
             old["pmid"] = old["pmid"] or it["pmid"]
             for k in ("crops", "pathogens", "countries"):
                 old[k] = list(dict.fromkeys(old[k] + it[k]))
-            for k in ("first_report", "seed_borne", "korea", "neighbor"):
+            for k in ("first_report", "seed_borne", "korea", "neighbor", "watch", "domestic_source"):
                 old[k] = old[k] or it[k]
         else:
             it["first_seen"] = today
