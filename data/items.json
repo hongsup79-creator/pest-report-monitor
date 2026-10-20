@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T01:33:35+00:00",
- "count": 73,
+ "updated": "2026-10-20T01:44:25+00:00",
+ "count": 114,
  "items": [
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
@@ -124,6 +124,36 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-12-25-2544-re",
+   "doi": "10.1094/pdis-12-25-2544-re",
+   "pmid": null,
+   "title": "Occurrence, Distribution, and Genetic Diversity of the Cyst Nematode Heterodera glycines Infecting Red Kidney Beans in Shanxi Province, China",
+   "title_html": "Occurrence, Distribution, and Genetic Diversity of the Cyst Nematode <i>Heterodera glycines</i> Infecting Red Kidney Beans in Shanxi Province, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-10-02",
+   "authors": "Ma et al.",
+   "url": "https://doi.org/10.1094/pdis-12-25-2544-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Heterodera glycines"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.5423/ppj.oa.06.2026.0083",
    "doi": "10.5423/ppj.oa.06.2026.0083",
    "pmid": null,
@@ -152,6 +182,99 @@
    "korea": true,
    "neighbor": false,
    "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1002/ps.71058",
+   "doi": "10.1002/ps.71058",
+   "pmid": "42402791",
+   "title": "First report of a Citrobacter sp. for fungal plant disease control: phenethyl alcohol-producing NJC30 suppresses target spot on soybean.",
+   "title_html": "First report of a Citrobacter sp. for fungal plant disease control: phenethyl alcohol-producing NJC30 suppresses target spot on soybean.",
+   "title_alt": null,
+   "journal": "Pest management science",
+   "date": "2026-10-01",
+   "authors": "Zhu et al.",
+   "url": "https://doi.org/10.1002/ps.71058",
+   "sources": [
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/rpd.2026.32.3.269",
+   "doi": "10.5423/rpd.2026.32.3.269",
+   "pmid": null,
+   "title": "Characterization and Fungicide Resistance Profiling of Colletotrichum Species from Soybean in Korea",
+   "title_html": "Characterization and Fungicide Resistance Profiling of Colletotrichum Species from Soybean in Korea",
+   "title_alt": null,
+   "journal": "식물병연구",
+   "date": "2026-09-30",
+   "authors": "Hwang et al.",
+   "url": "https://doi.org/10.5423/rpd.2026.32.3.269",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Colletotrichum"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-09-25-1924-re",
+   "doi": "10.1094/pdis-09-25-1924-re",
+   "pmid": "41996207",
+   "title": "Identification of Epicoccum nigrum Causing Soybean Leaf Blight in Northeast China and Its Sensitivity to Selected Fungicides",
+   "title_html": "Identification of <i>Epicoccum nigrum</i> Causing Soybean Leaf Blight in Northeast China and Its Sensitivity to Selected Fungicides",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-30",
+   "authors": "Zheng et al.",
+   "url": "https://doi.org/10.1094/pdis-09-25-1924-re",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Epicoccum nigrum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
   },
@@ -211,6 +334,38 @@
    ],
    "first_report": true,
    "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-26-0953-pdn",
+   "doi": "10.1094/pdis-05-26-0953-pdn",
+   "pmid": null,
+   "title": "First Report of the Identification of Diaporthe ueckerae from Soybean Seeds with Seed Decay in Argentina",
+   "title_html": "First Report of the Identification of <i>Diaporthe ueckerae</i> from Soybean Seeds with Seed Decay in Argentina",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-28",
+   "authors": "Chiesa et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-0953-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Diaporthe ueckerae"
+   ],
+   "countries": [
+    "Argentina"
+   ],
+   "first_report": true,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_source": false,
@@ -336,6 +491,38 @@
    "first_report": true,
    "seed_borne": false,
    "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-04-26-0726-pdn",
+   "doi": "10.1094/pdis-04-26-0726-pdn",
+   "pmid": null,
+   "title": "First Report of Cercospora fagopyri Causing Purple Seed Stain of Soybean in the Republic of Korea",
+   "title_html": "First Report of <i>Cercospora fagopyri</i> Causing Purple Seed Stain of Soybean in the Republic of Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-27",
+   "authors": "Lee et al.",
+   "url": "https://doi.org/10.1094/pdis-04-26-0726-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Cercospora fagopyri"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": true,
+   "korea": true,
    "neighbor": false,
    "domestic_source": false,
    "domestic_status": null,
@@ -469,6 +656,38 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-05-26-1075-pdn",
+   "doi": "10.1094/pdis-05-26-1075-pdn",
+   "pmid": null,
+   "title": "First Report of Red Crown Rot of Soybean ( Glycine max ), Caused by Calonectria ilicicola , in Wisconsin",
+   "title_html": "First Report of Red Crown Rot of Soybean ( <i>Glycine max</i> ), Caused by <i>Calonectria ilicicola</i> , in Wisconsin",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-24",
+   "authors": "Groves et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-1075-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Calonectria ilicicola"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-05-26-0866-pdn",
    "doi": "10.1094/pdis-05-26-0866-pdn",
    "pmid": null,
@@ -551,10 +770,44 @@
    "pathogens": [
     "Pseudomonas syringae"
    ],
-   "countries": [],
+   "countries": [
+    "USA"
+   ],
    "first_report": true,
    "seed_borne": false,
    "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-06-26-1283-pdn",
+   "doi": "10.1094/pdis-06-26-1283-pdn",
+   "pmid": null,
+   "title": "First Report of Anthracnose Caused by Colletotrichum reniforme on Soybean ( Glycine max L.) in South Korea",
+   "title_html": "First Report of Anthracnose Caused by <i>Colletotrichum reniforme</i> on Soybean ( <i>Glycine max</i> L.) in South Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-10",
+   "authors": "Lee et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1283-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Colletotrichum reniforme"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": false,
    "domestic_status": null,
@@ -649,6 +902,96 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-07-25-1496-re",
+   "doi": "10.1094/pdis-07-25-1496-re",
+   "pmid": null,
+   "title": "Evaluating the Effectiveness of Integrated Strategies to Manage Sudden Death Syndrome of Soybean: Supplementing SDS-Resistant and -Susceptible Cultivars with Chemical and Biological Seed Treatments",
+   "title_html": "Evaluating the Effectiveness of Integrated Strategies to Manage Sudden Death Syndrome of Soybean: Supplementing SDS-Resistant and -Susceptible Cultivars with Chemical and Biological Seed Treatments",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Kessler et al.",
+   "url": "https://doi.org/10.1094/pdis-07-25-1496-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-04-26-0680-pdn",
+   "doi": "10.1094/pdis-04-26-0680-pdn",
+   "pmid": null,
+   "title": "First Report of Diaporthe pseudooculi Causing Stem and Pod Blight Disease of Soybean in South Korea",
+   "title_html": "First Report of <i>Diaporthe pseudooculi</i> Causing Stem and Pod Blight Disease of Soybean in South Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Guta et al.",
+   "url": "https://doi.org/10.1094/pdis-04-26-0680-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Diaporthe pseudooculi"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-26-0604-pdn",
+   "doi": "10.1094/pdis-03-26-0604-pdn",
+   "pmid": null,
+   "title": "First Report of Talaromyces pinophilus Causing Soybean Leaf Blight in China",
+   "title_html": "First Report of <i>Talaromyces pinophilus</i> Causing Soybean Leaf Blight in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Chen et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0604-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-03-26-0496-pdn",
    "doi": "10.1094/pdis-03-26-0496-pdn",
    "pmid": null,
@@ -711,6 +1054,38 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-02-26-0389-pdn",
+   "doi": "10.1094/pdis-02-26-0389-pdn",
+   "pmid": null,
+   "title": "First Report of Phytophthora sansomeana Causing Root Rot of Soybean in North Dakota",
+   "title_html": "First Report of <i>Phytophthora sansomeana</i> Causing Root Rot of Soybean in North Dakota",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Konshok et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0389-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Phytophthora sansomeana"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-02-26-0373-pdn",
    "doi": "10.1094/pdis-02-26-0373-pdn",
    "pmid": null,
@@ -736,6 +1111,38 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0234-pdn",
+   "doi": "10.1094/pdis-01-26-0234-pdn",
+   "pmid": null,
+   "title": "First Report of Red Crown Rot of Soybean Caused by Calonectria ilicicola in Minnesota",
+   "title_html": "First Report of Red Crown Rot of Soybean Caused by <i>Calonectria ilicicola</i> in Minnesota",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Malvick et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0234-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Calonectria ilicicola"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
@@ -829,6 +1236,100 @@
    "first_report": true,
    "seed_borne": false,
    "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70385",
+   "doi": "10.1111/jph.70385",
+   "pmid": null,
+   "title": "Chemical Control of Phytophthora sojae : Sensitivity of Isolates and Effects on Soybean Seed Germination and Seed Rot",
+   "title_html": "Chemical Control of <i>Phytophthora sojae</i> : Sensitivity of Isolates and Effects on Soybean Seed Germination and Seed Rot",
+   "title_alt": null,
+   "journal": "Journal of Phytopathology",
+   "date": "2026-08-28",
+   "authors": "Gevinski‐Otolakoski et al.",
+   "url": "https://doi.org/10.1111/jph.70385",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Phytophthora sojae"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-06-26-1165-pdn",
+   "doi": "10.1094/pdis-06-26-1165-pdn",
+   "pmid": null,
+   "title": "First Report of the Emerging Root-Knot Nematode Meloidogyne enterolobii on Soybean in Roraima, Northern Brazil",
+   "title_html": "First Report of the Emerging Root-Knot Nematode <i>Meloidogyne enterolobii</i> on Soybean in Roraima, Northern Brazil",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-08-21",
+   "authors": "Diniz et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1165-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Meloidogyne enterolobii"
+   ],
+   "countries": [
+    "Brazil"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-06-26-1138-pdn",
+   "doi": "10.1094/pdis-06-26-1138-pdn",
+   "pmid": null,
+   "title": "First Report of Leaf Blight Caused by Didymella americana on Soybean ( Glycine max (L.) Merr.) in Korea",
+   "title_html": "First Report of Leaf Blight Caused by <i>Didymella americana</i> on Soybean ( <i>Glycine max</i> (L.) Merr.) in Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-08-18",
+   "authors": "Choi et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1138-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Didymella americana"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": false,
    "domestic_status": null,
@@ -963,6 +1464,98 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.3389/fbinf.2026.1821527",
+   "doi": "10.3389/fbinf.2026.1821527",
+   "pmid": "42602184",
+   "title": "Molecular docking and dynamics simulation studies uncover the host-pathogen protein-protein interactions in soybean (Glycine max (L.) Merr.) and Groundnut bud necrosis virus: first report.",
+   "title_html": "Molecular docking and dynamics simulation studies uncover the host-pathogen protein-protein interactions in soybean (Glycine max (L.) Merr.) and Groundnut bud necrosis virus: first report.",
+   "title_alt": null,
+   "journal": "Frontiers in bioinformatics",
+   "date": "2026-07-31",
+   "authors": "Bhat et al.",
+   "url": "https://doi.org/10.3389/fbinf.2026.1821527",
+   "sources": [
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Groundnut bud necrosis virus"
+   ],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-10-25-2124-re",
+   "doi": "10.1094/pdis-10-25-2124-re",
+   "pmid": null,
+   "title": "Seed Treatment with Fluopyram Provides Effective Management of Soybean Cyst Nematode ( Heterodera glycines ) and Enhances Soybean Growth",
+   "title_html": "Seed Treatment with Fluopyram Provides Effective Management of Soybean Cyst Nematode ( <i>Heterodera glycines</i> ) and Enhances Soybean Growth",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-07-27",
+   "authors": "Ji et al.",
+   "url": "https://doi.org/10.1094/pdis-10-25-2124-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Heterodera glycines"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0235-pdn",
+   "doi": "10.1094/pdis-01-26-0235-pdn",
+   "pmid": null,
+   "title": "First Report of Neocosmospora Stem Rot of Soybean Caused by Fusarium neocosmosporiellum in Missouri",
+   "title_html": "First Report of Neocosmospora Stem Rot of Soybean Caused by <i>Fusarium neocosmosporiellum</i> in Missouri",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-07-27",
+   "authors": "Haafke et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0235-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Fusarium neocosmosporiellum"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1007/s42161-026-02264-2",
    "doi": "10.1007/s42161-026-02264-2",
    "pmid": null,
@@ -1020,6 +1613,38 @@
    "seed_borne": true,
    "korea": false,
    "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-11-25-2342-pdn",
+   "doi": "10.1094/pdis-11-25-2342-pdn",
+   "pmid": null,
+   "title": "First Report of a 16SrII-A Group Phytoplasma Associated with Witches’ Broom Disease of Soybean ( Glycine max ) in Guangdong, China",
+   "title_html": "First Report of a 16SrII-A Group Phytoplasma Associated with Witches’ Broom Disease of Soybean ( <i>Glycine max</i> ) in Guangdong, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-07-01",
+   "authors": "Sun et al.",
+   "url": "https://doi.org/10.1094/pdis-11-25-2342-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Phytoplasma"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
@@ -1117,6 +1742,68 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-01-26-0105-pdn",
+   "doi": "10.1094/pdis-01-26-0105-pdn",
+   "pmid": null,
+   "title": "First Report of Colletotrichum sojae Causing Anthracnose on Soybean in China",
+   "title_html": "First Report of <i>Colletotrichum sojae</i> Causing Anthracnose on Soybean in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-07-01",
+   "authors": "Huang et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0105-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Colletotrichum sojae"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/ppa.70224",
+   "doi": "10.1111/ppa.70224",
+   "pmid": null,
+   "title": "From Seed to Field: Investigating Cowpea Mild Mottle Virus ( CPMMV ) Persistence in Soybean Seeds",
+   "title_html": "From Seed to Field: Investigating Cowpea Mild Mottle Virus ( CPMMV ) Persistence in Soybean Seeds",
+   "title_alt": null,
+   "journal": "Plant Pathology",
+   "date": "2026-06-26",
+   "authors": "Silveira et al.",
+   "url": "https://doi.org/10.1111/ppa.70224",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Investigating Cowpea Mild Mottle Virus"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1111/ppa.70218",
    "doi": "10.1111/ppa.70218",
    "pmid": null,
@@ -1175,6 +1862,101 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-03-26-0498-re",
+   "doi": "10.1094/pdis-03-26-0498-re",
+   "pmid": null,
+   "title": "Identification, Pathogenicity, and Chemical Control of Nigrospora oryzae , a New Pathogen Causing Mid-Late Soybean Root Rot in Heilongjiang, China",
+   "title_html": "Identification, Pathogenicity, and Chemical Control of <i>Nigrospora oryzae</i> , a New Pathogen Causing Mid-Late Soybean Root Rot in Heilongjiang, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-06-09",
+   "authors": "Zhao et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0498-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Nigrospora oryzae"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/ppj.oa.10.2025.0160",
+   "doi": "10.5423/ppj.oa.10.2025.0160",
+   "pmid": "42252713",
+   "title": "An Emerging Disease of Leaf Spot Caused by Paramyrothecium vignicola on Soybean in China",
+   "title_html": "An Emerging Disease of Leaf Spot Caused by Paramyrothecium vignicola on Soybean in China",
+   "title_alt": null,
+   "journal": "The Plant Pathology Journal",
+   "date": "2026-06-01",
+   "authors": "Wang et al.",
+   "url": "https://doi.org/10.5423/ppj.oa.10.2025.0160",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/ppj.oa.02.2026.0014",
+   "doi": "10.5423/ppj.oa.02.2026.0014",
+   "pmid": null,
+   "title": "Interaction of Soil Type and Elevated Temperature Drives the Emergence of Macrophomina phaseolina in Soybean Fields",
+   "title_html": "Interaction of Soil Type and Elevated Temperature Drives the Emergence of Macrophomina phaseolina in Soybean Fields",
+   "title_alt": null,
+   "journal": "The Plant Pathology Journal",
+   "date": "2026-06-01",
+   "authors": "An et al.",
+   "url": "https://doi.org/10.5423/ppj.oa.02.2026.0014",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Macrophomina phaseolina"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-11-25-2350-pdn",
    "doi": "10.1094/pdis-11-25-2350-pdn",
    "pmid": null,
@@ -1201,6 +1983,64 @@
    ],
    "first_report": true,
    "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-09-25-1932-pdn",
+   "doi": "10.1094/pdis-09-25-1932-pdn",
+   "pmid": null,
+   "title": "First Report of Rhizopus microsporus Causing Stem Rot of Soybean ( Glycine max ) in China",
+   "title_html": "First Report of <i>Rhizopus microsporus</i> Causing Stem Rot of Soybean ( <i>Glycine max</i> ) in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-06-01",
+   "authors": "Chen et al.",
+   "url": "https://doi.org/10.1094/pdis-09-25-1932-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-05-25-1114-re",
+   "doi": "10.1094/pdis-05-25-1114-re",
+   "pmid": null,
+   "title": "Soybean Seed Treatment Evaluation Under Various Levels of Sudden Death Syndrome and Populations of Soybean Cyst Nematode",
+   "title_html": "Soybean Seed Treatment Evaluation Under Various Levels of Sudden Death Syndrome and Populations of Soybean Cyst Nematode",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-06-01",
+   "authors": "Dangal et al.",
+   "url": "https://doi.org/10.1094/pdis-05-25-1114-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_source": false,
@@ -1240,6 +2080,36 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-01-26-0212-pdn",
+   "doi": "10.1094/pdis-01-26-0212-pdn",
+   "pmid": null,
+   "title": "First Report of Plectosphaerella cucumerina Causing Root Rot of Soybean in Manitoba, Canada",
+   "title_html": "First Report of <i>Plectosphaerella cucumerina</i> Causing Root Rot of Soybean in Manitoba, Canada",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-06-01",
+   "authors": "Kepeshchuk et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0212-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "Canada"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-01-26-0015-pdn",
    "doi": "10.1094/pdis-01-26-0015-pdn",
    "pmid": null,
@@ -1265,6 +2135,38 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-26-0573-re",
+   "doi": "10.1094/pdis-03-26-0573-re",
+   "pmid": null,
+   "title": "Multi-year evaluation of seed-applied nematicides for managing Meloidogyne incognita on susceptible and partially resistant soybean cultivars in Arkansas",
+   "title_html": "Multi-year evaluation of seed-applied nematicides for managing <i>Meloidogyne incognita</i> on susceptible and partially resistant soybean cultivars in Arkansas",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-05-20",
+   "authors": "Baker et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0573-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Meloidogyne incognita"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
@@ -1329,6 +2231,40 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0035-sc",
+   "doi": "10.1094/pdis-01-26-0035-sc",
+   "pmid": "42096349",
+   "title": "Identification of Soybean Bush Dwarf Disease Associated with Co-infection of a Phytoplasma and Cowpea Mild Mottle Virus in Guangxi, China",
+   "title_html": "Identification of Soybean Bush Dwarf Disease Associated with Co-infection of a Phytoplasma and Cowpea Mild Mottle Virus in Guangxi, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-05-07",
+   "authors": "Xu et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0035-sc",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Cowpea Mild Mottle Virus",
+    "Phytoplasma and"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
@@ -1469,6 +2405,38 @@
    "watch": false,
    "crops": [
     "밀"
+   ],
+   "pathogens": [
+    "Fusarium commune"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-11-25-2293-pdn",
+   "doi": "10.1094/pdis-11-25-2293-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium commune Causing Root Rot on Soybean ( Glycine max ) in Henan Province, China",
+   "title_html": "First Report of <i>Fusarium commune</i> Causing Root Rot on Soybean ( <i>Glycine max</i> ) in Henan Province, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-04-01",
+   "authors": "Hu et al.",
+   "url": "https://doi.org/10.1094/pdis-11-25-2293-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
    ],
    "pathogens": [
     "Fusarium commune"
@@ -1695,6 +2663,68 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1111/jph.70266",
+   "doi": "10.1111/jph.70266",
+   "pmid": null,
+   "title": "Fusarium Species Associated With Soybean Root Rot in Northern Thailand",
+   "title_html": "<i>Fusarium</i> Species Associated With Soybean Root Rot in Northern Thailand",
+   "title_alt": null,
+   "journal": "Journal of Phytopathology",
+   "date": "2026-03-12",
+   "authors": "Prasansak et al.",
+   "url": "https://doi.org/10.1111/jph.70266",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Fusarium"
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.3389/fpls.2026.1785158",
+   "doi": "10.3389/fpls.2026.1785158",
+   "pmid": "41877976",
+   "title": "Plant architecture genes affect seed composition and seed weight in soybeans grown in the Midsouth USA.",
+   "title_html": "Plant architecture genes affect seed composition and seed weight in soybeans grown in the Midsouth USA.",
+   "title_alt": null,
+   "journal": "Frontiers in plant science",
+   "date": "2026-03-09",
+   "authors": "Bellaloui et al.",
+   "url": "https://doi.org/10.3389/fpls.2026.1785158",
+   "sources": [
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "USA"
+   ],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-11-25-2199-pdn",
    "doi": "10.1094/pdis-11-25-2199-pdn",
    "pmid": null,
@@ -1759,6 +2789,38 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-09-25-1871-pdn",
+   "doi": "10.1094/pdis-09-25-1871-pdn",
+   "pmid": null,
+   "title": "First Report of Soybean Seed Disease Caused by Epicoccum italicum in North Dakota",
+   "title_html": "First Report of Soybean Seed Disease Caused by <i>Epicoccum italicum</i> in North Dakota",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-03-01",
+   "authors": "George et al.",
+   "url": "https://doi.org/10.1094/pdis-09-25-1871-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Epicoccum italicum"
+   ],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-08-25-1777-pdn",
    "doi": "10.1094/pdis-08-25-1777-pdn",
    "pmid": null,
@@ -1791,6 +2853,64 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1007/s10658-026-03192-8",
+   "doi": "10.1007/s10658-026-03192-8",
+   "pmid": null,
+   "title": "Trichoderma endophyticum, T. asperellum, and T. harzianum suppress charcoal rot in soybean seeds infected by Macrophomina phaseolina",
+   "title_html": "Trichoderma endophyticum, T. asperellum, and T. harzianum suppress charcoal rot in soybean seeds infected by Macrophomina phaseolina",
+   "title_alt": null,
+   "journal": "European Journal of Plant Pathology",
+   "date": "2026-02-27",
+   "authors": "da Veiga et al.",
+   "url": "https://doi.org/10.1007/s10658-026-03192-8",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Macrophomina phaseolina"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.3390/pathogens15020239",
+   "doi": "10.3390/pathogens15020239",
+   "pmid": "41754491",
+   "title": "Characterization of Fungi Communities in Organic Soybean Seeds Using DNA Sequencing: Effects of Cultivar and Location.",
+   "title_html": "Characterization of Fungi Communities in Organic Soybean Seeds Using DNA Sequencing: Effects of Cultivar and Location.",
+   "title_alt": null,
+   "journal": "Pathogens (Basel, Switzerland)",
+   "date": "2026-02-23",
+   "authors": "Olszak-Przybyś et al.",
+   "url": "https://doi.org/10.3390/pathogens15020239",
+   "sources": [
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1007/s42161-026-02146-7",
    "doi": "10.1007/s42161-026-02146-7",
    "pmid": null,
@@ -1813,6 +2933,38 @@
    ],
    "countries": [
     "Turkey"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-10-25-2054-pdn",
+   "doi": "10.1094/pdis-10-25-2054-pdn",
+   "pmid": null,
+   "title": "First Report of Cercospora cf. flagellaris on Soybean ( Glycine max ) in Italy",
+   "title_html": "First Report of <i>Cercospora</i> cf. <i>flagellaris</i> on Soybean ( <i>Glycine max</i> ) in Italy",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-02-01",
+   "authors": "Cappelletti et al.",
+   "url": "https://doi.org/10.1094/pdis-10-25-2054-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Cercospora"
+   ],
+   "countries": [
+    "Italy"
    ],
    "first_report": true,
    "seed_borne": false,
@@ -1879,6 +3031,95 @@
    ],
    "first_report": true,
    "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1093/ismejo/wrag183",
+   "doi": "10.1093/ismejo/wrag183",
+   "pmid": "42454964",
+   "title": "Deterministic recruitment limitation during soybean pod development shapes seed-transmitted microbiota assembly.",
+   "title_html": "Deterministic recruitment limitation during soybean pod development shapes seed-transmitted microbiota assembly.",
+   "title_alt": null,
+   "journal": "The ISME journal",
+   "date": "2026-01-14",
+   "authors": "Kim et al.",
+   "url": "https://doi.org/10.1093/ismejo/wrag183",
+   "sources": [
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/php-11-25-0251-br",
+   "doi": "10.1094/php-11-25-0251-br",
+   "pmid": null,
+   "title": "First Report of Clonostachys rhizophaga Causing Root Rot of Soybeans in North Dakota",
+   "title_html": "First Report of <i>Clonostachys rhizophaga</i> Causing Root Rot of Soybeans in North Dakota",
+   "title_alt": null,
+   "journal": "Plant Health Progress",
+   "date": "2026-01-01",
+   "authors": "Poudel et al.",
+   "url": "https://doi.org/10.1094/php-11-25-0251-br",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "USA"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/php-10-25-0242-rs",
+   "doi": "10.1094/php-10-25-0242-rs",
+   "pmid": null,
+   "title": "Efficacy of Seed-Applied Fungicides Against Damping-Off Caused by Pythium and Globisporangium spp. in Soybean ( Glycine max ) in North America",
+   "title_html": "Efficacy of Seed-Applied Fungicides Against Damping-Off Caused by <i>Pythium</i> and <i>Globisporangium</i> spp. in Soybean ( <i>Glycine max</i> ) in North America",
+   "title_alt": null,
+   "journal": "Plant Health Progress",
+   "date": "2026-01-01",
+   "authors": "de Souza et al.",
+   "url": "https://doi.org/10.1094/php-10-25-0242-rs",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Pythium",
+    "Globisporangium spp."
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
    "korea": false,
    "neighbor": false,
    "domestic_source": false,
@@ -2152,6 +3393,36 @@
    "watch": false,
    "crops": [
     "벼"
+   ],
+   "pathogens": [],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/ppj.oa.07.2025.0087",
+   "doi": "10.5423/ppj.oa.07.2025.0087",
+   "pmid": null,
+   "title": "Transgenerational Dynamics of Endophytic Microbiome in Soybean Seeds",
+   "title_html": "Transgenerational Dynamics of Endophytic Microbiome in Soybean Seeds",
+   "title_alt": null,
+   "journal": "The Plant Pathology Journal",
+   "date": "2025-12-01",
+   "authors": "Kim et al.",
+   "url": "https://doi.org/10.5423/ppj.oa.07.2025.0087",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
    ],
    "pathogens": [],
    "countries": [
