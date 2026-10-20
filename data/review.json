@@ -103,11 +103,6 @@
   {
    "date": "2026-02-01",
    "journal": "Plant Disease",
-   "title": "First Report of Fusarium verticillioides Causing Stem Blight of Sinopodophyllum hexandrum in China"
-  },
-  {
-   "date": "2026-02-01",
-   "journal": "Plant Disease",
    "title": "First Report of Black Spot Disease Caused by Diaporthe compacta on Cynanchum rostellatum in China"
   },
   {
@@ -331,11 +326,6 @@
    "title": "First Report of Leaf Blight Caused by Curvularia spicifera on Leymus chinensis in China"
   },
   {
-   "date": "2026-03-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium verticillioides Causing Fusarium Blight on Tall Fescue in Anhui, China"
-  },
-  {
    "date": "2026-02-01",
    "journal": "Plant Disease",
    "title": "First Report of Maize Ear Rot Caused by Penicillium oxalicum in Yunnan, China"
@@ -354,11 +344,6 @@
    "date": "2026-02-01",
    "journal": "Plant Disease",
    "title": "First Report of Grapevine Leafroll-Associated Virus-3 Infecting Vitis vinifera Grape in Alabama"
-  },
-  {
-   "date": "2026-02-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium proliferatum Causing Leaf Spot on Juglans regia in Xinjiang, China"
   },
   {
    "date": "2026-02-01",
@@ -733,11 +718,6 @@
   {
    "date": "2026-04-01",
    "journal": "Plant Disease",
-   "title": "First Report of Burkholderia gladioli Infecting Dendrobium officinale in China"
-  },
-  {
-   "date": "2026-04-01",
-   "journal": "Plant Disease",
    "title": "First Report of Fusarium clavum Causing Fusarium Wilt Disease on Watermelon in Chile"
   },
   {
@@ -893,11 +873,6 @@
   {
    "date": "2026-04-01",
    "journal": "Plant Disease",
-   "title": "First Report of Burkholderia gladioli Causing Yellow Spot Disease on Pleurotus pulmonarius in China"
-  },
-  {
-   "date": "2026-04-01",
-   "journal": "Plant Disease",
    "title": "First Report of Aspergillus aculeatus Causing Postharvest Soft Rot on Kiwifruit ( Actinidia chinensis ) in China"
   },
   {
@@ -974,11 +949,6 @@
    "date": "2026-05-01",
    "journal": "Plant Disease",
    "title": "First Report of Postharvest Tuber Rot Disease Caused by Fusarium solani Species Complex on Polygonatum sibiricum in Hunan Province of China"
-  },
-  {
-   "date": "2026-04-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium proliferatum Causing Root Rot on Bupleurum chinense in China"
   },
   {
    "date": "2026-05-01",
@@ -1101,11 +1071,6 @@
    "title": "First Report of Fusarium acuminatum Causing Astragalus schanginianus Root Rot in Xinjiang, China"
   },
   {
-   "date": "2026-05-01",
-   "journal": "Plant Disease",
-   "title": "Occurrence of Leaf Spot Disease on Arundo donax Caused by Pyricularia oryzae (Synonym: Magnaporthe oryzae ) in China"
-  },
-  {
    "date": "2026-06-01",
    "journal": "Plant Disease",
    "title": "First Report of Sphingobacterium siyangense Causing Bacterial Rot Disease on Cultivated Auricularia fibrillifera in China"
@@ -1189,11 +1154,6 @@
    "date": "2026-09-01",
    "journal": "Plant Disease",
    "title": "Identification of and Fungicide Efficacy Against Leaf Spot on Euonymus fortunei Caused by Alternaria alternata in China"
-  },
-  {
-   "date": "2026-06-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium luffae Causing Postharvest Fruit Rot of Eggplant ( Solanum melongena ) in China"
   },
   {
    "date": "2026-06-01",
@@ -1316,11 +1276,6 @@
    "title": "First Report of Leaf Spot Disease Caused by Nigrospora vesicularifera on Zanthoxylum bungeanum in China"
   },
   {
-   "date": "2026-04-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Pantoea ananatis Causing Leaf Blight on Belamcanda chinensis in China"
-  },
-  {
    "date": "2026-06-01",
    "journal": "Plant Disease",
    "title": "First Report of Mango Stem-End Rot Caused by Diaporthe garethjonesii in Yunnan Province, China"
@@ -1379,6 +1334,11 @@
    "date": "2026-07-01",
    "journal": "Plant Disease",
    "title": "First Report of Alternaria alternata Causing Black Leaf Spot Disease on Campsis grandiflora in China"
+  },
+  {
+   "date": "2026-09-01",
+   "journal": "Plant Disease",
+   "title": "Phylogenetic, Morphological, and Pathogenic Characterization of Cladosporium Species Associated with Fruit Rot of Blueberries and Table Grapes in the Central Valley of California"
   },
   {
    "date": "2026-06-01",
@@ -1593,11 +1553,6 @@
   {
    "date": "2026-07-01",
    "journal": "Plant Disease",
-   "title": "First Report of Fusarium fujikuroi Causing Medicago sativa Root Rot in China"
-  },
-  {
-   "date": "2026-07-01",
-   "journal": "Plant Disease",
    "title": "Occurrence of Colletotrichum siamense Causing Ring Spot on Sugarcane in China"
   },
   {
@@ -1674,6 +1629,11 @@
    "date": "2026-09-30",
    "journal": "Plant Disease",
    "title": "Identification of Epicoccum nigrum Causing Soybean Leaf Blight in Northeast China and Its Sensitivity to Selected Fungicides"
+  },
+  {
+   "date": "2026-09-30",
+   "journal": "Plant Disease",
+   "title": "Diaporthe Species Associated with Postharvest Fruit Rot of Kiwifruit in Anhui Province, China"
   },
   {
    "date": "2026-05-01",
@@ -1781,6 +1741,11 @@
    "title": "Occurrence, Distribution, and Genetic Diversity of the Cyst Nematode Heterodera glycines Infecting Red Kidney Beans in Shanxi Province, China"
   },
   {
+   "date": "2026-09-30",
+   "journal": "Plant Disease",
+   "title": "Clonostachys Species Associated with White Mold Disease of Cultivated Morels in China"
+  },
+  {
    "date": "2026-09-01",
    "journal": "Plant Disease",
    "title": "First Report of Agroathelia rolfsii Associated with Southern Blight Disease of Acorus gramineus in China"
@@ -1801,11 +1766,6 @@
    "title": "First Report of White Blister Rust Caused by Albugo candida on Brassica juncea in Nagaland, India"
   },
   {
-   "date": "2026-09-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Pepper Fruit Rot Caused by Fusarium luffae in Korea"
-  },
-  {
    "date": "2026-07-23",
    "journal": "Plant Disease",
    "title": "First Report of Leaf Spot Caused by Alternaria alternata on Chimonanthus praecox in China"
@@ -1824,11 +1784,6 @@
    "date": "2026-05-08",
    "journal": "Plant Disease",
    "title": "First report of strawberry disease caused by the emerging Neopestalotiopsis sp. in Iowa"
-  },
-  {
-   "date": "2026-09-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Polygonatum kingianum Leaf Spot Caused by Pantoea ananatis in Yunnan Province, China"
   },
   {
    "date": "2026-09-01",
@@ -1939,11 +1894,6 @@
    "date": "2026-05-20",
    "journal": "Plant Disease",
    "title": "Multi-year evaluation of seed-applied nematicides for managing Meloidogyne incognita on susceptible and partially resistant soybean cultivars in Arkansas"
-  },
-  {
-   "date": "2026-09-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium verticillioides Causing Momordica charantia Fruit Rot in Mexico"
   },
   {
    "date": "2026-09-01",
@@ -2064,11 +2014,6 @@
    "date": "2026-09-01",
    "journal": "Plant Disease",
    "title": "First Report of Ceratobasidium sp. Associated with Vascular Streak Dieback Infecting Native Plants in an Urban Forested Park in Virginia"
-  },
-  {
-   "date": "2026-09-01",
-   "journal": "Plant Disease",
-   "title": "First Report of Husk Black Spot of Macadamia Caused by Fusarium proliferatum in China"
   },
   {
    "date": "2026-06-09",
@@ -2336,11 +2281,6 @@
    "title": "First Report of Pepper Mild Mottle Virus ( Tobamovirus capsici ) Infecting Figwort ( Scrophularia buergeriana ) in Korea"
   },
   {
-   "date": "2026-09-26",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium fujikuroi Causing Root Rot of Fortunella hindsii in Fujian Province, China"
-  },
-  {
    "date": "2026-09-28",
    "journal": "Plant Disease",
    "title": "First Report of Botryosphaeria dothidea Causing Dieback of Neolitsea sericea in Korea"
@@ -2574,11 +2514,6 @@
    "date": "2026-09-28",
    "journal": "Plant Disease",
    "title": "First Report of Fusarium solani Causing Root Rot of Atractylodes chinensis in China"
-  },
-  {
-   "date": "2026-09-28",
-   "journal": "Plant Disease",
-   "title": "First Report of Burkholderia gladioli Causing Bacterial Leaf Streak of Fresh-Consumption Sugarcane in Fujian Province, China"
   },
   {
    "date": "2026-09-30",
@@ -2878,11 +2813,6 @@
   {
    "date": "2026-09-10",
    "journal": "Plant Disease",
-   "title": "First Report of Bacterial Soft Rot on Blanched Chinese Chive ( Allium tuberosum Rottler ex Spreng.) Caused by Pantoea ananatis in China"
-  },
-  {
-   "date": "2026-09-10",
-   "journal": "Plant Disease",
    "title": "First Report of Alternaria alternata Causing Leaf Spot on Kerria japonica in China"
   },
   {
@@ -3053,11 +2983,6 @@
   {
    "date": "2026-09-27",
    "journal": "Plant Disease",
-   "title": "First report of Fusarium fujikuroi causing fruit rot in Persian lime ( Citrus × latifolia Tanaka) in São Paulo citrus belt"
-  },
-  {
-   "date": "2026-09-27",
-   "journal": "Plant Disease",
    "title": "First Report of Potato Mop-Top Virus on potato ( Solanum tuberosum ) in Italy"
   },
   {
@@ -3149,11 +3074,6 @@
    "date": "2026-10-03",
    "journal": "Plant Disease",
    "title": "First report of ‘ Candidatus Arsenophonus phytopathogenicus’ in maize ( Zea mays L.) in Germany"
-  },
-  {
-   "date": "2026-10-03",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium fujikuroi Causing Wilt of Norway spruce Seedlings in Korea"
   },
   {
    "date": "2026-10-03",
@@ -3576,6 +3496,11 @@
    "title": "Population Structure of Phytophthora infestans in Poland Is Affected by Sexual Recombination and Transport of Infected Potato Seed Tubers"
   },
   {
+   "date": "2026-04-11",
+   "journal": "Plant Pathology",
+   "title": "Unravelling the Diversity of Fusarium Species Associated With Guava Wilt in Punjab, India"
+  },
+  {
    "date": "2026-04-17",
    "journal": "Plant Pathology",
    "title": "Identification of Race 8 of Diplocarpon rosae in France and Implications for Garden Rose Breeding"
@@ -3584,6 +3509,11 @@
    "date": "2026-04-26",
    "journal": "Plant Pathology",
    "title": "Molecular Identification and Diversity of Fusarium spp. Associated With Sugarcane in Brazil"
+  },
+  {
+   "date": "2026-05-21",
+   "journal": "Plant Pathology",
+   "title": "Four Novel Colletotrichum Species Associated With Anthracnose of Ornamental Araceae in Brazil With Insights Into Their Host Range"
   },
   {
    "date": "2026-06-04",
@@ -3609,6 +3539,11 @@
    "date": "2026-08-23",
    "journal": "Plant Pathology",
    "title": "Identification and Characterization of Thyronectria pinicola Associated With Pinus bungeana Canker Disease in Beijing"
+  },
+  {
+   "date": "2026-09-03",
+   "journal": "Plant Pathology",
+   "title": "Diversity of Botryosphaeriaceae Species Associated With Grapevine Dieback in France: Life Traits and Aggressiveness"
   },
   {
    "date": "2026-10-06",
@@ -4091,6 +4026,11 @@
    "title": "First report of Corynespora cassiicola causing target leaf spot on Populus deltoides in India"
   },
   {
+   "date": "2025-11-18",
+   "journal": "European Journal of Plant Pathology",
+   "title": "Alternaria and Stemphylium species associated with leaf blight and fruit rot of field-grown tomatoes in Australia"
+  },
+  {
    "date": "2026-02-27",
    "journal": "European Journal of Plant Pathology",
    "title": "Trichoderma endophyticum, T. asperellum, and T. harzianum suppress charcoal rot in soybean seeds infected by Macrophomina phaseolina"
@@ -4268,6 +4208,11 @@
   {
    "date": "2026-03-12",
    "journal": "Journal of Phytopathology",
+   "title": "Fusarium Species Associated With Soybean Root Rot in Northern Thailand"
+  },
+  {
+   "date": "2026-03-12",
+   "journal": "Journal of Phytopathology",
    "title": "Molecular Detection of Exserohilum turcicum in Maize Seeds: Validation of Specific Primers and Development of PCR / qPCR Protocols"
   },
   {
@@ -4301,14 +4246,14 @@
    "title": "First Report of ‘ Candidatus Phytoplasma trifolii’‐Related Strain ( 16SrVI ‐D Subgroup) Associated With Yellows Disease on Crape Jasmine ( Tabernaemontana divaricate ) From India"
   },
   {
+   "date": "2026-04-07",
+   "journal": "Journal of Phytopathology",
+   "title": "Phylogenetic Diversity, Pathogenic Variability and Tenuazonic Acid Production of Small‐Spored Alternaria Species Associated With Citrus Black Rot in Upper Egypt"
+  },
+  {
    "date": "2026-05-04",
    "journal": "Journal of Phytopathology",
    "title": "First Report of Nigrospora oryzae Causing Leaf Spots on Ageratina adenophora in India"
-  },
-  {
-   "date": "2026-05-05",
-   "journal": "Journal of Phytopathology",
-   "title": "First Report of Fusarium fujikuroi Causing Leaf Blight of Potherb Mustard ( Brassica juncea var. multiceps ) in China"
   },
   {
    "date": "2026-05-24",
@@ -4444,11 +4389,6 @@
    "date": "2025-12-01",
    "journal": "The Plant Pathology Journal",
    "title": "Transgenerational Dynamics of Endophytic Microbiome in Soybean Seeds"
-  },
-  {
-   "date": "2025-12-01",
-   "journal": "The Plant Pathology Journal",
-   "title": "The Fusarium fujikuroi Species Complex in Korea: Taxonomic Revision, New Records, and Description of Fusarium ipomoeicola sp. nov."
   },
   {
    "date": "2026-02-01",
@@ -4673,11 +4613,6 @@
    "title": "Research on Green Prevention and Control of Rice Blast Based on Analysis of Magnaporthe oryzae Populations in Different Ecological Regions"
   },
   {
-   "date": "2026-08-05",
-   "journal": "Plant Disease",
-   "title": "Temporal and Spatial Dynamics of the Fusarium graminearum Species Complex Associated with Fusarium Head Blight in Wheat from 2014 to 2023 in Mexico"
-  },
-  {
    "date": "2026-03-01",
    "journal": "Plant Disease",
    "title": "Efficacy of Fluxapyroxad and Mefentrifluconazole in Inhibiting and Controlling Wheat Powdery Mildew ( Blumeria graminis f. sp. tritici ) in Henan, Hebei, and Shandong Provinces, China"
@@ -4893,11 +4828,6 @@
    "title": "Screening and characterization of aggressiveness of an indigenous Fusarium culmorum isolates collection associated to Fusarium head blight (FHB) of wheat in Algeria"
   },
   {
-   "date": "2026-05-08",
-   "journal": "Journal of Plant Pathology",
-   "title": "Prevalence of toxigenic Fusarium species associated with grain discoloration of rice in north India"
-  },
-  {
    "date": "2026-07-27",
    "journal": "Journal of Plant Pathology",
    "title": "Quantifying host response of different barley (Hordeum vulgare) types to loose smut (Ustilago nuda)"
@@ -5081,11 +5011,6 @@
    "date": "2026-06-30",
    "journal": "식물병연구",
    "title": "A Simple and Reproducible Seedling Assay for Rice Sheath Blight Caused by Rhizoctonia solani"
-  },
-  {
-   "date": "2025-12-28",
-   "journal": "Mycobiology",
-   "title": "Pyrenophora Species Associated with Barley and Wheat in Japan"
   },
   {
    "date": "2026-06-22",

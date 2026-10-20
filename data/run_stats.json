@@ -11,7 +11,6 @@
   "Plant Health Progress": 191,
   "식물병연구": 57,
   "Mycobiology": 55,
-  "한국응용곤충학회지": 0,
   "PubMed": 59
  },
  "crossref_total": {
@@ -33,22 +32,20 @@
   "식물병연구 (1598-2262)": 0,
   "식물병연구 (2233-9191)": 57,
   "Mycobiology (1229-8093)": 55,
-  "Mycobiology (2092-9323)": 55,
-  "한국응용곤충학회지 (1225-0171)": 0,
-  "한국응용곤충학회지 (2287-545X)": 0
+  "Mycobiology (2092-9323)": 55
  },
  "errors": [],
- "updated": "2026-10-20T01:29:23+00:00",
+ "updated": "2026-10-20T01:31:42+00:00",
  "period": [
   "2025-10-20",
   "2026-10-20"
  ],
  "raw": 2569,
- "relevant": 59,
- "added": 58,
- "total": 58,
+ "relevant": 83,
+ "added": 82,
+ "total": 82,
  "review_counts": {
-  "missing_crop": 930,
-  "missing_report_type": 93
+  "missing_crop": 918,
+  "missing_report_type": 90
  }
 }

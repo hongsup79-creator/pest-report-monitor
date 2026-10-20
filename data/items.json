@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T01:29:23+00:00",
- "count": 58,
+ "updated": "2026-10-20T01:31:42+00:00",
+ "count": 82,
  "items": [
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
@@ -16,6 +16,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -47,6 +48,7 @@
    "sources": [
     "pubmed"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -74,6 +76,7 @@
    "sources": [
     "pubmed"
    ],
+   "watch": true,
    "crops": [
     "밀",
     "보리"
@@ -85,6 +88,36 @@
    "first_report": false,
    "seed_borne": true,
    "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0124-pdn",
+   "doi": "10.1094/pdis-01-26-0124-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium fujikuroi Causing Wilt of Norway spruce Seedlings in Korea",
+   "title_html": "First Report of <i>Fusarium fujikuroi</i> Causing Wilt of Norway spruce Seedlings in Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-10-03",
+   "authors": "Lee et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0124-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium fujikuroi"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": false,
    "domestic_status": null,
@@ -104,16 +137,19 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
    "pathogens": [
     "Fusarium"
    ],
-   "countries": [],
+   "countries": [
+    "Korea"
+   ],
    "first_report": false,
    "seed_borne": true,
-   "korea": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": true,
    "domestic_status": null,
@@ -133,6 +169,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -164,6 +201,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -193,6 +231,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -224,6 +263,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -235,6 +275,36 @@
    ],
    "first_report": true,
    "seed_borne": true,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-02-26-0409-pdn",
+   "doi": "10.1094/pdis-02-26-0409-pdn",
+   "pmid": null,
+   "title": "First Report of Burkholderia gladioli Causing Bacterial Leaf Streak of Fresh-Consumption Sugarcane in Fujian Province, China",
+   "title_html": "First Report of <i>Burkholderia gladioli</i> Causing Bacterial Leaf Streak of Fresh-Consumption Sugarcane in Fujian Province, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-28",
+   "authors": "Lin et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0409-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Burkholderia gladioli"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
    "korea": false,
    "neighbor": true,
    "domestic_source": false,
@@ -255,11 +325,70 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
    "pathogens": [
     "Pantoea ananatis"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-04-26-0818-pdn",
+   "doi": "10.1094/pdis-04-26-0818-pdn",
+   "pmid": null,
+   "title": "First report of Fusarium fujikuroi causing fruit rot in Persian lime ( Citrus × latifolia Tanaka) in São Paulo citrus belt",
+   "title_html": "First report of <i>Fusarium fujikuroi</i> causing fruit rot in Persian lime ( <i>Citrus</i> × <i>latifolia</i> Tanaka) in São Paulo citrus belt",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-27",
+   "authors": "Aparecido Brandão et al.",
+   "url": "https://doi.org/10.1094/pdis-04-26-0818-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium fujikuroi"
+   ],
+   "countries": [],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-12-25-2580-pdn",
+   "doi": "10.1094/pdis-12-25-2580-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium fujikuroi Causing Root Rot of Fortunella hindsii in Fujian Province, China",
+   "title_html": "First Report of <i>Fusarium fujikuroi</i> Causing Root Rot of <i>Fortunella hindsii</i> in Fujian Province, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-26",
+   "authors": "Lin et al.",
+   "url": "https://doi.org/10.1094/pdis-12-25-2580-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium fujikuroi"
    ],
    "countries": [
     "China"
@@ -286,6 +415,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -317,6 +447,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -348,6 +479,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "보리"
    ],
@@ -380,6 +512,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -398,6 +531,36 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-08-26-1521-pdn",
+   "doi": "10.1094/pdis-08-26-1521-pdn",
+   "pmid": null,
+   "title": "First Report of Bacterial Soft Rot on Blanched Chinese Chive ( Allium tuberosum Rottler ex Spreng.) Caused by Pantoea ananatis in China",
+   "title_html": "First Report of Bacterial Soft Rot on Blanched Chinese Chive ( <i>Allium tuberosum</i> Rottler ex Spreng.) Caused by <i>Pantoea ananatis</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-10",
+   "authors": "Duan et al.",
+   "url": "https://doi.org/10.1094/pdis-08-26-1521-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-07-26-1452-pdn",
    "doi": "10.1094/pdis-07-26-1452-pdn",
    "pmid": null,
@@ -411,6 +574,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -440,6 +604,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -469,6 +634,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -478,6 +644,36 @@
    "seed_borne": true,
    "korea": false,
    "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-12-25-2439-pdn",
+   "doi": "10.1094/pdis-12-25-2439-pdn",
+   "pmid": null,
+   "title": "First Report of Husk Black Spot of Macadamia Caused by Fusarium proliferatum in China",
+   "title_html": "First Report of Husk Black Spot of Macadamia Caused by <i>Fusarium proliferatum</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Tian et al.",
+   "url": "https://doi.org/10.1094/pdis-12-25-2439-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium proliferatum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
@@ -496,6 +692,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -505,6 +702,36 @@
    "countries": [],
    "first_report": false,
    "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-26-0506-pdn",
+   "doi": "10.1094/pdis-03-26-0506-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium verticillioides Causing Momordica charantia Fruit Rot in Mexico",
+   "title_html": "First Report of <i>Fusarium verticillioides</i> Causing <i>Momordica charantia</i> Fruit Rot in Mexico",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Castro-Diego et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0506-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium verticillioides"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "first_report": true,
+   "seed_borne": false,
    "korea": false,
    "neighbor": false,
    "domestic_source": false,
@@ -525,11 +752,72 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "밀"
    ],
    "pathogens": [
     "Fusarium luffae"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-26-0491-pdn",
+   "doi": "10.1094/pdis-03-26-0491-pdn",
+   "pmid": null,
+   "title": "First Report of Pepper Fruit Rot Caused by Fusarium luffae in Korea",
+   "title_html": "First Report of Pepper Fruit Rot Caused by <i>Fusarium luffae</i> in Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Lee et al.",
+   "url": "https://doi.org/10.1094/pdis-03-26-0491-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium luffae"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-02-26-0373-pdn",
+   "doi": "10.1094/pdis-02-26-0373-pdn",
+   "pmid": null,
+   "title": "First Report of Polygonatum kingianum Leaf Spot Caused by Pantoea ananatis in Yunnan Province, China",
+   "title_html": "First Report of <i>Polygonatum kingianum</i> Leaf Spot Caused by <i>Pantoea ananatis</i> in Yunnan Province, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-09-01",
+   "authors": "Cheng et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0373-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Pantoea ananatis"
    ],
    "countries": [
     "China"
@@ -556,6 +844,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -587,6 +876,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -618,6 +908,7 @@
    "sources": [
     "pubmed"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -647,6 +938,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -678,6 +970,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -709,6 +1002,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -717,6 +1011,38 @@
    ],
    "countries": [
     "India"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0064-re",
+   "doi": "10.1094/pdis-01-26-0064-re",
+   "pmid": null,
+   "title": "Temporal and Spatial Dynamics of the Fusarium graminearum Species Complex Associated with Fusarium Head Blight in Wheat from 2014 to 2023 in Mexico",
+   "title_html": "Temporal and Spatial Dynamics of the <i>Fusarium graminearum</i> Species Complex Associated with Fusarium Head Blight in Wheat from 2014 to 2023 in Mexico",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-08-05",
+   "authors": "Liu et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0064-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium graminearum"
+   ],
+   "countries": [
+    "Mexico"
    ],
    "first_report": true,
    "seed_borne": false,
@@ -740,6 +1066,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "보리"
    ],
@@ -771,6 +1098,7 @@
    "sources": [
     "pubmed"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -800,6 +1128,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀",
     "보리"
@@ -831,6 +1160,7 @@
     "crossref",
     "pubmed"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -842,6 +1172,36 @@
    "seed_borne": false,
    "korea": false,
    "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-02-26-0291-pdn",
+   "doi": "10.1094/pdis-02-26-0291-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium fujikuroi Causing Medicago sativa Root Rot in China",
+   "title_html": "First Report of <i>Fusarium fujikuroi</i> Causing <i>Medicago sativa</i> Root Rot in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-07-01",
+   "authors": "Zhang et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0291-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium fujikuroi"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
    "domestic_source": false,
    "domestic_status": null,
    "first_seen": "2026-10-20"
@@ -860,6 +1220,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -889,6 +1250,7 @@
    "sources": [
     "pubmed"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -916,6 +1278,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -948,11 +1311,42 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
    "pathogens": [
     "Fusarium armeniacum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-01-26-0015-pdn",
+   "doi": "10.1094/pdis-01-26-0015-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium luffae Causing Postharvest Fruit Rot of Eggplant ( Solanum melongena ) in China",
+   "title_html": "First Report of <i>Fusarium luffae</i> Causing Postharvest Fruit Rot of Eggplant ( <i>Solanum melongena</i> ) in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-06-01",
+   "authors": "Chen et al.",
+   "url": "https://doi.org/10.1094/pdis-01-26-0015-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium luffae"
    ],
    "countries": [
     "China"
@@ -979,6 +1373,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -997,6 +1392,99 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1007/s42161-026-02208-w",
+   "doi": "10.1007/s42161-026-02208-w",
+   "pmid": null,
+   "title": "Prevalence of toxigenic Fusarium species associated with grain discoloration of rice in north India",
+   "title_html": "Prevalence of toxigenic Fusarium species associated with grain discoloration of rice in north India",
+   "title_alt": null,
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-05-08",
+   "authors": "Singh et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02208-w",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Fusarium"
+   ],
+   "countries": [
+    "India"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1111/jph.70313",
+   "doi": "10.1111/jph.70313",
+   "pmid": null,
+   "title": "First Report of Fusarium fujikuroi Causing Leaf Blight of Potherb Mustard ( Brassica juncea var. multiceps ) in China",
+   "title_html": "First Report of <i>Fusarium fujikuroi</i> Causing Leaf Blight of Potherb Mustard ( <i>Brassica juncea</i> var. <i>multiceps</i> ) in China",
+   "title_alt": null,
+   "journal": "Journal of Phytopathology",
+   "date": "2026-05-05",
+   "authors": "Jin et al.",
+   "url": "https://doi.org/10.1111/jph.70313",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium fujikuroi"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-12-25-2614-pdn",
+   "doi": "10.1094/pdis-12-25-2614-pdn",
+   "pmid": null,
+   "title": "Occurrence of Leaf Spot Disease on Arundo donax Caused by Pyricularia oryzae (Synonym: Magnaporthe oryzae ) in China",
+   "title_html": "Occurrence of Leaf Spot Disease on <i>Arundo donax</i> Caused by <i>Pyricularia oryzae</i> (Synonym: <i>Magnaporthe oryzae</i> ) in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-05-01",
+   "authors": "Deng et al.",
+   "url": "https://doi.org/10.1094/pdis-12-25-2614-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Pyricularia oryzae",
+    "Magnaporthe oryzae"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1094/pdis-02-26-0244-re",
    "doi": "10.1094/pdis-02-26-0244-re",
    "pmid": null,
@@ -1010,6 +1498,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -1037,6 +1526,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -1066,11 +1556,132 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
    "pathogens": [
     "Fusarium commune"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-11-25-2316-pdn",
+   "doi": "10.1094/pdis-11-25-2316-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium proliferatum Causing Root Rot on Bupleurum chinense in China",
+   "title_html": "First Report of <i>Fusarium proliferatum</i> Causing Root Rot on <i>Bupleurum chinense</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-04-01",
+   "authors": "Niu et al.",
+   "url": "https://doi.org/10.1094/pdis-11-25-2316-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium proliferatum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-10-25-2172-pdn",
+   "doi": "10.1094/pdis-10-25-2172-pdn",
+   "pmid": null,
+   "title": "First Report of Burkholderia gladioli Infecting Dendrobium officinale in China",
+   "title_html": "First Report of <i>Burkholderia gladioli</i> Infecting <i>Dendrobium officinale</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-04-01",
+   "authors": "Chen et al.",
+   "url": "https://doi.org/10.1094/pdis-10-25-2172-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Burkholderia gladioli"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-09-25-2015-pdn",
+   "doi": "10.1094/pdis-09-25-2015-pdn",
+   "pmid": null,
+   "title": "First Report of Pantoea ananatis Causing Leaf Blight on Belamcanda chinensis in China",
+   "title_html": "First Report of <i>Pantoea ananatis</i> Causing Leaf Blight on <i>Belamcanda chinensis</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-04-01",
+   "authors": "Long et al.",
+   "url": "https://doi.org/10.1094/pdis-09-25-2015-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-03-25-0689-pdn",
+   "doi": "10.1094/pdis-03-25-0689-pdn",
+   "pmid": null,
+   "title": "First Report of Burkholderia gladioli Causing Yellow Spot Disease on Pleurotus pulmonarius in China",
+   "title_html": "First Report of <i>Burkholderia gladioli</i> Causing Yellow Spot Disease on <i>Pleurotus pulmonarius</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-04-01",
+   "authors": "Wei et al.",
+   "url": "https://doi.org/10.1094/pdis-03-25-0689-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Burkholderia gladioli"
    ],
    "countries": [
     "China"
@@ -1097,6 +1708,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -1124,6 +1736,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "보리"
    ],
@@ -1155,6 +1768,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -1182,6 +1796,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -1211,6 +1826,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -1242,6 +1858,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -1271,6 +1888,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "밀"
    ],
@@ -1302,6 +1920,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -1333,11 +1952,42 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
    "pathogens": [
     "Fusarium culmorum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-07-25-1571-pdn",
+   "doi": "10.1094/pdis-07-25-1571-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium verticillioides Causing Fusarium Blight on Tall Fescue in Anhui, China",
+   "title_html": "First Report of <i>Fusarium verticillioides</i> Causing Fusarium Blight on Tall Fescue in Anhui, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-03-01",
+   "authors": "Shi et al.",
+   "url": "https://doi.org/10.1094/pdis-07-25-1571-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium verticillioides"
    ],
    "countries": [
     "China"
@@ -1364,6 +2014,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "보리"
    ],
@@ -1382,6 +2033,66 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1094/pdis-09-25-1918-pdn",
+   "doi": "10.1094/pdis-09-25-1918-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium verticillioides Causing Stem Blight of Sinopodophyllum hexandrum in China",
+   "title_html": "First Report of <i>Fusarium verticillioides</i> Causing Stem Blight of <i>Sinopodophyllum hexandrum</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-02-01",
+   "authors": "Wang et al.",
+   "url": "https://doi.org/10.1094/pdis-09-25-1918-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium verticillioides"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.1094/pdis-06-25-1176-pdn",
+   "doi": "10.1094/pdis-06-25-1176-pdn",
+   "pmid": null,
+   "title": "First Report of Fusarium proliferatum Causing Leaf Spot on Juglans regia in Xinjiang, China",
+   "title_html": "First Report of <i>Fusarium proliferatum</i> Causing Leaf Spot on <i>Juglans regia</i> in Xinjiang, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-02-01",
+   "authors": "Chen et al.",
+   "url": "https://doi.org/10.1094/pdis-06-25-1176-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium proliferatum"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.1007/s42161-026-02116-z",
    "doi": "10.1007/s42161-026-02116-z",
    "pmid": null,
@@ -1395,6 +2106,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "보리"
    ],
@@ -1424,6 +2136,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀",
     "보리"
@@ -1456,6 +2169,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -1485,6 +2199,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -1516,6 +2231,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -1545,14 +2261,17 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
    "pathogens": [],
-   "countries": [],
+   "countries": [
+    "Korea"
+   ],
    "first_report": false,
    "seed_borne": true,
-   "korea": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": true,
    "domestic_status": null,
@@ -1572,16 +2291,19 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
    "pathogens": [
     "Bipolaris oryzae"
    ],
-   "countries": [],
+   "countries": [
+    "Korea"
+   ],
    "first_report": true,
    "seed_borne": false,
-   "korea": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": true,
    "domestic_status": null,
@@ -1601,6 +2323,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "밀"
    ],
@@ -1619,6 +2342,70 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "10.1080/12298093.2025.2604407",
+   "doi": "10.1080/12298093.2025.2604407",
+   "pmid": null,
+   "title": "Pyrenophora Species Associated with Barley and Wheat in Japan",
+   "title_html": "<i>Pyrenophora</i> Species Associated with Barley and Wheat in Japan",
+   "title_alt": null,
+   "journal": "Mycobiology",
+   "date": "2025-12-28",
+   "authors": "Canare et al.",
+   "url": "https://doi.org/10.1080/12298093.2025.2604407",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "밀",
+    "보리"
+   ],
+   "pathogens": [
+    "Pyrenophora"
+   ],
+   "countries": [
+    "Japan"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "10.5423/ppj.oa.08.2025.0114",
+   "doi": "10.5423/ppj.oa.08.2025.0114",
+   "pmid": null,
+   "title": "The Fusarium fujikuroi Species Complex in Korea: Taxonomic Revision, New Records, and Description of Fusarium ipomoeicola sp. nov.",
+   "title_html": "The Fusarium fujikuroi Species Complex in Korea: Taxonomic Revision, New Records, and Description of Fusarium ipomoeicola sp. nov.",
+   "title_alt": null,
+   "journal": "The Plant Pathology Journal",
+   "date": "2025-12-01",
+   "authors": "Thao et al.",
+   "url": "https://doi.org/10.5423/ppj.oa.08.2025.0114",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Fusarium fujikuroi",
+    "Fusarium ipomoeicola"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": true,
+   "domestic_status": null,
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "10.5423/ppj.oa.08.2025.0101",
    "doi": "10.5423/ppj.oa.08.2025.0101",
    "pmid": null,
@@ -1632,14 +2419,17 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
    "pathogens": [],
-   "countries": [],
+   "countries": [
+    "Korea"
+   ],
    "first_report": false,
    "seed_borne": true,
-   "korea": false,
+   "korea": true,
    "neighbor": false,
    "domestic_source": true,
    "domestic_status": null,
@@ -1659,6 +2449,7 @@
    "sources": [
     "pubmed"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
@@ -1690,6 +2481,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": true,
    "crops": [
     "벼"
    ],
@@ -1721,6 +2513,7 @@
    "sources": [
     "crossref"
    ],
+   "watch": false,
    "crops": [
     "벼"
    ],
