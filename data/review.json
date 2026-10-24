@@ -1,11 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-10-15",
-   "journal": "New Disease Reports",
-   "title": "First Report of Tomato Brown Rugose Fruit Virus on Tomato in Mauritius"
-  },
-  {
    "date": "2026-10-19",
    "journal": "New Disease Reports",
    "title": "First Report of Diaporthe eucommiae Causing Leaf Spot on Macadamia integrifolia in Florida, USA"
@@ -37,6 +32,11 @@
   }
  ],
  "missing_report_type": [
+  {
+   "date": "2026-10-07",
+   "journal": "Journal of agricultural and food chemistry",
+   "title": "Risk and Molecular Mechanism of Metconazole Resistance in the Rice Bakanae Pathogen Fusarium fujikuroi."
+  },
   {
    "date": "2026-10-19",
    "journal": "Journal of nematology",
