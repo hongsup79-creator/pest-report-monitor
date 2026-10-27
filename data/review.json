@@ -1,14 +1,14 @@
 {
  "missing_crop": [
   {
-   "date": "2026-10-19",
-   "journal": "New Disease Reports",
-   "title": "First Report of Diaporthe eucommiae Causing Leaf Spot on Macadamia integrifolia in Florida, USA"
-  },
-  {
    "date": "2026-10-22",
    "journal": "Journal of Plant Pathology",
    "title": "First report of tomato leaf curl Joydebpur virus infecting Ligustrum ovalifolium"
+  },
+  {
+   "date": "2026-10-26",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of Heterobasidion irregulare infecting Pinus pinea in the USA"
   },
   {
    "date": "2026-10-20",
@@ -32,6 +32,16 @@
   }
  ],
  "missing_report_type": [
+  {
+   "date": "2026-10-26",
+   "journal": "Plant Pathology",
+   "title": "l ‐Arginine Priming Enhances Wheat Seedling Resistance Against Fusarium graminearum Through Reprogramming Nitrogen Metabolism and Defence Signalling"
+  },
+  {
+   "date": "2026-10-26",
+   "journal": "European Journal of Plant Pathology",
+   "title": "Prediction of Fusarium head blight in wheat with PSO-BA-LightGBM"
+  },
   {
    "date": "2026-10-08",
    "journal": "Frontiers in plant science",
