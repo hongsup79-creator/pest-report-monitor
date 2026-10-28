@@ -2,50 +2,50 @@
  "fetched": {
   "Plant Disease": 3,
   "New Disease Reports": 0,
-  "Plant Pathology": 8,
-  "Journal of Plant Pathology": 6,
+  "Plant Pathology": 7,
+  "Journal of Plant Pathology": 13,
   "European Journal of Plant Pathology": 4,
-  "Journal of Phytopathology": 5,
+  "Journal of Phytopathology": 2,
   "Australasian Plant Disease Notes": 0,
-  "The Plant Pathology Journal": 1,
+  "The Plant Pathology Journal": 0,
   "Plant Health Progress": 3,
   "식물병연구": 0,
-  "Mycobiology": 2,
-  "PubMed": 4
+  "Mycobiology": 1,
+  "PubMed": 2
  },
  "crossref_total": {
   "Plant Disease (0191-2917)": 3,
   "Plant Disease (1943-7692)": 3,
   "New Disease Reports (2044-0588)": 0,
-  "Plant Pathology (0032-0862)": 8,
-  "Plant Pathology (1365-3059)": 8,
+  "Plant Pathology (0032-0862)": 7,
+  "Plant Pathology (1365-3059)": 7,
   "Journal of Plant Pathology (1125-4718)": 0,
-  "Journal of Plant Pathology (2239-7264)": 6,
+  "Journal of Plant Pathology (2239-7264)": 13,
   "European Journal of Plant Pathology (0929-1873)": 4,
   "European Journal of Plant Pathology (1573-8469)": 4,
-  "Journal of Phytopathology (0931-1785)": 5,
-  "Journal of Phytopathology (1439-0434)": 5,
+  "Journal of Phytopathology (0931-1785)": 2,
+  "Journal of Phytopathology (1439-0434)": 2,
   "Australasian Plant Disease Notes (1833-928X)": 0,
   "The Plant Pathology Journal (1598-2254)": 0,
-  "The Plant Pathology Journal (2093-9280)": 1,
+  "The Plant Pathology Journal (2093-9280)": 0,
   "Plant Health Progress (1535-1025)": 3,
   "식물병연구 (1598-2262)": 0,
   "식물병연구 (2233-9191)": 0,
-  "Mycobiology (1229-8093)": 2,
-  "Mycobiology (2092-9323)": 2
+  "Mycobiology (1229-8093)": 1,
+  "Mycobiology (2092-9323)": 1
  },
  "errors": [],
- "updated": "2026-10-27T00:32:40+00:00",
+ "updated": "2026-10-28T00:33:52+00:00",
  "period": [
-  "2026-10-20",
-  "2026-10-27"
+  "2026-10-21",
+  "2026-10-28"
  ],
- "raw": 36,
- "relevant": 0,
- "added": 0,
- "total": 115,
+ "raw": 35,
+ "relevant": 1,
+ "added": 1,
+ "total": 116,
  "review_counts": {
-  "missing_crop": 6,
-  "missing_report_type": 5
+  "missing_crop": 5,
+  "missing_report_type": 6
  }
 }

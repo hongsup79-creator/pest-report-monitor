@@ -1,7 +1,37 @@
 {
- "updated": "2026-10-27T00:32:40+00:00",
- "count": 115,
+ "updated": "2026-10-28T00:33:52+00:00",
+ "count": 116,
  "items": [
+  {
+   "id": "10.1007/s42161-026-02330-9",
+   "doi": "10.1007/s42161-026-02330-9",
+   "pmid": null,
+   "title": "Morphological and molecular identification of Magnaporthe oryzae causing finger millet blast disease in Kenya",
+   "title_html": "Morphological and molecular identification of Magnaporthe oryzae causing finger millet blast disease in Kenya",
+   "title_alt": null,
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-10-27",
+   "authors": "Wambua et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02330-9",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Magnaporthe oryzae"
+   ],
+   "countries": [
+    "Kenya"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-10-28"
+  },
   {
    "id": "10.1094/pdis-08-26-1515-pdn",
    "doi": "10.1094/pdis-08-26-1515-pdn",
