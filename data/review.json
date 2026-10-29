@@ -1,6 +1,21 @@
 {
  "missing_crop": [
   {
+   "date": "2026-10-28",
+   "journal": "Plant Disease",
+   "title": "Identification and characterization of pathogens causing oat anthracnose in China"
+  },
+  {
+   "date": "2026-10-28",
+   "journal": "Plant Disease",
+   "title": "First Report of Alternaria tenuissima Causing Leaf Spot on Magnolia figo in China"
+  },
+  {
+   "date": "2026-10-28",
+   "journal": "Plant Disease",
+   "title": "First Report of Alternaria alternata Causing Fruit Rot on Immature Fruits of Sweet Cherry in China"
+  },
+  {
    "date": "2026-10-22",
    "journal": "Journal of Plant Pathology",
    "title": "First report of tomato leaf curl Joydebpur virus infecting Ligustrum ovalifolium"
@@ -27,6 +42,16 @@
   }
  ],
  "missing_report_type": [
+  {
+   "date": "2026-10-28",
+   "journal": "Plant Disease",
+   "title": "Development of host-mimicking legume-based media for robust induction of sporulation in soybean-associated Cercospora species"
+  },
+  {
+   "date": "2026-10-28",
+   "journal": "Plant Disease",
+   "title": "Population genetics of Fusarium graminearum , causal agent of Fusarium Head Blight, provide insight into patterns of inoculum dispersal in wheat fields"
+  },
   {
    "date": "2026-10-26",
    "journal": "Plant Pathology",
