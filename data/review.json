@@ -16,11 +16,6 @@
    "title": "First Report of Alternaria alternata Causing Fruit Rot on Immature Fruits of Sweet Cherry in China"
   },
   {
-   "date": "2026-10-22",
-   "journal": "Journal of Plant Pathology",
-   "title": "First report of tomato leaf curl Joydebpur virus infecting Ligustrum ovalifolium"
-  },
-  {
    "date": "2026-10-26",
    "journal": "Journal of Plant Pathology",
    "title": "First report of Heterobasidion irregulare infecting Pinus pinea in the USA"
@@ -34,11 +29,6 @@
    "date": "2026-10-27",
    "journal": "Journal of Plant Pathology",
    "title": "Occurrence, molecular diversity, and phylogenetic relationships of eggplant mottled dwarf virus (EMDV, Alphanucleorhabdovirus melongenae) in eggplant-producing regions of Türkiye"
-  },
-  {
-   "date": "2026-10-22",
-   "journal": "Mycobiology",
-   "title": "Morphological and Molecular Characterization of Pseudocercospora lythracearum on Lagerstroemia spp. based on Korea and Japan Isolates, Including the First Report on L. fauriei in Korea"
   }
  ],
  "missing_report_type": [
@@ -71,6 +61,11 @@
    "date": "2026-10-26",
    "journal": "European Journal of Plant Pathology",
    "title": "Prediction of Fusarium head blight in wheat with PSO-BA-LightGBM"
+  },
+  {
+   "date": "2026-10-29",
+   "journal": "Plant Health Progress",
+   "title": "Development of a Sclerotinia sclerotiorum Isolate Panel to Screen for Soybean Resistance to Sclerotinia Stem Rot in Minnesota"
   },
   {
    "date": "2026-10-08",
