@@ -11,7 +11,7 @@
   "Plant Health Progress": 16,
   "식물병연구": 0,
   "Mycobiology": 1,
-  "PubMed": 3
+  "PubMed": 2
  },
  "crossref_total": {
   "Plant Disease (0191-2917)": 25,
@@ -35,17 +35,17 @@
   "Mycobiology (2092-9323)": 1
  },
  "errors": [],
- "updated": "2026-11-01T00:11:26+00:00",
+ "updated": "2026-11-02T00:50:39+00:00",
  "period": [
-  "2026-10-25",
-  "2026-11-01"
+  "2026-10-26",
+  "2026-11-02"
  ],
- "raw": 74,
+ "raw": 73,
  "relevant": 1,
  "added": 0,
  "total": 116,
  "review_counts": {
   "missing_crop": 16,
-  "missing_report_type": 8
+  "missing_report_type": 7
  }
 }
