@@ -1,7 +1,38 @@
 {
- "updated": "2026-11-04T01:29:54+00:00",
- "count": 116,
+ "updated": "2026-11-05T01:29:54+00:00",
+ "count": 117,
  "items": [
+  {
+   "id": "10.1094/pdis-06-26-1239-re",
+   "doi": "10.1094/pdis-06-26-1239-re",
+   "pmid": "42981181",
+   "title": "Damage Assessment of Major Soybean Viruses in Korea: Infection Timing Influences Yield Loss and Seed-Borne Transmission Dynamics",
+   "title_html": "Damage Assessment of Major Soybean Viruses in Korea: Infection Timing Influences Yield Loss and Seed-Borne Transmission Dynamics",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-04",
+   "authors": "Bak et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1239-re",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-05"
+  },
   {
    "id": "10.1007/s42161-026-02330-9",
    "doi": "10.1007/s42161-026-02330-9",

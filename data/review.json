@@ -3,16 +3,6 @@
   {
    "date": "2026-10-28",
    "journal": "Plant Disease",
-   "title": "Identification and characterization of pathogens causing oat anthracnose in China"
-  },
-  {
-   "date": "2026-10-28",
-   "journal": "Plant Disease",
-   "title": "First Report of Alternaria tenuissima Causing Leaf Spot on Magnolia figo in China"
-  },
-  {
-   "date": "2026-10-28",
-   "journal": "Plant Disease",
    "title": "First Report of Alternaria alternata Causing Fruit Rot on Immature Fruits of Sweet Cherry in China"
   },
   {
@@ -61,6 +51,16 @@
    "title": "First Report of Cercospora cf. flagellaris causing leaf spot on Ivyleaf morning glory ( Ipomoea hederacea ) in Iowa"
   },
   {
+   "date": "2026-11-04",
+   "journal": "Plant Disease",
+   "title": "First Report of Charcoal Rot Caused by Macrophominia phaseolina on Blueberry ( Vaccinium corymbosum ‘Top Shelf’) in Oregon, U.S.A."
+  },
+  {
+   "date": "2026-11-04",
+   "journal": "Plant Disease",
+   "title": "First Report of Fusarium Dry Rot of Garlic Caused by Fusarium proliferatum in Korea"
+  },
+  {
    "date": "2026-11-03",
    "journal": "Plant Pathology",
    "title": "Characterisation and Pathogenicity of Botryosphaeriaceae Species Associated With Avocado in South Africa"
@@ -77,16 +77,6 @@
   }
  ],
  "missing_report_type": [
-  {
-   "date": "2026-10-28",
-   "journal": "Plant Disease",
-   "title": "Development of host-mimicking legume-based media for robust induction of sporulation in soybean-associated Cercospora species"
-  },
-  {
-   "date": "2026-10-28",
-   "journal": "Plant Disease",
-   "title": "Population genetics of Fusarium graminearum , causal agent of Fusarium Head Blight, provide insight into patterns of inoculum dispersal in wheat fields"
-  },
   {
    "date": "2026-10-29",
    "journal": "Plant Health Progress",
