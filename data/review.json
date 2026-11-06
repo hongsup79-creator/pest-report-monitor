@@ -1,11 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-10-28",
-   "journal": "Plant Disease",
-   "title": "First Report of Alternaria alternata Causing Fruit Rot on Immature Fruits of Sweet Cherry in China"
-  },
-  {
    "date": "2026-10-30",
    "journal": "Plant Disease",
    "title": "First report of four viruses infecting peony in Belgium: Cycas necrotic stunt virus, tobacco rattle virus, peony yellowing-associated virus 1 and lychnis mottle virus"
@@ -66,6 +61,11 @@
    "title": "Characterisation and Pathogenicity of Botryosphaeriaceae Species Associated With Avocado in South Africa"
   },
   {
+   "date": "2026-11-05",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of Lasiodiplodia pseudotheobromae causing leaf blight on soap nut tree (Sapindus emarginatus) in India"
+  },
+  {
    "date": "2026-11-02",
    "journal": "The Plant Pathology Journal",
    "title": "Microbial Seed Coating and Pelleting: Benefits for Field Performance"
@@ -76,11 +76,5 @@
    "title": "First Report of Cercospora cf. flagellaris causing leaf spot on Ivyleaf morning glory (Ipomoea hederacea) in Iowa."
   }
  ],
- "missing_report_type": [
-  {
-   "date": "2026-10-29",
-   "journal": "Plant Health Progress",
-   "title": "Development of a Sclerotinia sclerotiorum Isolate Panel to Screen for Soybean Resistance to Sclerotinia Stem Rot in Minnesota"
-  }
- ]
+ "missing_report_type": []
 }

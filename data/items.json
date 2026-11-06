@@ -1,7 +1,39 @@
 {
- "updated": "2026-11-05T01:29:54+00:00",
- "count": 117,
+ "updated": "2026-11-06T01:37:04+00:00",
+ "count": 118,
  "items": [
+  {
+   "id": "10.1007/s42161-026-02346-1",
+   "doi": "10.1007/s42161-026-02346-1",
+   "pmid": null,
+   "title": "First report of Pantoea ananatis causing bacterial leaf blight of wheat (Triticum aestivum L.) in Türkiye",
+   "title_html": "First report of Pantoea ananatis causing bacterial leaf blight of wheat (Triticum aestivum L.) in Türkiye",
+   "title_alt": null,
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-11-05",
+   "authors": "Boluk-Tas et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02346-1",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "Turkey"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-06"
+  },
   {
    "id": "10.1094/pdis-06-26-1239-re",
    "doi": "10.1094/pdis-06-26-1239-re",
