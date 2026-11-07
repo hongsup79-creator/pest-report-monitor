@@ -1,7 +1,35 @@
 {
- "updated": "2026-11-06T01:37:04+00:00",
- "count": 118,
+ "updated": "2026-11-07T00:58:26+00:00",
+ "count": 119,
  "items": [
+  {
+   "id": "10.1094/pdis-06-26-1265-re",
+   "doi": "10.1094/pdis-06-26-1265-re",
+   "pmid": null,
+   "title": "Dose-Response Effects of Seed-Applied Fluopyram and Pydiflumetofen on Soybean Cyst Nematode and Yield: A Component Network Meta-Analysis",
+   "title_html": "Dose-Response Effects of Seed-Applied Fluopyram and Pydiflumetofen on Soybean Cyst Nematode and Yield: A Component Network Meta-Analysis",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-06",
+   "authors": "Garnica et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1265-re",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-07"
+  },
   {
    "id": "10.1007/s42161-026-02346-1",
    "doi": "10.1007/s42161-026-02346-1",
