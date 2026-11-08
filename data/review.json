@@ -1,26 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-10-30",
-   "journal": "Plant Disease",
-   "title": "Occurrence of Potato Viruses in Taiwan and Biological and Molecular Characterization of Potato Virus Y Isolate"
-  },
-  {
-   "date": "2026-10-30",
-   "journal": "Plant Disease",
-   "title": "First Report of Penicillium olsonii Causing Strawberry Fruit Rot in China"
-  },
-  {
-   "date": "2026-10-30",
-   "journal": "Plant Disease",
-   "title": "First Report of Leaf Spot on Smilax glabra Caused by Neopestalotiopsis clavispora in China"
-  },
-  {
-   "date": "2026-10-30",
-   "journal": "Plant Disease",
-   "title": "First Report of Cercospora cf. flagellaris causing leaf spot on Ivyleaf morning glory ( Ipomoea hederacea ) in Iowa"
-  },
-  {
    "date": "2026-11-04",
    "journal": "Plant Disease",
    "title": "First Report of Charcoal Rot Caused by Macrophominia phaseolina on Blueberry ( Vaccinium corymbosum ‘Top Shelf’) in Oregon, U.S.A."
@@ -79,11 +59,6 @@
    "date": "2026-11-02",
    "journal": "The Plant Pathology Journal",
    "title": "Microbial Seed Coating and Pelleting: Benefits for Field Performance"
-  },
-  {
-   "date": "2026-10-30",
-   "journal": "Plant disease",
-   "title": "First Report of Cercospora cf. flagellaris causing leaf spot on Ivyleaf morning glory (Ipomoea hederacea) in Iowa."
   }
  ],
  "missing_report_type": []
