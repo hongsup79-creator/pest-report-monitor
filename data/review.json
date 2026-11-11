@@ -46,14 +46,39 @@
    "title": "First Report of Charcoal Rot in the Stem of Tomato Caused by Macrophomina phaseolina in Nepal"
   },
   {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "Occurrence of Leaf Spot on Solidago canadensis caused by Colletotrichum aenigma in China"
+  },
+  {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "First detection and biological characterization of African eggplant mosaic virus, an aphid, transmissible potyvirus infecting tomato in Switzerland"
+  },
+  {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "An overview of grapevine trunk disease pathogens newly reported in Montenegro"
+  },
+  {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "First report of Stemphylium eturmiunum causing leaf spot on Eucalyptus tricarpa in Australian native vegetation"
+  },
+  {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "First Report of Root Rot Caused by Calonectria ilicicola on Malania oleifera in Yunnan Province, China"
+  },
+  {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "First Report of Postharvest Fruit Rot Caused by Fusarium sulawesiense on Watermelon in Florida, United States"
+  },
+  {
    "date": "2026-11-05",
    "journal": "New Disease Reports",
    "title": "First Report of Maize rayado Fino Virus Infecting Maize ( Zea mays ) in Uruguay"
-  },
-  {
-   "date": "2026-11-03",
-   "journal": "Plant Pathology",
-   "title": "Characterisation and Pathogenicity of Botryosphaeriaceae Species Associated With Avocado in South Africa"
   },
   {
    "date": "2026-11-05",
@@ -64,7 +89,18 @@
    "date": "2026-11-09",
    "journal": "Journal of Plant Pathology",
    "title": "Occurrence of Serratia marcescens causing soft rot in bell pepper (Capsicum annuum) in Iran"
+  },
+  {
+   "date": "2026-11-10",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of cabbage cytorhabdovirus 1 in cabbage in Jordan"
   }
  ],
- "missing_report_type": []
+ "missing_report_type": [
+  {
+   "date": "2026-11-10",
+   "journal": "Plant Disease",
+   "title": "Race typing of the wheat stripe rust pathogen Puccinia striiformis f. sp. tritici in western Canada from 2017 to 2022"
+  }
+ ]
 }
