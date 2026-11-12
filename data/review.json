@@ -1,16 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-11-04",
-   "journal": "Plant Disease",
-   "title": "First Report of Charcoal Rot Caused by Macrophominia phaseolina on Blueberry ( Vaccinium corymbosum ‘Top Shelf’) in Oregon, U.S.A."
-  },
-  {
-   "date": "2026-11-04",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium Dry Rot of Garlic Caused by Fusarium proliferatum in Korea"
-  },
-  {
    "date": "2026-11-06",
    "journal": "Plant Disease",
    "title": "First Report of Root Rot of Melon Caused by Aspergillus tubingensis in China"
@@ -76,6 +66,26 @@
    "title": "First Report of Postharvest Fruit Rot Caused by Fusarium sulawesiense on Watermelon in Florida, United States"
   },
   {
+   "date": "2026-11-11",
+   "journal": "Plant Disease",
+   "title": "First Report of Colletotrichum plurivorum Causing Anthracnose on Panax notoginseng in Wenshan, China"
+  },
+  {
+   "date": "2026-11-11",
+   "journal": "Plant Disease",
+   "title": "First Report of Colletotrichum jiangxiense Causing Anthracnose on Rosa hybrida in Yunnan Province, China"
+  },
+  {
+   "date": "2026-11-11",
+   "journal": "Plant Disease",
+   "title": "First Report of Dollar Spot Disease on Seashore Paspalum Caused by Clarireedia monteithiana in Taiwan"
+  },
+  {
+   "date": "2026-11-11",
+   "journal": "Plant Disease",
+   "title": "First Report of Colletotrichum truncatum Causing Stem Anthracnose of Cowpea ( Vigna unguiculata ) in Florida, U.S.A."
+  },
+  {
    "date": "2026-11-05",
    "journal": "New Disease Reports",
    "title": "First Report of Maize rayado Fino Virus Infecting Maize ( Zea mays ) in Uruguay"
@@ -101,6 +111,16 @@
    "date": "2026-11-10",
    "journal": "Plant Disease",
    "title": "Race typing of the wheat stripe rust pathogen Puccinia striiformis f. sp. tritici in western Canada from 2017 to 2022"
+  },
+  {
+   "date": "2026-11-11",
+   "journal": "Journal of Phytopathology",
+   "title": "Phenotypic, Pathogenic and Multilocus Sequence Characterization of Field‐Derived Pseudomonas syringae Complex Isolates From Wheat in Northern Türkiye"
+  },
+  {
+   "date": "2026-11-11",
+   "journal": "The Plant Pathology Journal",
+   "title": "Molecular Differentiation of Bipolaris oryzae and Nigrospora oryzae Associated with Brown Spot Symptoms in Rice"
   }
  ]
 }
