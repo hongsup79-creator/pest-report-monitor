@@ -1,7 +1,133 @@
 {
- "updated": "2026-11-12T02:18:19+00:00",
- "count": 119,
+ "updated": "2026-11-13T01:54:37+00:00",
+ "count": 123,
  "items": [
+  {
+   "id": "10.1007/s42161-026-02347-0",
+   "doi": "10.1007/s42161-026-02347-0",
+   "pmid": null,
+   "title": "First report of Erwinia rhapontici causing pink seed disease of wheat (Triticum aestivum) in Türkiye",
+   "title_html": "First report of Erwinia rhapontici causing pink seed disease of wheat (Triticum aestivum) in Türkiye",
+   "title_alt": null,
+   "journal": "Journal of Plant Pathology",
+   "date": "2026-11-12",
+   "authors": "Boluk-Tas et al.",
+   "url": "https://doi.org/10.1007/s42161-026-02347-0",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Erwinia rhapontici"
+   ],
+   "countries": [
+    "Turkey"
+   ],
+   "first_report": true,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "10.1094/pdis-07-26-1351-pdn",
+   "doi": "10.1094/pdis-07-26-1351-pdn",
+   "pmid": null,
+   "title": "First Report of Leaf Spot Caused by Alternaria alternata on Rice in Korea",
+   "title_html": "First Report of Leaf Spot Caused by <i>Alternaria alternata</i> on Rice in Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-11",
+   "authors": "Kang et al.",
+   "url": "https://doi.org/10.1094/pdis-07-26-1351-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Alternaria alternata"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "10.1094/pdis-07-26-1296-pdn",
+   "doi": "10.1094/pdis-07-26-1296-pdn",
+   "pmid": null,
+   "title": "First Report of Pantoea agglomerans Causing Leaf Blight on Wheat in Gansu Province, China",
+   "title_html": "First Report of <i>Pantoea agglomerans</i> Causing Leaf Blight on Wheat in Gansu Province, China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-11",
+   "authors": "Xu et al.",
+   "url": "https://doi.org/10.1094/pdis-07-26-1296-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Pantoea agglomerans"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "10.1094/pdis-06-26-1189-pdn",
+   "doi": "10.1094/pdis-06-26-1189-pdn",
+   "pmid": null,
+   "title": "First Report of Bronzing Disease of Jackfruit ( Artocarpus heterophyllus ‘Qiongyin 8’) Caused by Pantoea ananatis in China",
+   "title_html": "First Report of Bronzing Disease of Jackfruit ( <i>Artocarpus heterophyllus</i> ‘Qiongyin 8’) Caused by <i>Pantoea ananatis</i> in China",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-11",
+   "authors": "Guo et al.",
+   "url": "https://doi.org/10.1094/pdis-06-26-1189-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "China"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": true,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-13"
+  },
   {
    "id": "10.1094/pdis-06-26-1265-re",
    "doi": "10.1094/pdis-06-26-1265-re",
