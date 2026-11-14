@@ -1,7 +1,39 @@
 {
- "updated": "2026-11-13T01:54:37+00:00",
- "count": 123,
+ "updated": "2026-11-14T01:29:21+00:00",
+ "count": 124,
  "items": [
+  {
+   "id": "10.1094/pdis-08-26-1557-pdn",
+   "doi": "10.1094/pdis-08-26-1557-pdn",
+   "pmid": null,
+   "title": "First report of Cercospora cf. sigesbeckiae causing Cercospora leaf spot of soybean in the Republic of Korea",
+   "title_html": "First report of <i>Cercospora</i> cf. <i>sigesbeckiae</i> causing Cercospora leaf spot of soybean in the Republic of Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-13",
+   "authors": "Lee et al.",
+   "url": "https://doi.org/10.1094/pdis-08-26-1557-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Cercospora leaf"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "10.1007/s42161-026-02347-0",
    "doi": "10.1007/s42161-026-02347-0",
