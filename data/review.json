@@ -1,11 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-11-08",
-   "journal": "Plant Disease",
-   "title": "First Report of Charcoal Rot in the Stem of Tomato Caused by Macrophomina phaseolina in Nepal"
-  },
-  {
    "date": "2026-11-10",
    "journal": "Plant Disease",
    "title": "Occurrence of Leaf Spot on Solidago canadensis caused by Colletotrichum aenigma in China"
@@ -174,6 +169,11 @@
    "date": "2026-11-13",
    "journal": "Plant Disease",
    "title": "First report of tomato leaf curl New Delhi virus infecting Abutilon theophrasti Medicus in China"
+  },
+  {
+   "date": "2026-11-15",
+   "journal": "Plant Disease",
+   "title": "First Report of Leaf and Fruit Spot of Pomegranate Caused by Pseudocercospora punicae in Korea"
   },
   {
    "date": "2026-11-09",
