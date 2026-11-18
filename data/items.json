@@ -1,7 +1,39 @@
 {
- "updated": "2026-11-17T03:58:40+00:00",
- "count": 124,
+ "updated": "2026-11-18T02:57:33+00:00",
+ "count": 125,
  "items": [
+  {
+   "id": "10.1094/pdis-02-26-0395-pdn",
+   "doi": "10.1094/pdis-02-26-0395-pdn",
+   "pmid": null,
+   "title": "First Report of Rice Bacterial Leaf Blight Disease Caused by Pantoea ananatis in Bangladesh",
+   "title_html": "First Report of Rice Bacterial Leaf Blight Disease Caused by <i>Pantoea ananatis</i> in Bangladesh",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-17",
+   "authors": "Yeasin Arafat Babu et al.",
+   "url": "https://doi.org/10.1094/pdis-02-26-0395-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": true,
+   "crops": [
+    "벼"
+   ],
+   "pathogens": [
+    "Pantoea ananatis"
+   ],
+   "countries": [
+    "Bangladesh"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-18"
+  },
   {
    "id": "10.1094/pdis-08-26-1557-pdn",
    "doi": "10.1094/pdis-08-26-1557-pdn",
