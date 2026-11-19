@@ -1,7 +1,67 @@
 {
- "updated": "2026-11-18T02:57:33+00:00",
- "count": 125,
+ "updated": "2026-11-19T02:38:23+00:00",
+ "count": 127,
  "items": [
+  {
+   "id": "10.1094/php-09-26-0196-pdmr",
+   "doi": "10.1094/php-09-26-0196-pdmr",
+   "pmid": null,
+   "title": "Evaluation of Biological Seed Treatments for Management of Sudden Death Syndrome on Soybean in Wanatah, IN, 2025",
+   "title_html": "Evaluation of Biological Seed Treatments for Management of Sudden Death Syndrome on Soybean in Wanatah, IN, 2025",
+   "title_alt": null,
+   "journal": "Plant Health Progress",
+   "date": "2026-11-18",
+   "authors": "Myers et al.",
+   "url": "https://doi.org/10.1094/php-09-26-0196-pdmr",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "10.1094/pdis-08-26-1653-pdn",
+   "doi": "10.1094/pdis-08-26-1653-pdn",
+   "pmid": null,
+   "title": "First Report of Stem Canker Caused by Diaporthe aspalathi on Soybean ( Glycine max (L.) Merr.) in Korea",
+   "title_html": "First Report of Stem Canker Caused by <i>Diaporthe aspalathi</i> on Soybean ( <i>Glycine max</i> (L.) Merr.) in Korea",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-18",
+   "authors": "Choi et al.",
+   "url": "https://doi.org/10.1094/pdis-08-26-1653-pdn",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "콩"
+   ],
+   "pathogens": [
+    "Diaporthe aspalathi"
+   ],
+   "countries": [
+    "Korea"
+   ],
+   "first_report": true,
+   "seed_borne": false,
+   "korea": true,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-19"
+  },
   {
    "id": "10.1094/pdis-02-26-0395-pdn",
    "doi": "10.1094/pdis-02-26-0395-pdn",

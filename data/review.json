@@ -3,26 +3,6 @@
   {
    "date": "2026-11-11",
    "journal": "Plant Disease",
-   "title": "First Report of Colletotrichum plurivorum Causing Anthracnose on Panax notoginseng in Wenshan, China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Colletotrichum jiangxiense Causing Anthracnose on Rosa hybrida in Yunnan Province, China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Dollar Spot Disease on Seashore Paspalum Caused by Clarireedia monteithiana in Taiwan"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Colletotrichum truncatum Causing Stem Anthracnose of Cowpea ( Vigna unguiculata ) in Florida, U.S.A."
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
    "title": "First Report of Apple Stem Pitting Virus in Pome Fruit Trees in Azerbaijan"
   },
   {
@@ -161,6 +141,16 @@
    "title": "First report of Alternaria alternata causing alternaria leaf spot of cucumbers in South Dakota"
   },
   {
+   "date": "2026-11-18",
+   "journal": "Plant Disease",
+   "title": "Dogwood ( Cornus sp.), a new host of clematis chlorotic mottle virus found in Slovenia"
+  },
+  {
+   "date": "2026-11-18",
+   "journal": "Plant Disease",
+   "title": "First Report of Lasiodiplodia pseudotheobromae Causing Leaf Spot on Lonicera japonica in China"
+  },
+  {
    "date": "2026-11-16",
    "journal": "Plant Pathology",
    "title": "Emergence of Clubroot Disease of Mustard in Bangladesh: First Molecular Evidence, Distribution and Phylogenetic Characterisation of Plasmodiophora brassicae"
@@ -179,6 +169,11 @@
    "date": "2026-11-12",
    "journal": "Journal of Plant Pathology",
    "title": "Morphological, pathogenicity and multilocus analyses reveal genetic-phenotypic associations in Colletotrichum species associated with mango anthracnose in India"
+  },
+  {
+   "date": "2026-11-18",
+   "journal": "Journal of Phytopathology",
+   "title": "First Report of Meloidogyne enterolobii on Euphorbia hyssopifolia and a Study on Its Role as Source of Nematode Inoculum"
   }
  ],
  "missing_report_type": [
@@ -191,11 +186,6 @@
    "date": "2026-11-11",
    "journal": "Journal of Phytopathology",
    "title": "Phenotypic, Pathogenic and Multilocus Sequence Characterization of Field‐Derived Pseudomonas syringae Complex Isolates From Wheat in Northern Türkiye"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "The Plant Pathology Journal",
-   "title": "Molecular Differentiation of Bipolaris oryzae and Nigrospora oryzae Associated with Brown Spot Symptoms in Rice"
   }
  ]
 }
