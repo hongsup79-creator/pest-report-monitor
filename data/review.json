@@ -1,56 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Apple Stem Pitting Virus in Pome Fruit Trees in Azerbaijan"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Agroathelia (syn. Sclerotium ) rolfsii Causing Southern Blight on Knoxia roxburghii in Yunnan Province of China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "Occurrence of Soft Rot Disease Caused by Pantoea vagans on Chili Pepper in China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Meloidogyne enterolobii Infecting Myrica rubra in Fujian Province, China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First report of citrus yellow vein-associated virus in Aeonium arboreum in Europe"
-  },
-  {
-   "date": "2026-11-12",
-   "journal": "Plant Disease",
-   "title": "First Report of Leaf Blight on Sweet Potatoes Caused by Fusarium graminearum in China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First report of a potential new race of Fusarium oxysporum f.sp. lactucae causing lettuce wilt disease in France"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium pernambucanum Causing Root Rot on Cowpea in China"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Plant Disease",
-   "title": "First Report of Anthracnose on Chili Pepper Caused by Colletotrichum godetiae in China"
-  },
-  {
-   "date": "2026-11-12",
-   "journal": "Plant Disease",
-   "title": "First Detection of the Perithecial Stage of Eutypa lata in Chilean Vineyards"
-  },
-  {
    "date": "2026-11-13",
    "journal": "Plant Disease",
    "title": "First Report of Leaf Spot Caused by Fusarium concentricum on Tea Plant ( Camellia sinensis ) in China"
@@ -156,21 +106,6 @@
    "title": "Emergence of Clubroot Disease of Mustard in Bangladesh: First Molecular Evidence, Distribution and Phylogenetic Characterisation of Plasmodiophora brassicae"
   },
   {
-   "date": "2026-11-12",
-   "journal": "Journal of Plant Pathology",
-   "title": "First report of Colletotrichum karsti causing anthracnose on citrus in Morocco"
-  },
-  {
-   "date": "2026-11-12",
-   "journal": "Journal of Plant Pathology",
-   "title": "First detection of olive virus T in olive trees from Iran"
-  },
-  {
-   "date": "2026-11-12",
-   "journal": "Journal of Plant Pathology",
-   "title": "Morphological, pathogenicity and multilocus analyses reveal genetic-phenotypic associations in Colletotrichum species associated with mango anthracnose in India"
-  },
-  {
    "date": "2026-11-18",
    "journal": "Journal of Phytopathology",
    "title": "First Report of Meloidogyne enterolobii on Euphorbia hyssopifolia and a Study on Its Role as Source of Nematode Inoculum"
@@ -181,11 +116,6 @@
    "date": "2026-11-13",
    "journal": "Plant Pathology",
    "title": "Fumonisin Biosynthesis Promotes Rice Seedling Stunting and Panicle Blight Caused by Fusarium fujikuroi , F. verticillioides and F. proliferatum"
-  },
-  {
-   "date": "2026-11-11",
-   "journal": "Journal of Phytopathology",
-   "title": "Phenotypic, Pathogenic and Multilocus Sequence Characterization of Field‐Derived Pseudomonas syringae Complex Isolates From Wheat in Northern Türkiye"
   }
  ]
 }
