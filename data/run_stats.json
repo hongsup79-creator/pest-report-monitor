@@ -1,51 +1,51 @@
 {
  "fetched": {
-  "Plant Disease": 35,
+  "Plant Disease": 25,
   "New Disease Reports": 0,
   "Plant Pathology": 4,
-  "Journal of Plant Pathology": 5,
-  "European Journal of Plant Pathology": 3,
+  "Journal of Plant Pathology": 6,
+  "European Journal of Plant Pathology": 2,
   "Journal of Phytopathology": 2,
   "Australasian Plant Disease Notes": 0,
   "The Plant Pathology Journal": 2,
-  "Plant Health Progress": 6,
+  "Plant Health Progress": 5,
   "식물병연구": 0,
   "Mycobiology": 0,
-  "PubMed": 0
+  "PubMed": 1
  },
  "crossref_total": {
-  "Plant Disease (0191-2917)": 35,
-  "Plant Disease (1943-7692)": 35,
+  "Plant Disease (0191-2917)": 25,
+  "Plant Disease (1943-7692)": 25,
   "New Disease Reports (2044-0588)": 0,
   "Plant Pathology (0032-0862)": 4,
   "Plant Pathology (1365-3059)": 4,
   "Journal of Plant Pathology (1125-4718)": 2,
-  "Journal of Plant Pathology (2239-7264)": 3,
-  "European Journal of Plant Pathology (0929-1873)": 3,
-  "European Journal of Plant Pathology (1573-8469)": 3,
+  "Journal of Plant Pathology (2239-7264)": 4,
+  "European Journal of Plant Pathology (0929-1873)": 2,
+  "European Journal of Plant Pathology (1573-8469)": 2,
   "Journal of Phytopathology (0931-1785)": 2,
   "Journal of Phytopathology (1439-0434)": 2,
   "Australasian Plant Disease Notes (1833-928X)": 0,
   "The Plant Pathology Journal (1598-2254)": 0,
   "The Plant Pathology Journal (2093-9280)": 2,
-  "Plant Health Progress (1535-1025)": 6,
+  "Plant Health Progress (1535-1025)": 5,
   "식물병연구 (1598-2262)": 0,
   "식물병연구 (2233-9191)": 0,
   "Mycobiology (1229-8093)": 0,
   "Mycobiology (2092-9323)": 0
  },
  "errors": [],
- "updated": "2026-11-20T02:23:36+00:00",
+ "updated": "2026-11-21T02:26:21+00:00",
  "period": [
-  "2026-11-13",
-  "2026-11-20"
+  "2026-11-14",
+  "2026-11-21"
  ],
- "raw": 57,
- "relevant": 4,
- "added": 0,
- "total": 127,
+ "raw": 47,
+ "relevant": 5,
+ "added": 1,
+ "total": 128,
  "review_counts": {
-  "missing_crop": 22,
+  "missing_crop": 12,
   "missing_report_type": 1
  }
 }

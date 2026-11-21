@@ -1,7 +1,38 @@
 {
- "updated": "2026-11-20T02:23:36+00:00",
- "count": 127,
+ "updated": "2026-11-21T02:26:21+00:00",
+ "count": 128,
  "items": [
+  {
+   "id": "10.1094/pdis-05-26-0912-re",
+   "doi": "10.1094/pdis-05-26-0912-re",
+   "pmid": "43059565",
+   "title": "Optimization of a Lab-screening Procedure to Evaluate Seed Treatment Efficacy: Detection of Ustilago nuda in Hordeum vulgare Seedlings",
+   "title_html": "Optimization of a Lab-screening Procedure to Evaluate Seed Treatment Efficacy: Detection of <i>Ustilago nuda</i> in <i>Hordeum vulgare</i> Seedlings",
+   "title_alt": null,
+   "journal": "Plant Disease",
+   "date": "2026-11-20",
+   "authors": "Panzetti et al.",
+   "url": "https://doi.org/10.1094/pdis-05-26-0912-re",
+   "sources": [
+    "crossref",
+    "pubmed"
+   ],
+   "watch": false,
+   "crops": [
+    "보리"
+   ],
+   "pathogens": [
+    "Ustilago nuda"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-21"
+  },
   {
    "id": "10.1094/php-09-26-0196-pdmr",
    "doi": "10.1094/php-09-26-0196-pdmr",
