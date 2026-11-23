@@ -1,6 +1,6 @@
 {
  "fetched": {
-  "Plant Disease": 17,
+  "Plant Disease": 22,
   "New Disease Reports": 0,
   "Plant Pathology": 5,
   "Journal of Plant Pathology": 7,
@@ -14,8 +14,8 @@
   "PubMed": 1
  },
  "crossref_total": {
-  "Plant Disease (0191-2917)": 17,
-  "Plant Disease (1943-7692)": 17,
+  "Plant Disease (0191-2917)": 22,
+  "Plant Disease (1943-7692)": 22,
   "New Disease Reports (2044-0588)": 0,
   "Plant Pathology (0032-0862)": 5,
   "Plant Pathology (1365-3059)": 5,
@@ -35,17 +35,17 @@
   "Mycobiology (2092-9323)": 0
  },
  "errors": [],
- "updated": "2026-11-22T01:24:10+00:00",
+ "updated": "2026-11-23T01:49:01+00:00",
  "period": [
-  "2026-11-15",
-  "2026-11-22"
+  "2026-11-16",
+  "2026-11-23"
  ],
- "raw": 41,
+ "raw": 46,
  "relevant": 5,
  "added": 0,
  "total": 128,
  "review_counts": {
-  "missing_crop": 12,
+  "missing_crop": 17,
   "missing_report_type": 1
  }
 }
