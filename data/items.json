@@ -1,7 +1,37 @@
 {
- "updated": "2026-11-23T01:49:01+00:00",
- "count": 128,
+ "updated": "2026-11-24T05:21:34+00:00",
+ "count": 129,
  "items": [
+  {
+   "id": "10.1111/jph.70431",
+   "doi": "10.1111/jph.70431",
+   "pmid": null,
+   "title": "Impact of Fusarium Head Blight Pathogen Fusarium graminearum on Important Seed Quality Parameters in Wheat and Its Management With Some Triazole Fungicide Molecules",
+   "title_html": "Impact of Fusarium Head Blight Pathogen <i>Fusarium graminearum</i> on Important Seed Quality Parameters in Wheat and Its Management With Some Triazole Fungicide Molecules",
+   "title_alt": null,
+   "journal": "Journal of Phytopathology",
+   "date": "2026-11-23",
+   "authors": "Kumar et al.",
+   "url": "https://doi.org/10.1111/jph.70431",
+   "sources": [
+    "crossref"
+   ],
+   "watch": false,
+   "crops": [
+    "밀"
+   ],
+   "pathogens": [
+    "Fusarium graminearum"
+   ],
+   "countries": [],
+   "first_report": false,
+   "seed_borne": true,
+   "korea": false,
+   "neighbor": false,
+   "domestic_source": false,
+   "domestic_status": null,
+   "first_seen": "2026-11-24"
+  },
   {
    "id": "10.1094/pdis-05-26-0912-re",
    "doi": "10.1094/pdis-05-26-0912-re",
