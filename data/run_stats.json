@@ -1,10 +1,10 @@
 {
  "fetched": {
-  "Plant Disease": 29,
+  "Plant Disease": 31,
   "New Disease Reports": 0,
   "Plant Pathology": 4,
   "Journal of Plant Pathology": 6,
-  "European Journal of Plant Pathology": 0,
+  "European Journal of Plant Pathology": 1,
   "Journal of Phytopathology": 3,
   "Australasian Plant Disease Notes": 0,
   "The Plant Pathology Journal": 0,
@@ -14,15 +14,15 @@
   "PubMed": 1
  },
  "crossref_total": {
-  "Plant Disease (0191-2917)": 29,
-  "Plant Disease (1943-7692)": 29,
+  "Plant Disease (0191-2917)": 31,
+  "Plant Disease (1943-7692)": 31,
   "New Disease Reports (2044-0588)": 0,
   "Plant Pathology (0032-0862)": 4,
   "Plant Pathology (1365-3059)": 4,
-  "Journal of Plant Pathology (1125-4718)": 3,
-  "Journal of Plant Pathology (2239-7264)": 3,
-  "European Journal of Plant Pathology (0929-1873)": 0,
-  "European Journal of Plant Pathology (1573-8469)": 0,
+  "Journal of Plant Pathology (1125-4718)": 2,
+  "Journal of Plant Pathology (2239-7264)": 4,
+  "European Journal of Plant Pathology (0929-1873)": 1,
+  "European Journal of Plant Pathology (1573-8469)": 1,
   "Journal of Phytopathology (0931-1785)": 3,
   "Journal of Phytopathology (1439-0434)": 3,
   "Australasian Plant Disease Notes (1833-928X)": 0,
@@ -35,17 +35,17 @@
   "Mycobiology (2092-9323)": 0
  },
  "errors": [],
- "updated": "2026-11-24T05:21:34+00:00",
+ "updated": "2026-11-25T04:17:44+00:00",
  "period": [
-  "2026-11-17",
-  "2026-11-24"
+  "2026-11-18",
+  "2026-11-25"
  ],
- "raw": 50,
- "relevant": 6,
- "added": 1,
+ "raw": 53,
+ "relevant": 5,
+ "added": 0,
  "total": 129,
  "review_counts": {
-  "missing_crop": 21,
+  "missing_crop": 24,
   "missing_report_type": 1
  }
 }

@@ -1,21 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-11-17",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium annulatum Causing Root Rot on Tobacco in Xiangxi Prefecture, Hunan, China"
-  },
-  {
-   "date": "2026-11-17",
-   "journal": "Plant Disease",
-   "title": "First report of Colletotrichum truncatum Causing Gray Leaf Spot Disease in Polygonatum cyrtonema in Yanshan, China"
-  },
-  {
-   "date": "2026-11-17",
-   "journal": "Plant Disease",
-   "title": "First report of Alternaria alternata causing alternaria leaf spot of cucumbers in South Dakota"
-  },
-  {
    "date": "2026-11-18",
    "journal": "Plant Disease",
    "title": "Dogwood ( Cornus sp.), a new host of clematis chlorotic mottle virus found in Slovenia"
@@ -91,9 +76,39 @@
    "title": "First Report of Geotrichum candidum Causing Postharvest Sour Rot on Loquats in China"
   },
   {
+   "date": "2026-11-24",
+   "journal": "Plant Disease",
+   "title": "First Report of Leaf Spot Caused by Alternaria cantlous on Quinoa in Qinghai Province, China"
+  },
+  {
+   "date": "2026-11-24",
+   "journal": "Plant Disease",
+   "title": "First Report of Curvularia Leaf Spot ( Curvularia lunata ) on Corn ( Zea mays L.) in Michigan"
+  },
+  {
+   "date": "2026-11-24",
+   "journal": "Plant Disease",
+   "title": "Identification of the Ty -bearing resistance to tomato yellow leaf curl virus in north-central China and its breakdown by southern tomato virus infection"
+  },
+  {
+   "date": "2026-11-24",
+   "journal": "Plant Disease",
+   "title": "First Report of Lethal Bronzing Disease in Scrub Palmetto Associated with ' Candidatus Phytoplasma aculeata' (16SrIV-D) in Florida, USA"
+  },
+  {
    "date": "2026-11-23",
    "journal": "Journal of Plant Pathology",
    "title": "First report of Alternaria alternata causing leaf spot and shot hole disease on European plum (Prunus domestica L.) in Alar, Xinjiang, China"
+  },
+  {
+   "date": "2026-11-24",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of noni mosaic virus (NoMV; Potyvirus morindatessellati) infecting noni (Morinda citrifolia L.) in Thailand"
+  },
+  {
+   "date": "2026-11-24",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of cucumber leaf spot virus infecting cucumber (Cucumis sativus) in Iraq"
   },
   {
    "date": "2026-11-18",
