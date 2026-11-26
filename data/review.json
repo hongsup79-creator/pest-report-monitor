@@ -1,16 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-11-18",
-   "journal": "Plant Disease",
-   "title": "Dogwood ( Cornus sp.), a new host of clematis chlorotic mottle virus found in Slovenia"
-  },
-  {
-   "date": "2026-11-18",
-   "journal": "Plant Disease",
-   "title": "First Report of Lasiodiplodia pseudotheobromae Causing Leaf Spot on Lonicera japonica in China"
-  },
-  {
    "date": "2026-11-20",
    "journal": "Plant Disease",
    "title": "First Report of Paecilomyces dactylethromorphus Associated with Gummosis of Albizia saman in Malaysia"
@@ -111,9 +101,14 @@
    "title": "First report of cucumber leaf spot virus infecting cucumber (Cucumis sativus) in Iraq"
   },
   {
-   "date": "2026-11-18",
+   "date": "2026-11-25",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of Phytopythium litorale causing crown and root rot of Quercus brantii seedlings in Iran"
+  },
+  {
+   "date": "2026-11-25",
    "journal": "Journal of Phytopathology",
-   "title": "First Report of Meloidogyne enterolobii on Euphorbia hyssopifolia and a Study on Its Role as Source of Nematode Inoculum"
+   "title": "Genetic Diversity of Sclerotinia sclerotiorum From Pinto Bean Seed Lots"
   },
   {
    "date": "2026-11-23",
