@@ -1,30 +1,30 @@
 {
  "fetched": {
-  "Plant Disease": 25,
+  "Plant Disease": 19,
   "New Disease Reports": 0,
-  "Plant Pathology": 3,
+  "Plant Pathology": 4,
   "Journal of Plant Pathology": 8,
-  "European Journal of Plant Pathology": 2,
-  "Journal of Phytopathology": 3,
+  "European Journal of Plant Pathology": 3,
+  "Journal of Phytopathology": 5,
   "Australasian Plant Disease Notes": 0,
   "The Plant Pathology Journal": 0,
   "Plant Health Progress": 4,
   "식물병연구": 0,
   "Mycobiology": 0,
-  "PubMed": 2
+  "PubMed": 1
  },
  "crossref_total": {
-  "Plant Disease (0191-2917)": 25,
-  "Plant Disease (1943-7692)": 25,
+  "Plant Disease (0191-2917)": 19,
+  "Plant Disease (1943-7692)": 19,
   "New Disease Reports (2044-0588)": 0,
-  "Plant Pathology (0032-0862)": 3,
-  "Plant Pathology (1365-3059)": 3,
+  "Plant Pathology (0032-0862)": 4,
+  "Plant Pathology (1365-3059)": 4,
   "Journal of Plant Pathology (1125-4718)": 1,
   "Journal of Plant Pathology (2239-7264)": 7,
-  "European Journal of Plant Pathology (0929-1873)": 2,
-  "European Journal of Plant Pathology (1573-8469)": 2,
-  "Journal of Phytopathology (0931-1785)": 3,
-  "Journal of Phytopathology (1439-0434)": 3,
+  "European Journal of Plant Pathology (0929-1873)": 3,
+  "European Journal of Plant Pathology (1573-8469)": 3,
+  "Journal of Phytopathology (0931-1785)": 5,
+  "Journal of Phytopathology (1439-0434)": 5,
   "Australasian Plant Disease Notes (1833-928X)": 0,
   "The Plant Pathology Journal (1598-2254)": 0,
   "The Plant Pathology Journal (2093-9280)": 0,
@@ -35,17 +35,17 @@
   "Mycobiology (2092-9323)": 0
  },
  "errors": [],
- "updated": "2026-11-27T03:39:58+00:00",
+ "updated": "2026-11-28T03:21:35+00:00",
  "period": [
-  "2026-11-20",
-  "2026-11-27"
+  "2026-11-21",
+  "2026-11-28"
  ],
- "raw": 47,
- "relevant": 3,
+ "raw": 44,
+ "relevant": 1,
  "added": 0,
  "total": 129,
  "review_counts": {
-  "missing_crop": 24,
-  "missing_report_type": 1
+  "missing_crop": 22,
+  "missing_report_type": 3
  }
 }

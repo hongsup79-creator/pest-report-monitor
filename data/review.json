@@ -1,26 +1,6 @@
 {
  "missing_crop": [
   {
-   "date": "2026-11-20",
-   "journal": "Plant Disease",
-   "title": "First Report of Paecilomyces dactylethromorphus Associated with Gummosis of Albizia saman in Malaysia"
-  },
-  {
-   "date": "2026-11-20",
-   "journal": "Plant Disease",
-   "title": "First report of Colletotrichum fructicola causing leaf spot on Corymbia citriodora in Qinzhou, China"
-  },
-  {
-   "date": "2026-11-20",
-   "journal": "Plant Disease",
-   "title": "First Report of Fusarium falciforme Causing Postharvest Fruit Rot of Hami Melon ( Cucumis melo var. saccharinus ) in China"
-  },
-  {
-   "date": "2026-11-20",
-   "journal": "Plant Disease",
-   "title": "First Report of Agroathelia rolfsii Causing Southern Blight in Blue Star Creeper ( Isotoma fluviatilis ) in Tennessee"
-  },
-  {
    "date": "2026-11-21",
    "journal": "Plant Disease",
    "title": "First Report of Leaf Blight Caused by Alternaria burnsii on Strobilanthes cusia in China"
@@ -111,9 +91,19 @@
    "title": "First report of Podosphaera xanthii causing powdery mildew on Trigonotis peduncularis in Korea"
   },
   {
+   "date": "2026-11-27",
+   "journal": "Journal of Plant Pathology",
+   "title": "First report of tobacco ringspot virus in olive trees in Iran"
+  },
+  {
    "date": "2026-11-25",
    "journal": "Journal of Phytopathology",
    "title": "Genetic Diversity of Sclerotinia sclerotiorum From Pinto Bean Seed Lots"
+  },
+  {
+   "date": "2026-11-26",
+   "journal": "Journal of Phytopathology",
+   "title": "First Report of Diaporthe arecae Causing Leaf Blight on Pterocarpus indicus in The Philippines"
   },
   {
    "date": "2026-11-23",
@@ -126,6 +116,16 @@
    "date": "2026-11-21",
    "journal": "Plant Pathology",
    "title": "Evolution of the Population Structure of Pyricularia oryzae in the Vakinankaratra Region of Madagascar Between 2001 and 2024 Under the Influence of the Durably Resistant Variety of Rice Chhomrong Dhan"
+  },
+  {
+   "date": "2026-11-27",
+   "journal": "Journal of Phytopathology",
+   "title": "Genetic Diversity, Mating Type Distribution and Population Structure in Cercospora sojina K Hara Associated With Frogeye Leaf Spot of Soybean"
+  },
+  {
+   "date": "2026-11-26",
+   "journal": "Plant Health Progress",
+   "title": "A Diagnostic Guide for Rhizoctonia Damping Off and Root Rot of Soybean"
   }
  ]
 }
